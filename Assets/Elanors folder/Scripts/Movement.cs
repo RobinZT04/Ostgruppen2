@@ -16,10 +16,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float vert = Input.GetAxis("Vertical"); //
-        float horiz = Input.GetAxis("Horizontal"); //
+        float vert = Input.GetAxis("Vertical"); // sätter float vert värdet till Input.GetAxis("Vertical")- Elanor 
+        float horiz = Input.GetAxis("Horizontal"); // sätter float horiz värdet till Input.GetAxis("Horizontal")- Elanor
 
-        body.velocity = new Vector2(horiz * speed * Time.deltaTime, vert * speed * Time.deltaTime);
+        body.velocity = new Vector2(horiz * speed * Time.deltaTime, vert * speed * Time.deltaTime); // Gör så att spelarn kan röra sig - Elanor
       
         if (Input.GetKeyDown(KeyCode.A)) //Om man trycker ner A?
         {
@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.D)) //Om man trycker ner D?
         {
-            transform.localEulerAngles = new Vector2(0, -0);//Så kommer Spriten vändas tillbaka till höger- Elanor
+            transform.localEulerAngles = new Vector2(0, 0);//Så kommer Spriten vändas tillbaka till höger- Elanor
         }
     }
 

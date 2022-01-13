@@ -27,7 +27,7 @@ public class Attack : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.tag == "Katt") 
+        if(collision.transform.tag == "Katt") //Om player colliderar med något som har tagen katt?- Elanor
         { 
 
 
