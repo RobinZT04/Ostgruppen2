@@ -6,7 +6,7 @@ public class LeftPaw : MonoBehaviour
 {
     public Transform Paw; //kordinaterna till indicatorn
     public Transform targetPlayer; //transform player
-    public float speed; //float speed 
+    public static float speed; //float speed 
     public float distance; //float distans
 
     public static bool following; //following bool
@@ -19,6 +19,7 @@ public class LeftPaw : MonoBehaviour
     public void Start()
     {
         following = true; //following är true
+        speed = 3;
     }
     // Update is called once per frame
     void Update()
