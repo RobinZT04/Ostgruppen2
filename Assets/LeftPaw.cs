@@ -19,7 +19,7 @@ public class LeftPaw : MonoBehaviour
     public void Start()
     {
         following = true; //following är true
-        speed = 3;
+        speed = 3; //speed 3
     }
     // Update is called once per frame
     void Update()

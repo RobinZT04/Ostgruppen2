@@ -4,22 +4,11 @@ using UnityEngine;
 
 public class PawHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.transform.tag == "Sword")
+    private void OnTriggerEnter2D(Collider2D other) //on trigger enter
+    { 
+        if(other.transform.tag == "Sword") //rör den svärdet
         {
-            Boss.Health -= 10;
+            Boss.Health -= 10; //förlorar bossen 10 health
         }
     }
 }
