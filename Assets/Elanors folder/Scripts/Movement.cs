@@ -29,6 +29,7 @@ public class Movement : MonoBehaviour
         {
             transform.localEulerAngles = new Vector2(0, 0);//Så kommer Spriten vändas tillbaka till höger- Elanor
         }
+
     }
 
 }
