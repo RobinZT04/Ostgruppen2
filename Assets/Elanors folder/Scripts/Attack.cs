@@ -72,7 +72,7 @@ public class Attack : MonoBehaviour
             }
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.transform.tag == "Paw") //Om player colliderar med något som har tagen Paw?- Elanor
         {
