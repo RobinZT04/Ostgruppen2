@@ -16,6 +16,8 @@ public class LeftPaw : MonoBehaviour
 
     public Animator bonkanim; //bonk animation referens
 
+    public AudioClip bonk;
+    public AudioSource bonksource;
     public void Start()
     {
         following = true; //following är true
@@ -43,7 +45,12 @@ public class LeftPaw : MonoBehaviour
     {
         bonkanim.SetBool("Bonk", true); //bonk animation true
         //Paw.transform.position = new Vector2(transform.position.x, transform.position.y - 0.45f);
-        yield return new WaitForSeconds(1); //väntar i 2 sekunder
+        yield return new WaitForSeconds(0.4f); //väntar i 2 sekunder
+        if (!bonksource.isPlaying)
+        {
+            bonksource.PlayOneShot(bonk, 1);
+        }
+        yield return new WaitForSeconds(0.6f); //väntar i 2 sekunder
         bonkanim.SetBool("Bonk", false); //bonk animation false
         following = true; //following är true
     }
