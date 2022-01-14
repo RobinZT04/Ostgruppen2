@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class DoorButtons : MonoBehaviour
 {
-    public Light buttonlight;
+    // Variabel för en vald mesh renderer -Henry
+    public MeshRenderer rendererer;
+    // Variable för en vald box collider -Henry
+    public BoxCollider doorOne;
+
+    //public Light buttonlight;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +25,12 @@ public class DoorButtons : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        buttonlight.enabled = true;
-        /*if (true)
+        // När man kolliderar med triggern blir både den valda mesh renderern och box collidern avstängda -Henry
+        rendererer.enabled = false;
+        doorOne.enabled = false;
+
+        /*buttonlight.enabled = true;
+        if (true)
         {
 
         }*/
