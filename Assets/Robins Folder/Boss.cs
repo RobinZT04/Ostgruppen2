@@ -12,6 +12,9 @@ public class Boss : MonoBehaviour
     public GameObject paw2; //referens till paw 2  - Robin
     public Animator cat; //cat animator referens  - Robin
 
+    public AudioSource catsleepsource;
+    public AudioClip catsleep;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,7 @@ public class Boss : MonoBehaviour
             paw1.SetActive(false); //stäng av paw 1  - Robin
             paw2.SetActive(false); //stäng av paw 2  - Robin
             cat.SetBool("Die", true); //playar animationen  - Robin
+            catsleepsource.PlayOneShot(catsleep, 1);
         }
         healthbar.value = Health; //value är health  - Robin
         if (Health <= 50) // om health är under 50  - Robin
