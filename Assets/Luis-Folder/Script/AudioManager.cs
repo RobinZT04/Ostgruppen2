@@ -1,7 +1,9 @@
-﻿// This script is a Manager that controls all of the audio for the project. All audio
+﻿//José Luis SU20A
+// This script is a Manager that controls all of the audio for the project. All audio
 // commands are issued through the static methods of this class. Additionally, this 
 // class creates AudioSource "channels" at runtime and manages them
-// You gmith be ask why i I write so much for this project Henry, it's only to remember what to do so that i wont forget and then i'll need to ask for help.
+// I'm not really sure if our group will be using all the code i wrote but just in case i wont erase it
+
 
 using UnityEngine;
 using UnityEngine.Audio;
@@ -13,7 +15,7 @@ public class AudioManager : MonoBehaviour
 	//scripts access this one through its public static methods
 	static AudioManager current;
 
-	//Might use this
+	
     [Header("Ambient Audio")]
     public AudioClip ambientClip;		//The background ambient sound
     public AudioClip musicClip;			//The background music 
@@ -85,14 +87,14 @@ public class AudioManager : MonoBehaviour
     void StartLevelAudio()
     {
 		//Set the clip for ambient audio, tell it to loop, and then tell it to play
-        current.ambientSource.clip = current.ambientClip;
-        current.ambientSource.loop = true;
-        current.ambientSource.Play();
+      ambientSource.clip = ambientClip;
+        ambientSource.loop = true;
+        ambientSource.Play();
 
 		//Set the clip for music audio, tell it to loop, and then tell it to play
-        current.musicSource.clip = current.musicClip;
-        current.musicSource.loop = true;
-        current.musicSource.Play();
+        musicSource.clip = musicClip;
+        musicSource.loop = true;
+        musicSource.Play();
 
 		//Play the audio that repeats whenever the level reloads
 		PlaySceneRestartAudio();
