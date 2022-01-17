@@ -13,6 +13,9 @@ public class Attack : MonoBehaviour
     public bool left; //En bool som heter left- Elanor
     public bool down; //En bool som heter down- Elanor
 
+    public AudioSource mouse; // Refrens till min audiosorce- Elanor 
+    public AudioClip mousedamage; //referens till aduilip- Elanor
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,6 +80,12 @@ public class Attack : MonoBehaviour
         if(collision.transform.tag == "Paw") //Om player colliderar med något som har tagen Paw?- Elanor
         {
             PHealthbar.health -= 2; //Så kommer players healths sänkas med 2- Elanor
+
+            if (!mouse.isPlaying)
+            {
+                mouse.PlayOneShot(mousedamage, 1);
+            }
+            // mousedamage.PlayOneShot(mosue, 1);
 
         }
     } 

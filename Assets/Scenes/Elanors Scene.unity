@@ -636,6 +636,7 @@ GameObject:
   - component: {fileID: 363159200}
   - component: {fileID: 363159203}
   - component: {fileID: 363159204}
+  - component: {fileID: 363159207}
   - component: {fileID: 363159199}
   - component: {fileID: 363159198}
   - component: {fileID: 363159205}
@@ -796,6 +797,8 @@ MonoBehaviour:
   right: 0
   left: 0
   down: 0
+  mosue: {fileID: 0}
+  mousedamage: {fileID: 0}
 --- !u!114 &363159204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,8 +813,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 1223497292}
   restart: {fileID: 170205342}
-  mosue: {fileID: 0}
-  mousedamage: {fileID: 0}
 --- !u!82 &363159205
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1004,6 +1005,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &363159207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363159197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec63a539580021a479a2f0a5121ba8cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &388060480
 GameObject:
   m_ObjectHideFlags: 0

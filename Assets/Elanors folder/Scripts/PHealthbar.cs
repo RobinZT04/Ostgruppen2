@@ -10,8 +10,6 @@ public class PHealthbar : MonoBehaviour
     public static float health; //Ean float som heter health- Elanor
     public GameObject restart; //referens till gamgeobject restart- Elanor 
 
-    public AudioSource mosue; // Refrens till min audiosorce- Elanor 
-    public AudioClip mousedamage;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +22,6 @@ public class PHealthbar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // mousedamage.PlayOneShot(mosue, 1);
-
         healthbar.value = health; //helathbars value är samma sak som health- Elanor
         
         if(health <= 0) //om health är mindre eller är 0?
