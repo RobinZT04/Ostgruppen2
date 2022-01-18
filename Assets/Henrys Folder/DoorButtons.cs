@@ -5,8 +5,10 @@ using UnityEngine;
 public class DoorButtons : MonoBehaviour
 {
     // Variabel för en vald mesh renderer och box collider -Henry
-    public MeshRenderer rendererer;
-    public BoxCollider doorOne;
+    [SerializeField]
+    MeshRenderer rendererer;
+    [SerializeField]
+    BoxCollider doors;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,6 @@ public class DoorButtons : MonoBehaviour
     {
         // När man kolliderar med triggern blir både den valda mesh renderern och box collidern avstängda -Henry
         rendererer.enabled = false;
-        doorOne.enabled = false;
+        doors.enabled = false;
     }
 }

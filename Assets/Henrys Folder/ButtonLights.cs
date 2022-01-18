@@ -24,5 +24,8 @@ public class ButtonLights : MonoBehaviour
     {
         // När man kolliderar med triggern sätts lampan på -Henry
         buttonLight.SetActive(true);
+        //yield return new WaitForSeconds(0.5f);
+        //buttonLight.SetActive(false);
     }
+    
 }
