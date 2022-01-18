@@ -31,7 +31,7 @@ public class NewLaserScript : MonoBehaviour
                 Destroy(hit.transform.gameObject); // 
             }
         }
-        else lr.SetPosition(1, transform.right * 1000); // if we don't hit something the laser wont go forever and will stop after the distance i put in.
+        else lr.SetPosition(1, transform.right * 10); // if we don't hit something the laser wont go forever and will stop after the distance i put in.
        
 
     }
