@@ -5,7 +5,7 @@ using UnityEngine;
 public class ReflectLaser : MonoBehaviour
 {
     //JOSÉ LUIS
-    int maxBounces = 5;
+    int MaxBounces = 5;
     private LineRenderer lr;
     [SerializeField]
     private Transform startPoint;
@@ -22,7 +22,7 @@ public class ReflectLaser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CastLaser(transform.position, -transform.forward); // This is the function to draw the laser 
+        CastLaser(transform.position, transform.forward); // This is the function to draw the laser 
 
 
 
@@ -33,7 +33,7 @@ public class ReflectLaser : MonoBehaviour
     {
         lr.SetPosition(0, startPoint.position);
 
-        for (int i = 0; i < maxBounces; i++) // creat a loop for each position of the laser 
+        for (int i = 0; i < MaxBounces; i++) // creat a loop for each position of the laser 
         {
             Ray2D ray2D = new Ray2D(position, direction); // we creat a raycast that shoots an array in our position and in our direction. 
           RaycastHit2D hit = Physics2D.Raycast(ray2D.origin, ray2D.direction, 600, 1);
@@ -45,13 +45,13 @@ public class ReflectLaser : MonoBehaviour
               direction = Vector2.Reflect(direction, hit.normal);// This will calculate the angle that the laser needs to be in the next hit 
               lr.SetPosition(i + 1, hit.point); // we sett the position of the linerenderer in our hit 
 
-              if (hit.transform.tag != "Mirror" && reflectOnlyMirror) // if the object is not named mirror and we have reflectOnlyMirror the laser will stop there 
+              if (!hit.transform.CompareTag("Mirror") && reflectOnlyMirror) // if the object is not named mirror and we have reflectOnlyMirror the laser will stop there 
                 { // Creat a loop 
                     for (int j = (i + 1); j <= 5; j++)
                     {
                       lr.SetPosition(j, hit.point);
                     }
-                    break; // break from the loop 
+                    break; // exit
                 }
             }
         }

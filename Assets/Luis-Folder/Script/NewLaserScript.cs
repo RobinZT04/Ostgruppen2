@@ -26,12 +26,12 @@ public class NewLaserScript : MonoBehaviour
             {
                 lr.SetPosition(1, hit.point); // the position to our laser, it goes from point 0 to point 1 
             }
-            if (hit.transform.tag == "Player") // if we hit something with the tag player 
+            if (hit.transform.CompareTag("Player")) // if we hit something with the tag player 
             {
                 Destroy(hit.transform.gameObject); // 
             }
         }
-        else lr.SetPosition(1, transform.right * 10); // if we don't hit something the laser wont go forever and will stop after the distance i put in.
+        else lr.SetPosition(1, transform.right * 0); // if we don't hit something the laser wont go forever and will stop after the distance i put in.
        
 
     }
