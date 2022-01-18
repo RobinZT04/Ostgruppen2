@@ -16,6 +16,10 @@ public class Attack : MonoBehaviour
     public AudioSource mouse; // Refrens till min audiosorce- Elanor 
     public AudioClip mousedamage; //referens till aduilip- Elanor
 
+    public AudioSource swordsound; // Refrens till min audiosorce- Elanor 
+    public AudioClip swordswing; //referens till aduioclip- Elanor
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -73,6 +77,12 @@ public class Attack : MonoBehaviour
                 sword.SetActive(true); //så kommer sword bli true- Elanor 
                 StartCoroutine(Cooldown()); //callar funkionen- Elanor
             }
+          
+            if (!swordsound.isPlaying) //Om swordsound inte spelar?
+            {
+                swordsound.PlayOneShot(swordswing, 1); //Ska den spela upp ljudet en gång på 1 i volym- Elanor 
+            }
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -85,8 +95,6 @@ public class Attack : MonoBehaviour
             {
                 mouse.PlayOneShot(mousedamage, 1);
             }
-            // mousedamage.PlayOneShot(mosue, 1);
-
         }
     } 
     IEnumerator Cooldown() //Min coroutin Cooldown- Elanor 
