@@ -10,10 +10,11 @@ public class PHealthbar : MonoBehaviour
     public static float health; //Ean float som heter health- Elanor
     public GameObject restart; //referens till gamgeobject restart- Elanor 
 
+
     // Start is called before the first frame update
     void Start()
     {
-        health = 0; //player har 10 health när spelets startas- Elanor
+        health = 10; //player har 10 health när spelets startas- Elanor
         healthbar.maxValue = 10; //Max health är 10 hp- Elanor 
         restart.SetActive(false); //restart objectet är inaktiv när spelet börjar- Elanor 
     }
