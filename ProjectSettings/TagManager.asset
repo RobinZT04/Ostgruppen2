@@ -8,6 +8,7 @@ TagManager:
   - Paw
   - Sword
   - Mirror
+  - Refract
   layers:
   - Default
   - TransparentFX
