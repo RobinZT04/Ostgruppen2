@@ -83,6 +83,8 @@ public class Attack : MonoBehaviour
                 swordsound.PlayOneShot(swordswing, 1); //Ska den spela upp ljudet en gång på 1 i volym- Elanor 
             }
 
+            mouse.pitch = Random.Range(1, 1.5f); //Audiosorces pitch kan ändras mellan 1 och 1.5 Elanor
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -91,9 +93,9 @@ public class Attack : MonoBehaviour
         {
             PHealthbar.health -= 2; //Så kommer players healths sänkas med 2- Elanor
 
-            if (!mouse.isPlaying)
+            if (!mouse.isPlaying) //Om mouse inte spelar?
             {
-                mouse.PlayOneShot(mousedamage, 1);
+                mouse.PlayOneShot(mousedamage, 1); //Spelar upp ljudet en gång på volym 1- Elanor
             }
         }
     } 

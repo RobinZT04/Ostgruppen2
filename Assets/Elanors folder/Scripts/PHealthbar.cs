@@ -9,6 +9,10 @@ public class PHealthbar : MonoBehaviour
     public Slider healthbar; //En referens till min slider- Elanor
     public static float health; //Ean float som heter health- Elanor
     public GameObject restart; //referens till gamgeobject restart- Elanor 
+    
+
+    public AudioSource mousedead; // Refrens till min audiosorce- Elanor 
+    public AudioClip mousegone; //referens till aduioclip- Elanor
 
 
     // Start is called before the first frame update
@@ -28,6 +32,12 @@ public class PHealthbar : MonoBehaviour
         {
             Movement.speed = -0; //så ska speed bli 0- Elanor
             restart.SetActive(true); //Och restart ska aktiveras- Elanor 
+
+            if (!mousedead.isPlaying) //Om audiosource inte spelas?
+            {
+                mousedead.PlayOneShot(mousegone, 1); // Spela den 1 gång på volym 1
+            }
+
         }
 
     }
