@@ -37,6 +37,7 @@ public class LaserBeam
         CastRay(pos, dir, laser); // where we add the starting position of the laserpointer to the laser indices list
     }
 
+
     void CastRay(Vector2 pos, Vector2 dir, LineRenderer laser) // we creat a new method called cast ray. The method i creat will have two vector3 parameters being the position and direction, also going to have a line renderer parameter being the laser
     {
         laserIndices.Add(pos); // adding a line to the castrate function 
@@ -70,11 +71,13 @@ public class LaserBeam
         }
     }
 
+    
     void CheckHit(RaycastHit2D hitInfo, Vector2 direction, LineRenderer laser)
     {
+
         // we check whether or not  the hitinfo is colliding with an mirror or another object
 
-        if (hitInfo.collider.gameObject.tag == "Mirror") // in the if statment we check wether or not the gameobject  that the array collides with has a tag called Mirror
+        if (hitInfo.collider.gameObject.tag == "Mirror") // in the if statment we check wether or not the gameobject  that the ray collides with has a tag called Mirror
         {
             // if it does collide with a Mirror we get the reflected direction of the Beam 
             //we can do this by using the vector3 dot reflect function, this takes the direction of the ray and the normal of the surface that the ray hits
@@ -83,6 +86,12 @@ public class LaserBeam
 
             CastRay(pos, dir, laser); // then it gives me a new direction that i can use to cast another ray using the cast ray function
         }
+        
+        
+
+
+       
+
 
     }
 }
