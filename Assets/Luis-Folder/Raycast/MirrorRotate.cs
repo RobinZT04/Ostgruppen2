@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class MirrorRotate : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+     void Start()
     {
-        if (collision.gameObject.tag == "Sword")
-        {
-            transform.Rotate(0, 0, 90); //rotates The object 90 degrees
-        }
+        Debug.Log("Hello");
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Mirror"))
+        {
+            Debug.Log("ROTATED MIRROR");
+            other.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90); // so quaternions are basicaly 4 x's but unity has only 3 x's so to be able to use all the 4 x's we type Euler. X and Y have 0 and the z has 90 degress
+        }
+    }   
 }
+
