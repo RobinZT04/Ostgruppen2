@@ -28,7 +28,7 @@ public class PHealthbar : MonoBehaviour
     {
         healthbar.value = health; //helathbars value är samma sak som health- Elanor
         
-        if(health <= 10) //om health är mindre eller är 0?
+        if(health <= 0) //om health är mindre eller är 0?
         {
             Movement.speed = -0; //så ska speed bli 0- Elanor
             restart.SetActive(true); //Och restart ska aktiveras- Elanor 
