@@ -8,7 +8,7 @@ public class DoorButtons : MonoBehaviour
     [SerializeField]
     MeshRenderer rendererer;
     [SerializeField]
-    BoxCollider doors;
+    BoxCollider2D doors;
 
     // Start is called before the first frame update
     void Start()
@@ -22,10 +22,10 @@ public class DoorButtons : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // När man kolliderar med triggern blir både den valda mesh renderern och box collidern avstängda -Henry
-        rendererer.enabled = false;
+        rendererer.enabled = true;
         doors.enabled = false;
     }
 }
