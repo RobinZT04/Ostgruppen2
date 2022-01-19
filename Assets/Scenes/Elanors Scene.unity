@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 351098004}
   m_Layer: 0
   m_Name: Sworddown
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1373,7 +1373,7 @@ GameObject:
   - component: {fileID: 692603055}
   m_Layer: 0
   m_Name: Swordright
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 1823817965}
   m_Layer: 0
   m_Name: Swordup
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
