@@ -8,6 +8,7 @@ public class Boss : MonoBehaviour
     public static float Health; //float health  - Robin
     public Slider healthbar; //referens till healthbar  - Robin
     public bool up; //bool up  - Robin
+    public bool playedonce;
     public GameObject paw1; //referens till paw1  - Robin
     public GameObject paw2; //referens till paw 2  - Robin
     public Animator cat; //cat animator referens  - Robin
@@ -15,10 +16,12 @@ public class Boss : MonoBehaviour
     public AudioSource catsleepsource;
     public AudioClip catsleep;
 
+    public GameObject catangry;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        playedonce = false;
         Health = 100; //health är 100  - Robin
         healthbar.maxValue = 100; //maxvalue är 100  - Robin 
     }
@@ -31,12 +34,17 @@ public class Boss : MonoBehaviour
             paw1.SetActive(false); //stäng av paw 1  - Robin
             paw2.SetActive(false); //stäng av paw 2  - Robin
             cat.SetBool("Die", true); //playar animationen  - Robin
-            catsleepsource.PlayOneShot(catsleep, 1);
+            if (!playedonce)
+            {
+                catsleepsource.PlayOneShot(catsleep, 1);
+                playedonce = true;
+            }
         }
         healthbar.value = Health; //value är health  - Robin
         if (Health <= 50) // om health är under 50  - Robin
         {
             LeftPaw.speed = 3.5f; //sätt speed till 3.5f  - Robin
+            catangry.SetActive(true);
         }
         else //annars  - Robin
         {
