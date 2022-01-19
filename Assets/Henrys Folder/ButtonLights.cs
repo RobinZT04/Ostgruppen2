@@ -5,13 +5,13 @@ using UnityEngine;
 public class ButtonLights : MonoBehaviour
 {
     // Variabel för ett ljus -Henry
-    GameObject buttonLight;
+    //GameObject buttonLight;
 
     // Start is called before the first frame update
     void Start()
     {
         // Hämtar ljuset som finns under knappen -Henry
-        buttonLight = transform.GetChild(0).gameObject;
+        //buttonLight = transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -20,10 +20,10 @@ public class ButtonLights : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // När man kolliderar med triggern sätts lampan på -Henry
-        buttonLight.SetActive(true);
+        //buttonLight.SetActive(true);
         //yield return new WaitForSeconds(0.5f);
         //buttonLight.SetActive(false);
     }

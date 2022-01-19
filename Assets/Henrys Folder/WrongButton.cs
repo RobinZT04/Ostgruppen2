@@ -6,27 +6,27 @@ public class WrongButton : MonoBehaviour
 {
     // Variabler för varje dörrs mesh renderer och box collider -Henry
     [SerializeField]
-    MeshRenderer rend;
+    MeshRenderer bridge;
     [SerializeField]
-    BoxCollider dooors;
+    BoxCollider2D dooors;
 
     [SerializeField]
-    MeshRenderer rend2;
+    MeshRenderer bridge2;
     [SerializeField]
-    BoxCollider dooors2;
+    BoxCollider2D dooors2;
 
     [SerializeField]
-    MeshRenderer rend3;
+    MeshRenderer bridge3;
     [SerializeField]
-    BoxCollider dooors3;
+    BoxCollider2D dooors3;
 
     [SerializeField]
-    MeshRenderer rend4;
+    MeshRenderer bridge4;
     [SerializeField]
-    BoxCollider dooors4;
+    BoxCollider2D dooors4;
 
     // Variabel för testspelarens rigidbody -Henry
-    public Rigidbody testPlayerReset;
+    public Rigidbody2D testPlayerReset;
 
     // Start is called before the first frame update
     void Start()
@@ -40,39 +40,39 @@ public class WrongButton : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // När man kolliderar med triggern för fel knapp får varje dörr tillbaka sina mesh renderers och box colliders -Henry
-        if (rend.enabled == false)
+        if (bridge.enabled == true)
         {
-            rend.enabled = true;
+            bridge.enabled = false;
         }
         if (dooors.enabled == false)
         {
             dooors.enabled = true;
         }
 
-        if (rend2.enabled == false)
+        if (bridge2.enabled == true)
         {
-            rend2.enabled = true;
+            bridge2.enabled = false;
         }
         if (dooors2.enabled == false)
         {
             dooors2.enabled = true;
         }
 
-        if (rend3.enabled == false)
+        if (bridge3.enabled == true)
         {
-            rend3.enabled = true;
+            bridge3.enabled = false;
         }
         if (dooors3.enabled == false)
         {
             dooors3.enabled = true;
         }
 
-        if (rend4.enabled == false)
+        if (bridge4.enabled == true)
         {
-            rend4.enabled = true;
+            bridge4.enabled = false;
         }
         if (dooors4.enabled == false)
         {
@@ -80,6 +80,6 @@ public class WrongButton : MonoBehaviour
         }
 
         // När man kolliderar med triggern flyttas playern tillbaks till början -Henry
-        testPlayerReset.transform.position = new Vector3(-10.57f, 0, -2.51f);
+        testPlayerReset.transform.position = new Vector3(-10.57f, 0, -0.01f);
     }
 }
