@@ -7,6 +7,7 @@ public class OstbrickaScript : MonoBehaviour
     public GameObject ost;
     public GameObject ost2;
     public GameObject ost3;
+    public GameObject gate;
     public static float ostcounter;
 
     // Update is called once per frame
@@ -21,14 +22,18 @@ public class OstbrickaScript : MonoBehaviour
         if (ostcounter == 2) //om ost är 2 - Robin
         {
             ost.SetActive(true);
-            ost2.SetActive(false);
+            ost2.SetActive(true);
             ost3.SetActive(false);
         }
         if (ostcounter == 3) //om ost är 3 - Robin
         {
             ost.SetActive(true);
-            ost2.SetActive(false);
-            ost3.SetActive(false);
+            ost2.SetActive(true);
+            ost3.SetActive(true);
+        }
+        if(ostcounter >= 3)
+        {
+            Destroy(gate);
         }
     }
 }
