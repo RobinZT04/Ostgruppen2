@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class LampPussel : MonoBehaviour
 {
     public GameObject[] lampor;
     int tändaLampor;
-    public AudioSource audioSource;
+    public AudioSource tändaSläckaLjud;
     public bool löst;
+    public AudioSource lösaPusselLjud;
     //Kollar ifall alla lampor är tända -William
     public void ÄrPussletLöst()
     {
         foreach (GameObject item in lampor)
         {
-            if (item.GetComponent<MeshRenderer>().material.name == "TäntMaterial (Instance)")
+            if (item.GetComponent<SpriteRenderer>().sprite.name == "LightPuzzleOn")
             {
                 tändaLampor++;
             }
@@ -22,6 +22,7 @@ public class LampPussel : MonoBehaviour
         //Ifall alla lampor är tända så vinner man -William
         if (tändaLampor == lampor.Length)
         {
+            lösaPusselLjud.Play();
             print("Victory!");
             löst = true;
         }

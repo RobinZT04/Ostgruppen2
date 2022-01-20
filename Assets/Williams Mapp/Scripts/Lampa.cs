@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Lampa : MonoBehaviour
 {
-    MeshRenderer mesh;
-    public Material tänt;
-    public Material släckt;
+    SpriteRenderer sprite;
+    public Sprite tänt;
+    public Sprite släckt;
     public LampPussel lampPussel;
     // Start is called before the first frame update
     void Start()
     {
-        mesh = GetComponent<MeshRenderer>();
+        sprite = GetComponent<SpriteRenderer>();
     }
     private void OnMouseDown()
     {
@@ -21,7 +21,7 @@ public class Lampa : MonoBehaviour
             TändaSläcka();
 
             //Spelar lampljudet -William
-            lampPussel.audioSource.Play();
+            lampPussel.tändaSläckaLjud.Play();
 
             //Racycasts som tänder/släcker lamporna bredvid -William
             RaycastHit2D hitUp = Physics2D.Raycast(transform.position, Vector2.up);
@@ -59,13 +59,13 @@ public class Lampa : MonoBehaviour
     //Byter materialet till antingen släckt eller tänt beroende på vad den nuvarande är -William
     public void TändaSläcka()
     {
-        if (mesh.material.name == tänt.name + " (Instance)")
+        if (sprite.sprite.name == tänt.name)
         {
-            mesh.material = släckt;
+            sprite.sprite = släckt;
         }
         else
         {
-            mesh.material = tänt;
+            sprite.sprite = tänt;
         }
     }
 }
