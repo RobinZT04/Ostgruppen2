@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReflectLaser : MonoBehaviour
 {
-    //JOSÉ LUIS
+    //JOSÉ LUIS SU20A
     int MaxBounces = 5;
     private LineRenderer lr;
     [SerializeField]
