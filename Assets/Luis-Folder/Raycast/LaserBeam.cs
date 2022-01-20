@@ -48,7 +48,7 @@ public class LaserBeam
 
         if(hit.transform != null) // two conditions, one if the ray hits an object and one if it dosen't,  in the if statment we are going to cast an ray that is 30 units long 
         {
-            CheckHit(hit, dir, laser); // add parameters 
+            CheckHit(hit, dir, laser); // add parameters   
         }
         else 
         {
@@ -79,6 +79,7 @@ public class LaserBeam
 
         if (hitInfo.collider.gameObject.tag == "Mirror") // in the if statment we check wether or not the gameobject  that the ray collides with has a tag called Mirror
         {
+            
             // if it does collide with a Mirror we get the reflected direction of the Beam 
             //we can do this by using the vector3 dot reflect function, this takes the direction of the ray and the normal of the surface that the ray hits
             Vector2 pos = hitInfo.point;
@@ -86,12 +87,12 @@ public class LaserBeam
 
             CastRay(pos, dir, laser); // then it gives me a new direction that i can use to cast another ray using the cast ray function
         }
-        
-        
-
-
-       
-
-
+        if (hitInfo.collider.gameObject.tag == "Box") //If we hit a gameobject with the tag name Box
+        {
+            UnityEngine.Object.Destroy(hitInfo.collider.gameObject); // then we destroy it
+        }
     }
 }
+
+    
+
