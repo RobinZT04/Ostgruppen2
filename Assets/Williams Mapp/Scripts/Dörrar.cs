@@ -2,36 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class Dörrar : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Vet inte om denna kod kommer funka men den skulle ta upp mindre plats och se bättre ut.
-        //Om den inte funkar så kan man använda koden nedanför då jag vet att den funkar. -William
-        for (int i = 0; i < SceneManager.sceneCount; i++)
+        //Laddar in scenen som tillhör dörren -William
+        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
         {
-            Scene scene = SceneManager.GetSceneAt(i);
-            if (scene.name + "Dörr" == collision.name)
+            string path = SceneUtility.GetScenePathByBuildIndex(i);
+            string scene = Path.GetFileNameWithoutExtension(path);
+            if (scene + "Dörr" == collision.name)
             {
                 SceneManager.LoadScene(i);
             }
         } 
-        //if (collision.name == "LabyrintDörr")
-        //{
-        //    SceneManager.LoadScene("LabyrintScen");
-        //}
-        //if (collision.name == "LamppusselDörr")
-        //{
-        //    SceneManager.LoadScene("LamppusselScen");
-        //}
-        //if (collision.name == "KnappusselDörr")
-        //{
-        //    SceneManager.LoadScene("KnappusselScen");
-        //}
-        //if (collision.name == "SpegelpusselDörr")
-        //{
-        //    SceneManager.LoadScene("SpegelpusselScen");
-        //}
     }
 }
