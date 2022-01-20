@@ -32,7 +32,7 @@ public class PHealthbar : MonoBehaviour
         
         if(health <= 0) //om health är mindre eller är 0?
         {
-            Movement.speed = -0; //så ska speed bli 0- Elanor
+            Movement.död = true; //så ska speed bli 0- Elanor
             restart.SetActive(true); //Och restart ska aktiveras- Elanor 
 
             if (!soundon) //Om soundon inte spelas? -Elanor
@@ -49,6 +49,8 @@ public class PHealthbar : MonoBehaviour
     public void Restartgame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); //laddar den nuvarande scenen igen- Elanor
+        health = 10; //health är 10-Elanor
+        Movement.död = false; //så ska speed bli 0- Elanor
     }
 
 }
