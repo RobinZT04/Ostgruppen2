@@ -6,7 +6,7 @@ public class DoorButtons : MonoBehaviour
 {
     // Variabel för en vald mesh renderer och box collider -Henry
     [SerializeField]
-    MeshRenderer rendererer;
+    SpriteRenderer rendererer;
     [SerializeField]
     BoxCollider2D doors;
 
@@ -24,7 +24,7 @@ public class DoorButtons : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // När man kolliderar med triggern blir både den valda mesh renderern och box collidern avstängda -Henry
+        // När man kolliderar med triggern sätts den valda spriterenderen på och box collidern av -Henry
         rendererer.enabled = true;
         doors.enabled = false;
     }

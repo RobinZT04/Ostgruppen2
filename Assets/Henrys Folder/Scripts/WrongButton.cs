@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class WrongButton : MonoBehaviour
 {
-    // Variabler för varje dörrs mesh renderer och box collider -Henry
+    // Variabler för varje dörrs sprite renderer och box collider -Henry
     [SerializeField]
-    MeshRenderer bridge;
+    SpriteRenderer bridge;
     [SerializeField]
     BoxCollider2D dooors;
 
     [SerializeField]
-    MeshRenderer bridge2;
+    SpriteRenderer bridge2;
     [SerializeField]
     BoxCollider2D dooors2;
 
     [SerializeField]
-    MeshRenderer bridge3;
+    SpriteRenderer bridge3;
     [SerializeField]
     BoxCollider2D dooors3;
 
     [SerializeField]
-    MeshRenderer bridge4;
+    SpriteRenderer bridge4;
     [SerializeField]
     BoxCollider2D dooors4;
 
@@ -42,7 +42,7 @@ public class WrongButton : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // När man kolliderar med triggern för fel knapp får varje dörr tillbaka sina mesh renderers och box colliders -Henry
+        // När man kolliderar med triggern för fel knapp försvinner alla "broar" och "dooors" (osynliga väggar) får sin box collider -Henry
         if (bridge.enabled == true)
         {
             bridge.enabled = false;
@@ -80,6 +80,6 @@ public class WrongButton : MonoBehaviour
         }
 
         // När man kolliderar med triggern flyttas playern tillbaks till början -Henry
-        testPlayerReset.transform.position = new Vector3(-10.57f, 0, -0.01f);
+        testPlayerReset.transform.position = new Vector3(-11.5f, 0, -0.01f);
     }
 }
