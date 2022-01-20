@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Mirror
   - Refract
+  - Box
   layers:
   - Default
   - TransparentFX
