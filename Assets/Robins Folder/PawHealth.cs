@@ -7,6 +7,7 @@ public class PawHealth : MonoBehaviour
     public AudioSource Cathurtsource; //referens till audiosouce katt - Robin
     public AudioClip Cathurt; //kattens skado ljud klipp - Robin
     public Animator tardamage;
+    public Animator tardamageansikte;
     private void OnTriggerEnter2D(Collider2D other) //on trigger enter  - Robin
     { 
         if(other.transform.tag == "Sword") //rör den svärdet  - Robin
@@ -14,6 +15,7 @@ public class PawHealth : MonoBehaviour
             if (!Cathurtsource.isPlaying) //spelas kattljudet  - Robin
             {
                 tardamage.SetBool("TarDamage", true);
+                tardamageansikte.SetBool("Hurt", true);
                 StartCoroutine(Resetears());
                 Cathurtsource.PlayOneShot(Cathurt, 1); //spela ljudet en gång  - Robin 
             }
@@ -23,6 +25,7 @@ public class PawHealth : MonoBehaviour
     IEnumerator Resetears()
     {
         yield return new WaitForSeconds(1);
+        tardamageansikte.SetBool("Hurt", false);
         tardamage.SetBool("TarDamage", false);
     }
 }
