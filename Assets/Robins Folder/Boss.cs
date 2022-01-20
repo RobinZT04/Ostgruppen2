@@ -17,6 +17,8 @@ public class Boss : MonoBehaviour
     public AudioClip catsleep;
 
     public GameObject catangry;
+    public GameObject victory;
+    public GameObject fire;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,7 @@ public class Boss : MonoBehaviour
             paw1.SetActive(false); //stäng av paw 1  - Robin
             paw2.SetActive(false); //stäng av paw 2  - Robin
             cat.SetBool("Die", true); //playar animationen  - Robin
+            victory.SetActive(true);
             if (!playedonce)
             {
                 catsleepsource.PlayOneShot(catsleep, 1);
@@ -45,6 +48,7 @@ public class Boss : MonoBehaviour
         {
             LeftPaw.speed = 3.5f; //sätt speed till 3.5f  - Robin
             catangry.SetActive(true);
+            fire.SetActive(true);
         }
         else //annars  - Robin
         {
