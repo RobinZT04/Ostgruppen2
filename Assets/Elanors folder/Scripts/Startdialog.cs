@@ -29,10 +29,10 @@ public class Startdialog : MonoBehaviour
                 Movement.speed = -0; //Min movement speed blir 0 så playern kan inte gå- Elanor
                 break; //Dialogen försvinner- Elanor 
             case 3:// Case 3 - Elanor
-                dialog.text = "You also have a sword to use, press space, dont be afraid to use it! \n now lets see what this mouse is doing"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
+                dialog.text = "You also have a sword to use, press \n space, dont be afraid to use it! \n now lets see what this mouse is doing"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
                 break;//Dialogen försvinner- Elanor 
             case 2:// Case 2 - Elanor
-                dialog.text = "What a nice sleep, whait where am I, hello is someone there?"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
+                dialog.text = "What a nice sleep, whait where \n am I, hello is someone there?"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
                 break;//Dialogen försvinner- Elanor 
             case 1: // Case 1 - Elanor
                 dialog.text = "seems like im all alone in this place, well \n lets explore I need to find a way out!"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
