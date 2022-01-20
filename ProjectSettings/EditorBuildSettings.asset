@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spegelpussel.unity
     guid: 3c1f2ed9395ec584d91e032e2196c422
+  - enabled: 1
+    path: Assets/Scenes/Knappussel.unity
+    guid: 095d9217b8027674c9155c5fe88f9bc7
   m_configObjects: {}
