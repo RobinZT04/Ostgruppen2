@@ -1072,6 +1072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 1838266911}
   restart: {fileID: 1988861493}
+  soundon: 0
   mousedead: {fileID: 825106342}
   mousegone: {fileID: 8300000, guid: eaf17a4aeb544ad49a71de3322c0af40, type: 3}
 --- !u!114 &825106349
