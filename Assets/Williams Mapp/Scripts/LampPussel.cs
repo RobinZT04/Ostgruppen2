@@ -23,7 +23,6 @@ public class LampPussel : MonoBehaviour
         if (tändaLampor == lampor.Length)
         {
             lösaPusselLjud.Play();
-            print("Victory!");
             löst = true;
         }
         else
