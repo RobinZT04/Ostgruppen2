@@ -7,7 +7,7 @@ public class ButtonScriptMeny : MonoBehaviour
 {
 public void StartGame() //StartGame - Elanor och robin
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Labyrint");
     }
     public void QuitGame() //Quit game - Elanor och Robin
     {
