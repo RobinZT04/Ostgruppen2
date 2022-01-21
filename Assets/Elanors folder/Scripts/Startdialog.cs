@@ -9,6 +9,8 @@ public class Startdialog : MonoBehaviour
     public GameObject tankebubblan; //Refrens till ett gameobject- Elanor 
     public Text dialog; //En referens till min text - Elanor 
 
+    public static bool textengång; //En bool- Elanor 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,11 @@ public class Startdialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (textengång) //Om textgång?- Elanor 
+        {
+            intruduktion = 0; //Ska intruduktion bli 0-Elanor
+        }
+
         if (Input.GetKeyDown(KeyCode.Space)) //Om man trycker ner space?- Elanor 
         {
             intruduktion -= 1; //När man trycke space kommer intruduktion minska med 1- Elanor 
@@ -40,7 +47,9 @@ public class Startdialog : MonoBehaviour
             case 0: // Case 0 - Elanor
                 Movement.speed = 1000; //Movement speed blir tillbaka till som vanligt- Elanor
                 tankebubblan.SetActive(false); //Tanke bubblan blir inaktiv och försvinner- Elanor 
+                textengång = true;
                 break;//Dialogen försvinner- Elanor 
+
         }
     }
 }
