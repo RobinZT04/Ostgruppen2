@@ -14025,7 +14025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 1930902108}
-  speed2: 550
+  speed2: 350
   asfotsteg: {fileID: 1930902107}
   acsteg: {fileID: 8300000, guid: 31ab73cd05071714597ec0d878a59580, type: 3}
   player: {fileID: 1930902103}
