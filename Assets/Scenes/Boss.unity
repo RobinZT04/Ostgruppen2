@@ -176,7 +176,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 384bbc7572b19e348b8dd03ca3a0edb1, type: 3}
   m_Color: {r: 0.754717, g: 0.7211521, b: 0.5197579, a: 1}
   m_FlipX: 0
@@ -1695,6 +1695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 1082729121}
+  speed2: 1000
   asfotsteg: {fileID: 1082729120}
   acsteg: {fileID: 8300000, guid: 31ab73cd05071714597ec0d878a59580, type: 3}
   player: {fileID: 1082729116}

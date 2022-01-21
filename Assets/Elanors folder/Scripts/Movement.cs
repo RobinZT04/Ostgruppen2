@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
 {
     public Rigidbody2D body; // En rigedbody som heter body- Elanor
     public static float speed = 550; // En float som heter speed, speeden är nu 50 men kan ändras i unity eller här- Elanor
+    public float speed2;
     public AudioSource asfotsteg; // Refrens till min audiosorce- Elanor 
     public AudioClip acsteg; //Referens till players audioclip- Elanor
     public static bool död; //En bool som är static- Elanor
@@ -18,7 +19,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 550; //movement speeden är 550 när man startar- Elanor 
+        speed = speed2; //movement speeden är 550 när man startar- Elanor 
     }
 
     // Update is called once per frame
