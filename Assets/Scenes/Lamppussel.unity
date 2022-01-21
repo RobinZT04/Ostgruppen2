@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 3221736}
   - component: {fileID: 3221735}
   - component: {fileID: 3221737}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tilemap_WallSides
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +543,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 368361603}
   - component: {fileID: 368361602}
   - component: {fileID: 368361601}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OSt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 465056398}
   - component: {fileID: 465056400}
   - component: {fileID: 465056399}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tilemap_Stege
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1089,7 +1089,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1228,7 +1228,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   - component: {fileID: 843070434}
   - component: {fileID: 843070436}
   - component: {fileID: 843070435}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tilemap_Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2415,7 +2415,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2515,7 +2515,7 @@ GameObject:
   - component: {fileID: 1090779766}
   - component: {fileID: 1090779765}
   - component: {fileID: 1090779764}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player (1)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 1095581800}
   - component: {fileID: 1095581799}
   - component: {fileID: 1095581801}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tilemap_WallFronts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3775,7 +3775,7 @@ GameObject:
   - component: {fileID: 1211082822}
   - component: {fileID: 1211082821}
   - component: {fileID: 1211082820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sworddown
   m_TagString: Sword
   m_Icon: {fileID: 0}
@@ -3901,7 +3901,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4209,9 +4209,9 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -4223,7 +4223,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
 --- !u!212 &1849076488
 SpriteRenderer:
@@ -4300,7 +4300,7 @@ GameObject:
   - component: {fileID: 1850639914}
   - component: {fileID: 1850639913}
   - component: {fileID: 1850639912}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Swordup
   m_TagString: Sword
   m_Icon: {fileID: 0}
@@ -4408,7 +4408,7 @@ GameObject:
   - component: {fileID: 1870137938}
   - component: {fileID: 1870137937}
   - component: {fileID: 1870137936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Swordright
   m_TagString: Sword
   m_Icon: {fileID: 0}
@@ -4549,7 +4549,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4710,7 +4710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915472158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 3.35, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5024,7 +5024,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
