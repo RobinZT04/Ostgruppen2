@@ -9,6 +9,7 @@ public class LampPussel : MonoBehaviour
     public AudioSource tändaSläckaLjud;
     public bool löst;
     public AudioSource lösaPusselLjud;
+    public GameObject ost;
     //Kollar ifall alla lampor är tända -William
     public void ÄrPussletLöst()
     {
@@ -24,6 +25,7 @@ public class LampPussel : MonoBehaviour
         {
             lösaPusselLjud.Play();
             löst = true;
+            ost.SetActive(true);
         }
         else
         {
