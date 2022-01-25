@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class LampPussel : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class LampPussel : MonoBehaviour
     public bool löst;
     public AudioSource lösaPusselLjud;
     public GameObject ost;
+    public Tilemap tilemap;
+    public TileBase tileA;
+    public TileBase tileB;
     //Kollar ifall alla lampor är tända -William
     public void ÄrPussletLöst()
     {
@@ -25,7 +29,8 @@ public class LampPussel : MonoBehaviour
         {
             lösaPusselLjud.Play();
             löst = true;
-            ost.SetActive(true);
+            tilemap.SwapTile(tileA, tileB);
+            tilemap.GetComponent<TilemapCollider2D>().enabled = false;
         }
         else
         {

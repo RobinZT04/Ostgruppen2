@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Lampa : MonoBehaviour
 {
-    SpriteRenderer sprite;
+    SpriteRenderer spriteRend;
     public Sprite tänt;
     public Sprite släckt;
     public LampPussel lampPussel;
     // Start is called before the first frame update
     void Start()
     {
-        sprite = GetComponent<SpriteRenderer>();
+        spriteRend = GetComponent<SpriteRenderer>();
     }
     private void OnMouseDown()
     {
@@ -59,13 +59,13 @@ public class Lampa : MonoBehaviour
     //Byter materialet till antingen släckt eller tänt beroende på vad den nuvarande är -William
     public void TändaSläcka()
     {
-        if (sprite.sprite.name == tänt.name)
+        if (spriteRend.sprite.name == tänt.name)
         {
-            sprite.sprite = släckt;
+            spriteRend.sprite = släckt;
         }
         else
         {
-            sprite.sprite = tänt;
+            spriteRend.sprite = tänt;
         }
     }
 }
