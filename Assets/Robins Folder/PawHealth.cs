@@ -8,6 +8,12 @@ public class PawHealth : MonoBehaviour
     public AudioClip Cathurt; //kattens skado ljud klipp - Robin
     public Animator tardamage;
     public Animator tardamageansikte;
+    public GameObject tips;
+
+    private void Start()
+    {
+        StartCoroutine(Tips());
+    }
     private void OnTriggerEnter2D(Collider2D other) //on trigger enter  - Robin
     { 
         if(other.transform.tag == "Sword") //rör den svärdet  - Robin
@@ -27,5 +33,13 @@ public class PawHealth : MonoBehaviour
         yield return new WaitForSeconds(1);
         tardamageansikte.SetBool("Hurt", false);
         tardamage.SetBool("TarDamage", false);
+    }
+
+    IEnumerator Tips()
+    {
+        yield return new WaitForSeconds(Random.Range(7, 12));
+        tips.SetActive(true);
+        yield return new WaitForSeconds(2);
+        tips.SetActive(false);
     }
 }
