@@ -28,7 +28,6 @@ public class Movement : MonoBehaviour
         if (!död) //Om musen inte är död?
         {
 
-
             if (body.velocity.magnitude > 0) //Om bodyns velcoitey är större än 0?- elanor 
             {
                 player.SetBool("Walking", true); //Ska min bool bli true- Elanor 
@@ -38,7 +37,6 @@ public class Movement : MonoBehaviour
             {
                 player.SetBool("Walking", false); ////min bool ska bli false- Elanor 
             }
-
 
             float vert = Input.GetAxis("Vertical"); // sätter float vert värdet till Input.GetAxis("Vertical")- Elanor 
             float horiz = Input.GetAxis("Horizontal"); // sätter float horiz värdet till Input.GetAxis("Horizontal")- Elanor

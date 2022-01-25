@@ -33,7 +33,7 @@ public class Startdialog : MonoBehaviour
         {
             case 4: // Case 4- Elanor
                 dialog.text = "To move use W,A,S,D, press space for next thought"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
-                Movement.speed = -0; //Min movement speed blir 0 så playern kan inte gå- Elanor
+                //Movement.speed = -0; //Min movement speed blir 0 så playern kan inte gå- Elanor
                 break; //Dialogen försvinner- Elanor 
             case 3:// Case 3 - Elanor
                 dialog.text = "You also have a sword to use, press \n space, dont be afraid to use it! \n now lets see what this mouse is doing"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
@@ -45,7 +45,7 @@ public class Startdialog : MonoBehaviour
                 dialog.text = "seems like im all alone in this place, well \n lets explore I need to find a way out!"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
                 break;//Dialogen försvinner- Elanor 
             case 0: // Case 0 - Elanor
-                Movement.speed = 1000; //Movement speed blir tillbaka till som vanligt- Elanor
+                //Movement.speed = 1000; //Movement speed blir tillbaka till som vanligt- Elanor
                 tankebubblan.SetActive(false); //Tanke bubblan blir inaktiv och försvinner- Elanor 
                 textengång = true;
                 break;//Dialogen försvinner- Elanor 
