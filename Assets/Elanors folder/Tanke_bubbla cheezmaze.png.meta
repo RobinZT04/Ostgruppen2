@@ -1,0 +1,3527 @@
+fileFormatVersion: 2
+guid: e016f75919160fb4a835ccd2a658cd96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3915258766249525900
+    second: Tanke_bubbla cheezmaze_0
+  - first:
+      213: -2345375192961955748
+    second: Tanke_bubbla cheezmaze_1
+  - first:
+      213: 5979731655013567918
+    second: Tanke_bubbla cheezmaze_2
+  - first:
+      213: 3544167185906602823
+    second: Tanke_bubbla cheezmaze_3
+  - first:
+      213: 1259377349023558143
+    second: Tanke_bubbla cheezmaze_4
+  - first:
+      213: -2380100692092845880
+    second: Tanke_bubbla cheezmaze_5
+  - first:
+      213: -1648300384244016276
+    second: Tanke_bubbla cheezmaze_6
+  - first:
+      213: 2359692621370900445
+    second: Tanke_bubbla cheezmaze_7
+  - first:
+      213: -2845247937027234103
+    second: Tanke_bubbla cheezmaze_8
+  - first:
+      213: 3485240780600435080
+    second: Tanke_bubbla cheezmaze_9
+  - first:
+      213: 1857018338092657273
+    second: Tanke_bubbla cheezmaze_10
+  - first:
+      213: -8564103148351167263
+    second: Tanke_bubbla cheezmaze_11
+  - first:
+      213: 8549116740580793123
+    second: Tanke_bubbla cheezmaze_12
+  - first:
+      213: -5809556888081878549
+    second: Tanke_bubbla cheezmaze_13
+  - first:
+      213: -2937343924502618798
+    second: Tanke_bubbla cheezmaze_14
+  - first:
+      213: -4414613626340966189
+    second: Tanke_bubbla cheezmaze_15
+  - first:
+      213: -3333752023556298050
+    second: Tanke_bubbla cheezmaze_16
+  - first:
+      213: 5855134484839755877
+    second: Tanke_bubbla cheezmaze_17
+  - first:
+      213: -3700092463158058825
+    second: Tanke_bubbla cheezmaze_18
+  - first:
+      213: -901534985033023371
+    second: Tanke_bubbla cheezmaze_19
+  - first:
+      213: -2594714250674045096
+    second: Tanke_bubbla cheezmaze_20
+  - first:
+      213: 4276009350656435972
+    second: Tanke_bubbla cheezmaze_21
+  - first:
+      213: 2857719221092817749
+    second: Tanke_bubbla cheezmaze_22
+  - first:
+      213: -5493918208352643276
+    second: Tanke_bubbla cheezmaze_23
+  - first:
+      213: -2789052188940097775
+    second: Tanke_bubbla cheezmaze_24
+  - first:
+      213: -3481081677039959934
+    second: Tanke_bubbla cheezmaze_25
+  - first:
+      213: 810996614629531330
+    second: Tanke_bubbla cheezmaze_26
+  - first:
+      213: 8769346984162682371
+    second: Tanke_bubbla cheezmaze_27
+  - first:
+      213: -5233139901915008024
+    second: Tanke_bubbla cheezmaze_28
+  - first:
+      213: -7927070176102868451
+    second: Tanke_bubbla cheezmaze_29
+  - first:
+      213: 1953971655671706929
+    second: Tanke_bubbla cheezmaze_30
+  - first:
+      213: 4598414253418520323
+    second: Tanke_bubbla cheezmaze_31
+  - first:
+      213: -2006145558219474120
+    second: Tanke_bubbla cheezmaze_32
+  - first:
+      213: 4205195623329144027
+    second: Tanke_bubbla cheezmaze_33
+  - first:
+      213: -8718170117555310859
+    second: Tanke_bubbla cheezmaze_34
+  - first:
+      213: -5547783595243884357
+    second: Tanke_bubbla cheezmaze_35
+  - first:
+      213: -5478831009704354170
+    second: Tanke_bubbla cheezmaze_36
+  - first:
+      213: -2358426939552323968
+    second: Tanke_bubbla cheezmaze_37
+  - first:
+      213: -4935918025455498456
+    second: Tanke_bubbla cheezmaze_38
+  - first:
+      213: 6212111481066202343
+    second: Tanke_bubbla cheezmaze_39
+  - first:
+      213: -8635926734587573029
+    second: Tanke_bubbla cheezmaze_40
+  - first:
+      213: -7830964710253089930
+    second: Tanke_bubbla cheezmaze_41
+  - first:
+      213: 6155113520430500990
+    second: Tanke_bubbla cheezmaze_42
+  - first:
+      213: 2471713439931598401
+    second: Tanke_bubbla cheezmaze_43
+  - first:
+      213: 590531934645054144
+    second: Tanke_bubbla cheezmaze_44
+  - first:
+      213: 4761684974613180070
+    second: Tanke_bubbla cheezmaze_45
+  - first:
+      213: 963145727295767900
+    second: Tanke_bubbla cheezmaze_46
+  - first:
+      213: 9178054246968680569
+    second: Tanke_bubbla cheezmaze_47
+  - first:
+      213: 6836142372694128273
+    second: Tanke_bubbla cheezmaze_48
+  - first:
+      213: 2110043281786670569
+    second: Tanke_bubbla cheezmaze_49
+  - first:
+      213: -1491243971438053990
+    second: Tanke_bubbla cheezmaze_50
+  - first:
+      213: -3298250138629731450
+    second: Tanke_bubbla cheezmaze_51
+  - first:
+      213: -5844684188572365575
+    second: Tanke_bubbla cheezmaze_52
+  - first:
+      213: -1354240514799245998
+    second: Tanke_bubbla cheezmaze_53
+  - first:
+      213: -1370862929068028397
+    second: Tanke_bubbla cheezmaze_54
+  - first:
+      213: -8628338123552679805
+    second: Tanke_bubbla cheezmaze_55
+  - first:
+      213: -8701461127511821199
+    second: Tanke_bubbla cheezmaze_56
+  - first:
+      213: 1088299614448397456
+    second: Tanke_bubbla cheezmaze_57
+  - first:
+      213: 5838497814222401861
+    second: Tanke_bubbla cheezmaze_58
+  - first:
+      213: -3324806812793510374
+    second: Tanke_bubbla cheezmaze_59
+  - first:
+      213: -3517299667461191401
+    second: Tanke_bubbla cheezmaze_60
+  - first:
+      213: 7151089662926577222
+    second: Tanke_bubbla cheezmaze_61
+  - first:
+      213: 2039374363122491390
+    second: Tanke_bubbla cheezmaze_62
+  - first:
+      213: -7852357848685073503
+    second: Tanke_bubbla cheezmaze_63
+  - first:
+      213: -5569769561688843382
+    second: Tanke_bubbla cheezmaze_64
+  - first:
+      213: 1405973136977477315
+    second: Tanke_bubbla cheezmaze_65
+  - first:
+      213: -7706853707438366487
+    second: Tanke_bubbla cheezmaze_66
+  - first:
+      213: 1651332468080123700
+    second: Tanke_bubbla cheezmaze_67
+  - first:
+      213: 1799114160556786865
+    second: Tanke_bubbla cheezmaze_68
+  - first:
+      213: 7437986860348633701
+    second: Tanke_bubbla cheezmaze_69
+  - first:
+      213: 7960067369279444784
+    second: Tanke_bubbla cheezmaze_70
+  - first:
+      213: -5517774649108456240
+    second: Tanke_bubbla cheezmaze_71
+  - first:
+      213: -6434194371981757075
+    second: Tanke_bubbla cheezmaze_72
+  - first:
+      213: -4137197126647067850
+    second: Tanke_bubbla cheezmaze_73
+  - first:
+      213: -4890670560429009267
+    second: Tanke_bubbla cheezmaze_74
+  - first:
+      213: 4212568816752992772
+    second: Tanke_bubbla cheezmaze_75
+  - first:
+      213: -7122451135034747222
+    second: Tanke_bubbla cheezmaze_76
+  - first:
+      213: 3216904078835252956
+    second: Tanke_bubbla cheezmaze_77
+  - first:
+      213: -2082053308226312942
+    second: Tanke_bubbla cheezmaze_78
+  - first:
+      213: 514156956387341332
+    second: Tanke_bubbla cheezmaze_79
+  - first:
+      213: 1474802825817968974
+    second: Tanke_bubbla cheezmaze_80
+  - first:
+      213: 270291948068302066
+    second: Tanke_bubbla cheezmaze_81
+  - first:
+      213: 826062979131639401
+    second: Tanke_bubbla cheezmaze_82
+  - first:
+      213: 5647725121022488736
+    second: Tanke_bubbla cheezmaze_83
+  - first:
+      213: 7150551316166823684
+    second: Tanke_bubbla cheezmaze_84
+  - first:
+      213: -4475669825051629931
+    second: Tanke_bubbla cheezmaze_85
+  - first:
+      213: -7413235024965375049
+    second: Tanke_bubbla cheezmaze_86
+  - first:
+      213: 4883074842672111514
+    second: Tanke_bubbla cheezmaze_87
+  - first:
+      213: 3603850516942660746
+    second: Tanke_bubbla cheezmaze_88
+  - first:
+      213: 7955838886153867114
+    second: Tanke_bubbla cheezmaze_89
+  - first:
+      213: 5679775419133270968
+    second: Tanke_bubbla cheezmaze_90
+  - first:
+      213: -4840446164043456074
+    second: Tanke_bubbla cheezmaze_91
+  - first:
+      213: 7839802119199225534
+    second: Tanke_bubbla cheezmaze_92
+  - first:
+      213: -7615242043050991742
+    second: Tanke_bubbla cheezmaze_93
+  - first:
+      213: -2361267678898593298
+    second: Tanke_bubbla cheezmaze_94
+  - first:
+      213: -133782463027162808
+    second: Tanke_bubbla cheezmaze_95
+  - first:
+      213: 2379868236439359017
+    second: Tanke_bubbla cheezmaze_96
+  - first:
+      213: 2694754639237732048
+    second: Tanke_bubbla cheezmaze_97
+  - first:
+      213: 8771575745605741971
+    second: Tanke_bubbla cheezmaze_98
+  - first:
+      213: -8826520051497275108
+    second: Tanke_bubbla cheezmaze_99
+  - first:
+      213: -3463345537875267277
+    second: Tanke_bubbla cheezmaze_100
+  - first:
+      213: 2754893095981481810
+    second: Tanke_bubbla cheezmaze_101
+  - first:
+      213: -3115464424008703383
+    second: Tanke_bubbla cheezmaze_102
+  - first:
+      213: -7303279316958439500
+    second: Tanke_bubbla cheezmaze_103
+  - first:
+      213: -4866432700559266612
+    second: Tanke_bubbla cheezmaze_104
+  - first:
+      213: 619442467556635153
+    second: Tanke_bubbla cheezmaze_105
+  - first:
+      213: -5136913124648323403
+    second: Tanke_bubbla cheezmaze_106
+  - first:
+      213: 7233093060108835007
+    second: Tanke_bubbla cheezmaze_107
+  - first:
+      213: -7089632494818543535
+    second: Tanke_bubbla cheezmaze_108
+  - first:
+      213: 6767713496631317225
+    second: Tanke_bubbla cheezmaze_109
+  - first:
+      213: -1808336255813609338
+    second: Tanke_bubbla cheezmaze_110
+  - first:
+      213: -2839992798842792544
+    second: Tanke_bubbla cheezmaze_111
+  - first:
+      213: -6962301225354266093
+    second: Tanke_bubbla cheezmaze_112
+  - first:
+      213: -5833616434273234341
+    second: Tanke_bubbla cheezmaze_113
+  - first:
+      213: -8472487569660481477
+    second: Tanke_bubbla cheezmaze_114
+  - first:
+      213: 3532743733167375753
+    second: Tanke_bubbla cheezmaze_115
+  - first:
+      213: -9206847299690920578
+    second: Tanke_bubbla cheezmaze_116
+  - first:
+      213: 3061136751309632215
+    second: Tanke_bubbla cheezmaze_117
+  - first:
+      213: -3078292992680310281
+    second: Tanke_bubbla cheezmaze_118
+  - first:
+      213: 8677971820580444331
+    second: Tanke_bubbla cheezmaze_119
+  - first:
+      213: 146625674906488745
+    second: Tanke_bubbla cheezmaze_120
+  - first:
+      213: -3151461576126322763
+    second: Tanke_bubbla cheezmaze_121
+  - first:
+      213: -9108433090422329221
+    second: Tanke_bubbla cheezmaze_122
+  - first:
+      213: 4288450705368600919
+    second: Tanke_bubbla cheezmaze_123
+  - first:
+      213: 3653994404029460649
+    second: Tanke_bubbla cheezmaze_124
+  - first:
+      213: 5471916935066607990
+    second: Tanke_bubbla cheezmaze_125
+  - first:
+      213: -7519151689974560080
+    second: Tanke_bubbla cheezmaze_126
+  - first:
+      213: -5250619851967915183
+    second: Tanke_bubbla cheezmaze_127
+  - first:
+      213: -1473056236918731705
+    second: Tanke_bubbla cheezmaze_128
+  - first:
+      213: -6008904350415302046
+    second: Tanke_bubbla cheezmaze_129
+  - first:
+      213: -6469201920274033966
+    second: Tanke_bubbla cheezmaze_130
+  - first:
+      213: -930863893835982963
+    second: Tanke_bubbla cheezmaze_131
+  - first:
+      213: -1252206031522832045
+    second: Tanke_bubbla cheezmaze_132
+  - first:
+      213: 7619913443393817684
+    second: Tanke_bubbla cheezmaze_133
+  - first:
+      213: -728261423987113020
+    second: Tanke_bubbla cheezmaze_134
+  - first:
+      213: 8705302963384884310
+    second: Tanke_bubbla cheezmaze_135
+  - first:
+      213: -7176842588866834743
+    second: Tanke_bubbla cheezmaze_136
+  - first:
+      213: -1591761367230322780
+    second: Tanke_bubbla cheezmaze_137
+  - first:
+      213: 3274452610360783760
+    second: Tanke_bubbla cheezmaze_138
+  - first:
+      213: 7125561099163101995
+    second: Tanke_bubbla cheezmaze_139
+  - first:
+      213: -4717508346019549291
+    second: Tanke_bubbla cheezmaze_140
+  - first:
+      213: 4607333026247779168
+    second: Tanke_bubbla cheezmaze_141
+  - first:
+      213: 8609661643212076642
+    second: Tanke_bubbla cheezmaze_142
+  - first:
+      213: 6479024071623213683
+    second: Tanke_bubbla cheezmaze_143
+  - first:
+      213: 8022529376773566399
+    second: Tanke_bubbla cheezmaze_144
+  - first:
+      213: -1729265191369980652
+    second: Tanke_bubbla cheezmaze_145
+  - first:
+      213: -7262270802734260576
+    second: Tanke_bubbla cheezmaze_146
+  - first:
+      213: -494128911267210582
+    second: Tanke_bubbla cheezmaze_147
+  - first:
+      213: -6125077875764871723
+    second: Tanke_bubbla cheezmaze_148
+  - first:
+      213: 3968721754741406557
+    second: Tanke_bubbla cheezmaze_149
+  - first:
+      213: -8712845426437202998
+    second: Tanke_bubbla cheezmaze_150
+  - first:
+      213: -327804240345386394
+    second: Tanke_bubbla cheezmaze_151
+  - first:
+      213: -8186094643843821813
+    second: Tanke_bubbla cheezmaze_152
+  - first:
+      213: 2700772618340161789
+    second: Tanke_bubbla cheezmaze_153
+  - first:
+      213: 4522300783949752872
+    second: Tanke_bubbla cheezmaze_154
+  - first:
+      213: -8531219605770711181
+    second: Tanke_bubbla cheezmaze_155
+  - first:
+      213: -1060554905307145501
+    second: Tanke_bubbla cheezmaze_156
+  - first:
+      213: -3319191633843066274
+    second: Tanke_bubbla cheezmaze_157
+  - first:
+      213: -6276064830925205498
+    second: Tanke_bubbla cheezmaze_158
+  - first:
+      213: -1198072393945830549
+    second: Tanke_bubbla cheezmaze_159
+  - first:
+      213: -9157678179565728581
+    second: Tanke_bubbla cheezmaze_160
+  - first:
+      213: 4209342523828135024
+    second: Tanke_bubbla cheezmaze_161
+  - first:
+      213: 1069120532951969704
+    second: Tanke_bubbla cheezmaze_162
+  - first:
+      213: -7662158481889886673
+    second: Tanke_bubbla cheezmaze_163
+  - first:
+      213: -2720718801778113821
+    second: Tanke_bubbla cheezmaze_164
+  - first:
+      213: -3815932233097361904
+    second: Tanke_bubbla cheezmaze_165
+  - first:
+      213: 5856035088141392128
+    second: Tanke_bubbla cheezmaze_166
+  - first:
+      213: -8023164440602062544
+    second: Tanke_bubbla cheezmaze_167
+  - first:
+      213: -2665935691191511968
+    second: Tanke_bubbla cheezmaze_168
+  - first:
+      213: 4941927465079672633
+    second: Tanke_bubbla cheezmaze_169
+  - first:
+      213: -7921370891233949309
+    second: Tanke_bubbla cheezmaze_170
+  - first:
+      213: -5872938734788587675
+    second: Tanke_bubbla cheezmaze_171
+  - first:
+      213: -4998334474859513980
+    second: Tanke_bubbla cheezmaze_172
+  - first:
+      213: 8948090155713490312
+    second: Tanke_bubbla cheezmaze_173
+  - first:
+      213: -2625289376306151384
+    second: Tanke_bubbla cheezmaze_174
+  - first:
+      213: -1800940625720174928
+    second: Tanke_bubbla cheezmaze_175
+  - first:
+      213: -3060082733399533732
+    second: Tanke_bubbla cheezmaze_176
+  - first:
+      213: -1937021273198404645
+    second: Tanke_bubbla cheezmaze_177
+  - first:
+      213: 8757844893995994742
+    second: Tanke_bubbla cheezmaze_178
+  - first:
+      213: 8687632275213473999
+    second: Tanke_bubbla cheezmaze_179
+  - first:
+      213: -4582655968700898753
+    second: Tanke_bubbla cheezmaze_180
+  - first:
+      213: -6102067394000088785
+    second: Tanke_bubbla cheezmaze_181
+  - first:
+      213: 8672997849262430276
+    second: Tanke_bubbla cheezmaze_182
+  - first:
+      213: 9183817797053347093
+    second: Tanke_bubbla cheezmaze_183
+  - first:
+      213: 1176452022494907177
+    second: Tanke_bubbla cheezmaze_184
+  - first:
+      213: 1963310242870532026
+    second: Tanke_bubbla cheezmaze_185
+  - first:
+      213: 1278484033926438116
+    second: Tanke_bubbla cheezmaze_186
+  - first:
+      213: 1314899528692237401
+    second: Tanke_bubbla cheezmaze_187
+  - first:
+      213: 6900276677503652529
+    second: Tanke_bubbla cheezmaze_188
+  - first:
+      213: -384148903476001551
+    second: Tanke_bubbla cheezmaze_189
+  - first:
+      213: -6032751739226153891
+    second: Tanke_bubbla cheezmaze_190
+  - first:
+      213: 8550734637322622864
+    second: Tanke_bubbla cheezmaze_191
+  - first:
+      213: 4605591029154960044
+    second: Tanke_bubbla cheezmaze_192
+  - first:
+      213: -7225451282390073159
+    second: Tanke_bubbla cheezmaze_193
+  - first:
+      213: -5556083651238462967
+    second: Tanke_bubbla cheezmaze_194
+  - first:
+      213: 1447534693852426370
+    second: Tanke_bubbla cheezmaze_195
+  - first:
+      213: -2333369428029422956
+    second: Tanke_bubbla cheezmaze_196
+  - first:
+      213: 9013133140994488954
+    second: Tanke_bubbla cheezmaze_197
+  - first:
+      213: -3834117020599221423
+    second: Tanke_bubbla cheezmaze_198
+  - first:
+      213: -8450958895558468039
+    second: Tanke_bubbla cheezmaze_199
+  - first:
+      213: 6739406582432980550
+    second: Tanke_bubbla cheezmaze_200
+  - first:
+      213: 2146027334113874745
+    second: Tanke_bubbla cheezmaze_201
+  - first:
+      213: 4413335919275469169
+    second: Tanke_bubbla cheezmaze_202
+  - first:
+      213: 1265927547258584045
+    second: Tanke_bubbla cheezmaze_203
+  - first:
+      213: -1169925077992014868
+    second: Tanke_bubbla cheezmaze_204
+  - first:
+      213: 1995544737838330442
+    second: Tanke_bubbla cheezmaze_205
+  - first:
+      213: -1526778179850241553
+    second: Tanke_bubbla cheezmaze_206
+  - first:
+      213: 3712990287949206939
+    second: Tanke_bubbla cheezmaze_207
+  - first:
+      213: -6136820303459657308
+    second: Tanke_bubbla cheezmaze_208
+  - first:
+      213: -339854888086957923
+    second: Tanke_bubbla cheezmaze_209
+  - first:
+      213: -9185761158880731504
+    second: Tanke_bubbla cheezmaze_210
+  - first:
+      213: 2654069121905163682
+    second: Tanke_bubbla cheezmaze_211
+  - first:
+      213: -394477674940010839
+    second: Tanke_bubbla cheezmaze_212
+  - first:
+      213: 4636236831187541946
+    second: Tanke_bubbla cheezmaze_213
+  - first:
+      213: 4774456931769931118
+    second: Tanke_bubbla cheezmaze_214
+  - first:
+      213: -317540581169827921
+    second: Tanke_bubbla cheezmaze_215
+  - first:
+      213: 4170491737482938984
+    second: Tanke_bubbla cheezmaze_216
+  - first:
+      213: -8751481759559760117
+    second: Tanke_bubbla cheezmaze_217
+  - first:
+      213: -3922475454793860020
+    second: Tanke_bubbla cheezmaze_218
+  - first:
+      213: 4387725729808062207
+    second: Tanke_bubbla cheezmaze_219
+  - first:
+      213: -7185841367342144369
+    second: Tanke_bubbla cheezmaze_220
+  - first:
+      213: -2380723536458027584
+    second: Tanke_bubbla cheezmaze_221
+  - first:
+      213: 8042311644888656505
+    second: Tanke_bubbla cheezmaze_222
+  - first:
+      213: -9151378179854091105
+    second: Tanke_bubbla cheezmaze_223
+  - first:
+      213: -8343321656630405467
+    second: Tanke_bubbla cheezmaze_224
+  - first:
+      213: -6294305629234574305
+    second: Tanke_bubbla cheezmaze_225
+  - first:
+      213: -8175075050071820610
+    second: Tanke_bubbla cheezmaze_226
+  - first:
+      213: -6665205798285839280
+    second: Tanke_bubbla cheezmaze_227
+  - first:
+      213: 2502597345321319094
+    second: Tanke_bubbla cheezmaze_228
+  - first:
+      213: 6280661867345721272
+    second: Tanke_bubbla cheezmaze_229
+  - first:
+      213: 3789566756110368101
+    second: Tanke_bubbla cheezmaze_230
+  - first:
+      213: 3892582519771346649
+    second: Tanke_bubbla cheezmaze_231
+  - first:
+      213: -3075073401779828491
+    second: Tanke_bubbla cheezmaze_232
+  - first:
+      213: 515552681654440067
+    second: Tanke_bubbla cheezmaze_233
+  - first:
+      213: -780596504179576928
+    second: Tanke_bubbla cheezmaze_234
+  - first:
+      213: 5121280669957637484
+    second: Tanke_bubbla cheezmaze_235
+  - first:
+      213: -8727930052869693601
+    second: Tanke_bubbla cheezmaze_236
+  - first:
+      213: -1292477824648686832
+    second: Tanke_bubbla cheezmaze_237
+  - first:
+      213: -7980263745979592691
+    second: Tanke_bubbla cheezmaze_238
+  - first:
+      213: -3963961384720997857
+    second: Tanke_bubbla cheezmaze_239
+  - first:
+      213: -1195559398234058533
+    second: Tanke_bubbla cheezmaze_240
+  - first:
+      213: -3630695272214771918
+    second: Tanke_bubbla cheezmaze_241
+  - first:
+      213: -361721073582513013
+    second: Tanke_bubbla cheezmaze_242
+  - first:
+      213: 524665627873888149
+    second: Tanke_bubbla cheezmaze_243
+  - first:
+      213: -1020193885764386374
+    second: Tanke_bubbla cheezmaze_244
+  - first:
+      213: 3461715093787832388
+    second: Tanke_bubbla cheezmaze_245
+  - first:
+      213: 2905698514102105588
+    second: Tanke_bubbla cheezmaze_246
+  - first:
+      213: 3655566824241368200
+    second: Tanke_bubbla cheezmaze_247
+  - first:
+      213: 8972754345816744728
+    second: Tanke_bubbla cheezmaze_248
+  - first:
+      213: -5651422797656876926
+    second: Tanke_bubbla cheezmaze_249
+  - first:
+      213: -7625186038525103101
+    second: Tanke_bubbla cheezmaze_250
+  - first:
+      213: 1639290950767648120
+    second: Tanke_bubbla cheezmaze_251
+  - first:
+      213: -7799186364497571881
+    second: Tanke_bubbla cheezmaze_252
+  - first:
+      213: 8617561398662698343
+    second: Tanke_bubbla cheezmaze_253
+  - first:
+      213: -5843057049295847813
+    second: Tanke_bubbla cheezmaze_254
+  - first:
+      213: 431276591021240880
+    second: Tanke_bubbla cheezmaze_255
+  - first:
+      213: -7744455016540307360
+    second: Tanke_bubbla cheezmaze_256
+  - first:
+      213: -8180962792693337076
+    second: Tanke_bubbla cheezmaze_257
+  - first:
+      213: -2218445622357546094
+    second: Tanke_bubbla cheezmaze_258
+  - first:
+      213: 4053533639637055614
+    second: Tanke_bubbla cheezmaze_259
+  - first:
+      213: 2554200699799879843
+    second: Tanke_bubbla cheezmaze_260
+  - first:
+      213: -1616186831954272958
+    second: Tanke_bubbla cheezmaze_261
+  - first:
+      213: -8050167621642337307
+    second: Tanke_bubbla cheezmaze_262
+  - first:
+      213: 1327869621286070497
+    second: Tanke_bubbla cheezmaze_263
+  - first:
+      213: -2712978959805789430
+    second: Tanke_bubbla cheezmaze_264
+  - first:
+      213: -3347449254976680698
+    second: Tanke_bubbla cheezmaze_265
+  - first:
+      213: -2095460193322557762
+    second: Tanke_bubbla cheezmaze_266
+  - first:
+      213: 5425496545444049127
+    second: Tanke_bubbla cheezmaze_267
+  - first:
+      213: -402599727951241834
+    second: Tanke_bubbla cheezmaze_268
+  - first:
+      213: 3527593724642924234
+    second: Tanke_bubbla cheezmaze_269
+  - first:
+      213: 8341291518550368327
+    second: Tanke_bubbla cheezmaze_270
+  - first:
+      213: 5080718220950098659
+    second: Tanke_bubbla cheezmaze_271
+  - first:
+      213: -3811873980118070157
+    second: Tanke_bubbla cheezmaze_272
+  - first:
+      213: 5479166775826685452
+    second: Tanke_bubbla cheezmaze_273
+  - first:
+      213: -776982832676728318
+    second: Tanke_bubbla cheezmaze_274
+  - first:
+      213: -1245955612002953191
+    second: Tanke_bubbla cheezmaze_275
+  - first:
+      213: 5948834764058863747
+    second: Tanke_bubbla cheezmaze_276
+  - first:
+      213: 634753171566666793
+    second: Tanke_bubbla cheezmaze_277
+  - first:
+      213: -8178548031336076216
+    second: Tanke_bubbla cheezmaze_278
+  - first:
+      213: -3580141769102856142
+    second: Tanke_bubbla cheezmaze_279
+  - first:
+      213: 8835865691676540368
+    second: Tanke_bubbla cheezmaze_280
+  - first:
+      213: 7252282428509883474
+    second: Tanke_bubbla cheezmaze_281
+  - first:
+      213: -2849912111361280644
+    second: Tanke_bubbla cheezmaze_282
+  - first:
+      213: -9070320358937114261
+    second: Tanke_bubbla cheezmaze_283
+  - first:
+      213: -1179405822149896660
+    second: Tanke_bubbla cheezmaze_284
+  - first:
+      213: -9153820592302426149
+    second: Tanke_bubbla cheezmaze_285
+  - first:
+      213: -7920636292108671194
+    second: Tanke_bubbla cheezmaze_286
+  - first:
+      213: 8458151934635475498
+    second: Tanke_bubbla cheezmaze_287
+  - first:
+      213: -1938079483212150964
+    second: Tanke_bubbla cheezmaze_288
+  - first:
+      213: -3739812272916148590
+    second: Tanke_bubbla cheezmaze_289
+  - first:
+      213: -7989836566388005553
+    second: Tanke_bubbla cheezmaze_290
+  - first:
+      213: 6789067715777549897
+    second: Tanke_bubbla cheezmaze_291
+  - first:
+      213: 6879690850693405133
+    second: Tanke_bubbla cheezmaze_292
+  - first:
+      213: -9066765391657493524
+    second: Tanke_bubbla cheezmaze_293
+  - first:
+      213: -2033091112217087612
+    second: Tanke_bubbla cheezmaze_294
+  - first:
+      213: -7340845432545205352
+    second: Tanke_bubbla cheezmaze_295
+  - first:
+      213: -4793931210818172664
+    second: Tanke_bubbla cheezmaze_296
+  - first:
+      213: -3930774748412315057
+    second: Tanke_bubbla cheezmaze_297
+  - first:
+      213: -7091416556852774605
+    second: Tanke_bubbla cheezmaze_298
+  - first:
+      213: 8954531624271841516
+    second: Tanke_bubbla cheezmaze_299
+  - first:
+      213: 8072635231631663187
+    second: Tanke_bubbla cheezmaze_300
+  - first:
+      213: -7574375572997455255
+    second: Tanke_bubbla cheezmaze_301
+  - first:
+      213: -1190489646844103275
+    second: Tanke_bubbla cheezmaze_302
+  - first:
+      213: -4704690251591638258
+    second: Tanke_bubbla cheezmaze_303
+  - first:
+      213: -528772985733223174
+    second: Tanke_bubbla cheezmaze_304
+  - first:
+      213: 6984654775527025083
+    second: Tanke_bubbla cheezmaze_305
+  - first:
+      213: 4315959287218153636
+    second: Tanke_bubbla cheezmaze_306
+  - first:
+      213: -1435518606720285679
+    second: Tanke_bubbla cheezmaze_307
+  - first:
+      213: 3232186082604702566
+    second: Tanke_bubbla cheezmaze_308
+  - first:
+      213: 7743427870232555063
+    second: Tanke_bubbla cheezmaze_309
+  - first:
+      213: 1232467666145029519
+    second: Tanke_bubbla cheezmaze_310
+  - first:
+      213: 1418665017666195078
+    second: Tanke_bubbla cheezmaze_311
+  - first:
+      213: -94335741914650649
+    second: Tanke_bubbla cheezmaze_312
+  - first:
+      213: -4796294953189180979
+    second: Tanke_bubbla cheezmaze_313
+  - first:
+      213: -8399276387339575896
+    second: Tanke_bubbla cheezmaze_314
+  - first:
+      213: 7627407918007099974
+    second: Tanke_bubbla cheezmaze_315
+  - first:
+      213: -573535228723405630
+    second: Tanke_bubbla cheezmaze_316
+  - first:
+      213: -8985661562555293336
+    second: Tanke_bubbla cheezmaze_317
+  - first:
+      213: -2126632796913839588
+    second: Tanke_bubbla cheezmaze_318
+  - first:
+      213: -3514774077288856397
+    second: Tanke_bubbla cheezmaze_319
+  - first:
+      213: 7345128691238051083
+    second: Tanke_bubbla cheezmaze_320
+  - first:
+      213: -2522701809999618053
+    second: Tanke_bubbla cheezmaze_321
+  - first:
+      213: 816330073264452877
+    second: Tanke_bubbla cheezmaze_322
+  - first:
+      213: 5763816025135136823
+    second: Tanke_bubbla cheezmaze_323
+  - first:
+      213: -694022493806515534
+    second: Tanke_bubbla cheezmaze_324
+  - first:
+      213: 4235749087449601651
+    second: Tanke_bubbla cheezmaze_325
+  - first:
+      213: 3648858868136833868
+    second: Tanke_bubbla cheezmaze_326
+  - first:
+      213: -3496451525272945029
+    second: Tanke_bubbla cheezmaze_327
+  - first:
+      213: -4110641521363299471
+    second: Tanke_bubbla cheezmaze_328
+  - first:
+      213: -4448483693357953165
+    second: Tanke_bubbla cheezmaze_329
+  - first:
+      213: -6383008265401166981
+    second: Tanke_bubbla cheezmaze_330
+  - first:
+      213: -4085246468181836199
+    second: Tanke_bubbla cheezmaze_331
+  - first:
+      213: -5786839996173138742
+    second: Tanke_bubbla cheezmaze_332
+  - first:
+      213: 6051394545959540083
+    second: Tanke_bubbla cheezmaze_333
+  - first:
+      213: 2362569973095200539
+    second: Tanke_bubbla cheezmaze_334
+  - first:
+      213: 6136341962697226378
+    second: Tanke_bubbla cheezmaze_335
+  - first:
+      213: 7630784655495413790
+    second: Tanke_bubbla cheezmaze_336
+  - first:
+      213: 7102347754610276019
+    second: Tanke_bubbla cheezmaze_337
+  - first:
+      213: -5894293200547129079
+    second: Tanke_bubbla cheezmaze_338
+  - first:
+      213: -85399356591372121
+    second: Tanke_bubbla cheezmaze_339
+  - first:
+      213: -8930378835545946396
+    second: Tanke_bubbla cheezmaze_340
+  - first:
+      213: -2054158300427172442
+    second: Tanke_bubbla cheezmaze_341
+  - first:
+      213: 3977647624812501477
+    second: Tanke_bubbla cheezmaze_342
+  - first:
+      213: 2550689707653930631
+    second: Tanke_bubbla cheezmaze_343
+  - first:
+      213: -8308239470645980728
+    second: Tanke_bubbla cheezmaze_344
+  - first:
+      213: 8658424099842936577
+    second: Tanke_bubbla cheezmaze_345
+  - first:
+      213: 57396509598119815
+    second: Tanke_bubbla cheezmaze_346
+  - first:
+      213: -8654150592553072637
+    second: Tanke_bubbla cheezmaze_347
+  - first:
+      213: -3101491669264256397
+    second: Tanke_bubbla cheezmaze_348
+  - first:
+      213: 3397902128216345784
+    second: Tanke_bubbla cheezmaze_349
+  - first:
+      213: -7407293173198652916
+    second: Tanke_bubbla cheezmaze_350
+  - first:
+      213: 7064675790544505278
+    second: Tanke_bubbla cheezmaze_351
+  - first:
+      213: 4613792830776145676
+    second: Tanke_bubbla cheezmaze_352
+  - first:
+      213: 3453507199699898743
+    second: Tanke_bubbla cheezmaze_353
+  - first:
+      213: -1706772660655719494
+    second: Tanke_bubbla cheezmaze_354
+  - first:
+      213: 3483236525845441692
+    second: Tanke_bubbla cheezmaze_355
+  - first:
+      213: -1640867217816044818
+    second: Tanke_bubbla cheezmaze_356
+  - first:
+      213: 4437934363893370243
+    second: Tanke_bubbla cheezmaze_357
+  - first:
+      213: -1446179465341799277
+    second: Tanke_bubbla cheezmaze_358
+  - first:
+      213: -5994606460719316400
+    second: Tanke_bubbla cheezmaze_359
+  - first:
+      213: 480766597231861022
+    second: Tanke_bubbla cheezmaze_360
+  - first:
+      213: 5328886935800102073
+    second: Tanke_bubbla cheezmaze_361
+  - first:
+      213: -7258046117152807974
+    second: Tanke_bubbla cheezmaze_362
+  - first:
+      213: -4699055463417762319
+    second: Tanke_bubbla cheezmaze_363
+  - first:
+      213: 7599397309218401092
+    second: Tanke_bubbla cheezmaze_364
+  - first:
+      213: 6131212445434034923
+    second: Tanke_bubbla cheezmaze_365
+  - first:
+      213: -1774027368035068549
+    second: Tanke_bubbla cheezmaze_366
+  - first:
+      213: 8303531533090396015
+    second: Tanke_bubbla cheezmaze_367
+  - first:
+      213: -9167209380816511971
+    second: Tanke_bubbla cheezmaze_368
+  - first:
+      213: 824597020602282366
+    second: Tanke_bubbla cheezmaze_369
+  - first:
+      213: -5001137280563046851
+    second: Tanke_bubbla cheezmaze_370
+  - first:
+      213: 1869581537900580157
+    second: Tanke_bubbla cheezmaze_371
+  - first:
+      213: 629824144210335491
+    second: Tanke_bubbla cheezmaze_372
+  - first:
+      213: -539278236740110043
+    second: Tanke_bubbla cheezmaze_373
+  - first:
+      213: -8885460998285182411
+    second: Tanke_bubbla cheezmaze_374
+  - first:
+      213: -8342165149028472219
+    second: Tanke_bubbla cheezmaze_375
+  - first:
+      213: -2250170276951616815
+    second: Tanke_bubbla cheezmaze_376
+  - first:
+      213: 1342161928228880439
+    second: Tanke_bubbla cheezmaze_377
+  - first:
+      213: 8208174977287002988
+    second: Tanke_bubbla cheezmaze_378
+  - first:
+      213: -7882061880385842984
+    second: Tanke_bubbla cheezmaze_379
+  - first:
+      213: 1727366800606537463
+    second: Tanke_bubbla cheezmaze_380
+  - first:
+      213: 3741894583906376719
+    second: Tanke_bubbla cheezmaze_381
+  - first:
+      213: 8806090917731378075
+    second: Tanke_bubbla cheezmaze_382
+  - first:
+      213: 1414987664657570213
+    second: Tanke_bubbla cheezmaze_383
+  - first:
+      213: 5149949660622979329
+    second: Tanke_bubbla cheezmaze_384
+  - first:
+      213: 6785603881911734356
+    second: Tanke_bubbla cheezmaze_385
+  - first:
+      213: 6913621693157817946
+    second: Tanke_bubbla cheezmaze_386
+  - first:
+      213: -4761109300088085601
+    second: Tanke_bubbla cheezmaze_387
+  - first:
+      213: 8539116957984990507
+    second: Tanke_bubbla cheezmaze_388
+  - first:
+      213: -8037950604421433469
+    second: Tanke_bubbla cheezmaze_389
+  - first:
+      213: 4250611605123346820
+    second: Tanke_bubbla cheezmaze_390
+  - first:
+      213: 469286637622296973
+    second: Tanke_bubbla cheezmaze_391
+  - first:
+      213: -6441083557536810248
+    second: Tanke_bubbla cheezmaze_392
+  - first:
+      213: -6581296124740784015
+    second: Tanke_bubbla cheezmaze_393
+  - first:
+      213: 3385825014565527010
+    second: Tanke_bubbla cheezmaze_394
+  - first:
+      213: -5341892400105013392
+    second: Tanke_bubbla cheezmaze_395
+  - first:
+      213: -6845661589185697966
+    second: Tanke_bubbla cheezmaze_396
+  - first:
+      213: -3745754941276707315
+    second: Tanke_bubbla cheezmaze_397
+  - first:
+      213: 4912805423616807130
+    second: Tanke_bubbla cheezmaze_398
+  - first:
+      213: 6089946841516122527
+    second: Tanke_bubbla cheezmaze_399
+  - first:
+      213: 434655283536300641
+    second: Tanke_bubbla cheezmaze_400
+  - first:
+      213: -4902620976618696869
+    second: Tanke_bubbla cheezmaze_401
+  - first:
+      213: 7516088759998876269
+    second: Tanke_bubbla cheezmaze_402
+  - first:
+      213: 8515572201020338694
+    second: Tanke_bubbla cheezmaze_403
+  - first:
+      213: -5073124630648906582
+    second: Tanke_bubbla cheezmaze_404
+  - first:
+      213: 7274665670616873784
+    second: Tanke_bubbla cheezmaze_405
+  - first:
+      213: -1769065097387727711
+    second: Tanke_bubbla cheezmaze_406
+  - first:
+      213: -7810133102439419272
+    second: Tanke_bubbla cheezmaze_407
+  - first:
+      213: 196564391795382608
+    second: Tanke_bubbla cheezmaze_408
+  - first:
+      213: -2564768116921916542
+    second: Tanke_bubbla cheezmaze_409
+  - first:
+      213: 2402086679742689174
+    second: Tanke_bubbla cheezmaze_410
+  - first:
+      213: -2905787920462663166
+    second: Tanke_bubbla cheezmaze_411
+  - first:
+      213: -4978830695226760295
+    second: Tanke_bubbla cheezmaze_412
+  - first:
+      213: -1234136271996454329
+    second: Tanke_bubbla cheezmaze_413
+  - first:
+      213: 1676528840877426995
+    second: Tanke_bubbla cheezmaze_414
+  - first:
+      213: 7365724790354353990
+    second: Tanke_bubbla cheezmaze_415
+  - first:
+      213: -1432660773394429355
+    second: Tanke_bubbla cheezmaze_416
+  - first:
+      213: -2327534868991799517
+    second: Tanke_bubbla cheezmaze_417
+  - first:
+      213: 3816523890149016440
+    second: Tanke_bubbla cheezmaze_418
+  - first:
+      213: 3585506639333290548
+    second: Tanke_bubbla cheezmaze_419
+  - first:
+      213: -6788477374766334839
+    second: Tanke_bubbla cheezmaze_420
+  - first:
+      213: 5484909151593852808
+    second: Tanke_bubbla cheezmaze_421
+  - first:
+      213: 1074184288379950782
+    second: Tanke_bubbla cheezmaze_422
+  - first:
+      213: 194395712945254236
+    second: Tanke_bubbla cheezmaze_423
+  - first:
+      213: 7773552269569687183
+    second: Tanke_bubbla cheezmaze_424
+  - first:
+      213: 4597119107364065315
+    second: Tanke_bubbla cheezmaze_425
+  - first:
+      213: 2110385406536896240
+    second: Tanke_bubbla cheezmaze_426
+  - first:
+      213: -8818459131262101712
+    second: Tanke_bubbla cheezmaze_427
+  - first:
+      213: -7439483642892255184
+    second: Tanke_bubbla cheezmaze_428
+  - first:
+      213: -4304883123047071593
+    second: Tanke_bubbla cheezmaze_429
+  - first:
+      213: 480220340291422668
+    second: Tanke_bubbla cheezmaze_430
+  - first:
+      213: 1396853830874536712
+    second: Tanke_bubbla cheezmaze_431
+  - first:
+      213: 2599511676790957950
+    second: Tanke_bubbla cheezmaze_432
+  - first:
+      213: 2971735658932985041
+    second: Tanke_bubbla cheezmaze_433
+  - first:
+      213: -303694860992484013
+    second: Tanke_bubbla cheezmaze_434
+  - first:
+      213: -4643760804548759727
+    second: Tanke_bubbla cheezmaze_435
+  - first:
+      213: -814843066979641157
+    second: Tanke_bubbla cheezmaze_436
+  - first:
+      213: -3535498561423126573
+    second: Tanke_bubbla cheezmaze_437
+  - first:
+      213: 1884730521356868459
+    second: Tanke_bubbla cheezmaze_438
+  - first:
+      213: 6128567034799501206
+    second: Tanke_bubbla cheezmaze_439
+  - first:
+      213: 7523424018337019299
+    second: Tanke_bubbla cheezmaze_440
+  - first:
+      213: 8083624793227103267
+    second: Tanke_bubbla cheezmaze_441
+  - first:
+      213: 6221202364324694698
+    second: Tanke_bubbla cheezmaze_442
+  - first:
+      213: -7433916001172749243
+    second: Tanke_bubbla cheezmaze_443
+  - first:
+      213: 8721759895735970986
+    second: Tanke_bubbla cheezmaze_444
+  - first:
+      213: 7896948060111457057
+    second: Tanke_bubbla cheezmaze_445
+  - first:
+      213: 8340820600553086392
+    second: Tanke_bubbla cheezmaze_446
+  - first:
+      213: -6406685815633897622
+    second: Tanke_bubbla cheezmaze_447
+  - first:
+      213: 1596608119386910535
+    second: Tanke_bubbla cheezmaze_448
+  - first:
+      213: 5767606250534903608
+    second: Tanke_bubbla cheezmaze_449
+  - first:
+      213: -7439199541752610956
+    second: Tanke_bubbla cheezmaze_450
+  - first:
+      213: 5010248604124849519
+    second: Tanke_bubbla cheezmaze_451
+  - first:
+      213: -3068354190717502524
+    second: Tanke_bubbla cheezmaze_452
+  - first:
+      213: 493724628417877659
+    second: Tanke_bubbla cheezmaze_453
+  - first:
+      213: 3787075172074636872
+    second: Tanke_bubbla cheezmaze_454
+  - first:
+      213: 654764696034116503
+    second: Tanke_bubbla cheezmaze_455
+  - first:
+      213: 1358100472550653623
+    second: Tanke_bubbla cheezmaze_456
+  - first:
+      213: -6847714512965024042
+    second: Tanke_bubbla cheezmaze_457
+  - first:
+      213: 3031778711810832577
+    second: Tanke_bubbla cheezmaze_458
+  - first:
+      213: 8699427322421281180
+    second: Tanke_bubbla cheezmaze_459
+  - first:
+      213: -5172351572731779047
+    second: Tanke_bubbla cheezmaze_460
+  - first:
+      213: 4001557871526048915
+    second: Tanke_bubbla cheezmaze_461
+  - first:
+      213: -5487258260049383850
+    second: Tanke_bubbla cheezmaze_462
+  - first:
+      213: 8167600720548830953
+    second: Tanke_bubbla cheezmaze_463
+  - first:
+      213: -6132072713968671802
+    second: Tanke_bubbla cheezmaze_464
+  - first:
+      213: -97586009091101674
+    second: Tanke_bubbla cheezmaze_465
+  - first:
+      213: -1490668024946514570
+    second: Tanke_bubbla cheezmaze_466
+  - first:
+      213: 2782151699411609685
+    second: Tanke_bubbla cheezmaze_467
+  - first:
+      213: -2033302463301930122
+    second: Tanke_bubbla cheezmaze_468
+  - first:
+      213: 7449803030514642548
+    second: Tanke_bubbla cheezmaze_469
+  - first:
+      213: -4422467384284610265
+    second: Tanke_bubbla cheezmaze_470
+  - first:
+      213: 2188755096918270810
+    second: Tanke_bubbla cheezmaze_471
+  - first:
+      213: 4677359319527803122
+    second: Tanke_bubbla cheezmaze_472
+  - first:
+      213: 4549713064300011613
+    second: Tanke_bubbla cheezmaze_473
+  - first:
+      213: -6235222180150621647
+    second: Tanke_bubbla cheezmaze_474
+  - first:
+      213: -4338938594579705260
+    second: Tanke_bubbla cheezmaze_475
+  - first:
+      213: -5676099406811384608
+    second: Tanke_bubbla cheezmaze_476
+  - first:
+      213: -8862219035758190868
+    second: Tanke_bubbla cheezmaze_477
+  - first:
+      213: 4489918262557165799
+    second: Tanke_bubbla cheezmaze_478
+  - first:
+      213: 2469059763849073292
+    second: Tanke_bubbla cheezmaze_479
+  - first:
+      213: -6664021645775487710
+    second: Tanke_bubbla cheezmaze_480
+  - first:
+      213: -904028701332424971
+    second: Tanke_bubbla cheezmaze_481
+  - first:
+      213: 6269225537476984744
+    second: Tanke_bubbla cheezmaze_482
+  - first:
+      213: 7232732265400209216
+    second: Tanke_bubbla cheezmaze_483
+  - first:
+      213: -3882610528454887998
+    second: Tanke_bubbla cheezmaze_484
+  - first:
+      213: 8879027870142130246
+    second: Tanke_bubbla cheezmaze_485
+  - first:
+      213: -1771966559260745976
+    second: Tanke_bubbla cheezmaze_486
+  - first:
+      213: -218371367118477545
+    second: Tanke_bubbla cheezmaze_487
+  - first:
+      213: -7220651192286058011
+    second: Tanke_bubbla cheezmaze_488
+  - first:
+      213: -3453665423659635280
+    second: Tanke_bubbla cheezmaze_489
+  - first:
+      213: -5870405965444336424
+    second: Tanke_bubbla cheezmaze_490
+  - first:
+      213: -2152347493641989242
+    second: Tanke_bubbla cheezmaze_491
+  - first:
+      213: -984231964652567707
+    second: Tanke_bubbla cheezmaze_492
+  - first:
+      213: 3739486383070606848
+    second: Tanke_bubbla cheezmaze_493
+  - first:
+      213: -5952257164019012461
+    second: Tanke_bubbla cheezmaze_494
+  - first:
+      213: 3834967441963738285
+    second: Tanke_bubbla cheezmaze_495
+  - first:
+      213: 6490989248980652806
+    second: Tanke_bubbla cheezmaze_496
+  - first:
+      213: -3374224531753320815
+    second: Tanke_bubbla cheezmaze_497
+  - first:
+      213: -2999497731272964025
+    second: Tanke_bubbla cheezmaze_498
+  - first:
+      213: -3990649338365597543
+    second: Tanke_bubbla cheezmaze_499
+  - first:
+      213: -5923260029306881159
+    second: Tanke_bubbla cheezmaze_500
+  - first:
+      213: -5036042466299288383
+    second: Tanke_bubbla cheezmaze_501
+  - first:
+      213: 265369310123368286
+    second: Tanke_bubbla cheezmaze_502
+  - first:
+      213: 7717903067639498112
+    second: Tanke_bubbla cheezmaze_503
+  - first:
+      213: 5101628500673027561
+    second: Tanke_bubbla cheezmaze_504
+  - first:
+      213: 7588328954712757043
+    second: Tanke_bubbla cheezmaze_505
+  - first:
+      213: -4692750513445251381
+    second: Tanke_bubbla cheezmaze_506
+  - first:
+      213: 3268965030163350389
+    second: Tanke_bubbla cheezmaze_507
+  - first:
+      213: -7127807675747692104
+    second: Tanke_bubbla cheezmaze_508
+  - first:
+      213: -8211880813971674139
+    second: Tanke_bubbla cheezmaze_509
+  - first:
+      213: -1811044849028026483
+    second: Tanke_bubbla cheezmaze_510
+  - first:
+      213: -8223774723167004026
+    second: Tanke_bubbla cheezmaze_511
+  - first:
+      213: -6512595359684508770
+    second: Tanke_bubbla cheezmaze_512
+  - first:
+      213: 5034316696443781788
+    second: Tanke_bubbla cheezmaze_513
+  - first:
+      213: -8751200734561355279
+    second: Tanke_bubbla cheezmaze_514
+  - first:
+      213: -7531103148718883748
+    second: Tanke_bubbla cheezmaze_515
+  - first:
+      213: 3643953647846837037
+    second: Tanke_bubbla cheezmaze_516
+  - first:
+      213: 998109408202663714
+    second: Tanke_bubbla cheezmaze_517
+  - first:
+      213: -2768404262764859715
+    second: Tanke_bubbla cheezmaze_518
+  - first:
+      213: 3810486613486774168
+    second: Tanke_bubbla cheezmaze_519
+  - first:
+      213: -2205079283657566130
+    second: Tanke_bubbla cheezmaze_520
+  - first:
+      213: 2610196726603858404
+    second: Tanke_bubbla cheezmaze_521
+  - first:
+      213: 8575471544477518861
+    second: Tanke_bubbla cheezmaze_522
+  - first:
+      213: -2451000791725403943
+    second: Tanke_bubbla cheezmaze_523
+  - first:
+      213: 1192681594598126150
+    second: Tanke_bubbla cheezmaze_524
+  - first:
+      213: 8334879983659158537
+    second: Tanke_bubbla cheezmaze_525
+  - first:
+      213: -3015154745257140664
+    second: Tanke_bubbla cheezmaze_526
+  - first:
+      213: 597826924637769166
+    second: Tanke_bubbla cheezmaze_527
+  - first:
+      213: -8388004664742012950
+    second: Tanke_bubbla cheezmaze_528
+  - first:
+      213: -2651003111454402166
+    second: Tanke_bubbla cheezmaze_529
+  - first:
+      213: 957403416917368280
+    second: Tanke_bubbla cheezmaze_530
+  - first:
+      213: 3312305107442588051
+    second: Tanke_bubbla cheezmaze_531
+  - first:
+      213: 4957311998322620220
+    second: Tanke_bubbla cheezmaze_532
+  - first:
+      213: 6322941985102713303
+    second: Tanke_bubbla cheezmaze_533
+  - first:
+      213: -6153749925839736199
+    second: Tanke_bubbla cheezmaze_534
+  - first:
+      213: 8143875021978424779
+    second: Tanke_bubbla cheezmaze_535
+  - first:
+      213: 3140506759065266689
+    second: Tanke_bubbla cheezmaze_536
+  - first:
+      213: -5417798376341541394
+    second: Tanke_bubbla cheezmaze_537
+  - first:
+      213: -6365181566007632017
+    second: Tanke_bubbla cheezmaze_538
+  - first:
+      213: 1545403686806872940
+    second: Tanke_bubbla cheezmaze_539
+  - first:
+      213: 7551392828425587003
+    second: Tanke_bubbla cheezmaze_540
+  - first:
+      213: 3427677095279481360
+    second: Tanke_bubbla cheezmaze_541
+  - first:
+      213: 4487798469981581926
+    second: Tanke_bubbla cheezmaze_542
+  - first:
+      213: 5237283942259869130
+    second: Tanke_bubbla cheezmaze_543
+  - first:
+      213: -1828902204029145947
+    second: Tanke_bubbla cheezmaze_544
+  - first:
+      213: -799834969558289336
+    second: Tanke_bubbla cheezmaze_545
+  - first:
+      213: -8474459982915645629
+    second: Tanke_bubbla cheezmaze_546
+  - first:
+      213: 3012206117634577196
+    second: Tanke_bubbla cheezmaze_547
+  - first:
+      213: 6289603556075452621
+    second: Tanke_bubbla cheezmaze_548
+  - first:
+      213: 833387393879994297
+    second: Tanke_bubbla cheezmaze_549
+  - first:
+      213: -8021413582992981593
+    second: Tanke_bubbla cheezmaze_550
+  - first:
+      213: -6406974159900099407
+    second: Tanke_bubbla cheezmaze_551
+  - first:
+      213: -2425258768639702402
+    second: Tanke_bubbla cheezmaze_552
+  - first:
+      213: -6541321785039903016
+    second: Tanke_bubbla cheezmaze_553
+  - first:
+      213: 6477338402404450415
+    second: Tanke_bubbla cheezmaze_554
+  - first:
+      213: -4811914000094720625
+    second: Tanke_bubbla cheezmaze_555
+  - first:
+      213: -8679830887504426000
+    second: Tanke_bubbla cheezmaze_556
+  - first:
+      213: -9158777236406726827
+    second: Tanke_bubbla cheezmaze_557
+  - first:
+      213: 413946886991502063
+    second: Tanke_bubbla cheezmaze_558
+  - first:
+      213: 7244383011467036001
+    second: Tanke_bubbla cheezmaze_559
+  - first:
+      213: -3065712096280270218
+    second: Tanke_bubbla cheezmaze_560
+  - first:
+      213: -7090534301931379240
+    second: Tanke_bubbla cheezmaze_561
+  - first:
+      213: -7717989114649432840
+    second: Tanke_bubbla cheezmaze_562
+  - first:
+      213: -6051082173998457072
+    second: Tanke_bubbla cheezmaze_563
+  - first:
+      213: 1318697900230210738
+    second: Tanke_bubbla cheezmaze_564
+  - first:
+      213: 1965501188449796428
+    second: Tanke_bubbla cheezmaze_565
+  - first:
+      213: -1355202038607611905
+    second: Tanke_bubbla cheezmaze_566
+  - first:
+      213: 6630996094342294446
+    second: Tanke_bubbla cheezmaze_567
+  - first:
+      213: 1658117158843873594
+    second: Tanke_bubbla cheezmaze_568
+  - first:
+      213: 5966802058551606714
+    second: Tanke_bubbla cheezmaze_569
+  - first:
+      213: -218890933472134033
+    second: Tanke_bubbla cheezmaze_570
+  - first:
+      213: -4242193560047185800
+    second: Tanke_bubbla cheezmaze_571
+  - first:
+      213: 5610032877506523774
+    second: Tanke_bubbla cheezmaze_572
+  - first:
+      213: -5152024336823635049
+    second: Tanke_bubbla cheezmaze_573
+  - first:
+      213: 689237377324634329
+    second: Tanke_bubbla cheezmaze_574
+  - first:
+      213: 3340971139653694471
+    second: Tanke_bubbla cheezmaze_575
+  - first:
+      213: -8846597345950528095
+    second: Tanke_bubbla cheezmaze_576
+  - first:
+      213: 3537081692279897694
+    second: Tanke_bubbla cheezmaze_577
+  - first:
+      213: -8698363228029021718
+    second: Tanke_bubbla cheezmaze_578
+  - first:
+      213: -9168311144563095057
+    second: Tanke_bubbla cheezmaze_579
+  - first:
+      213: -9040410495301519959
+    second: Tanke_bubbla cheezmaze_580
+  - first:
+      213: 4545183694925003463
+    second: Tanke_bubbla cheezmaze_581
+  - first:
+      213: -3083189514593229321
+    second: Tanke_bubbla cheezmaze_582
+  - first:
+      213: 453466534676327757
+    second: Tanke_bubbla cheezmaze_583
+  - first:
+      213: 357502819130242610
+    second: Tanke_bubbla cheezmaze_584
+  - first:
+      213: 1867681229389231638
+    second: Tanke_bubbla cheezmaze_585
+  - first:
+      213: -2489663156391307047
+    second: Tanke_bubbla cheezmaze_586
+  - first:
+      213: 4649093425082701862
+    second: Tanke_bubbla cheezmaze_587
+  - first:
+      213: 3089281659290118458
+    second: Tanke_bubbla cheezmaze_588
+  - first:
+      213: -4339275896519038674
+    second: Tanke_bubbla cheezmaze_589
+  - first:
+      213: 6182283638679555104
+    second: Tanke_bubbla cheezmaze_590
+  - first:
+      213: -3450964483804009379
+    second: Tanke_bubbla cheezmaze_591
+  - first:
+      213: 5735252585030499969
+    second: Tanke_bubbla cheezmaze_592
+  - first:
+      213: 5655662891739080086
+    second: Tanke_bubbla cheezmaze_593
+  - first:
+      213: 2460903136996161517
+    second: Tanke_bubbla cheezmaze_594
+  - first:
+      213: 1155455601702724462
+    second: Tanke_bubbla cheezmaze_595
+  - first:
+      213: -6865927963678262942
+    second: Tanke_bubbla cheezmaze_596
+  - first:
+      213: 8597516323305296548
+    second: Tanke_bubbla cheezmaze_597
+  - first:
+      213: -5865245806545549018
+    second: Tanke_bubbla cheezmaze_598
+  - first:
+      213: -1407647619087368211
+    second: Tanke_bubbla cheezmaze_599
+  - first:
+      213: 5426677435516131451
+    second: Tanke_bubbla cheezmaze_600
+  - first:
+      213: 8463223421325964252
+    second: Tanke_bubbla cheezmaze_601
+  - first:
+      213: 6487787029209531441
+    second: Tanke_bubbla cheezmaze_602
+  - first:
+      213: 3704241621047646212
+    second: Tanke_bubbla cheezmaze_603
+  - first:
+      213: 5744529824958072776
+    second: Tanke_bubbla cheezmaze_604
+  - first:
+      213: 144437999352962522
+    second: Tanke_bubbla cheezmaze_605
+  - first:
+      213: 7094344245833338089
+    second: Tanke_bubbla cheezmaze_606
+  - first:
+      213: -4531136429710350910
+    second: Tanke_bubbla cheezmaze_607
+  - first:
+      213: 7964752556460435234
+    second: Tanke_bubbla cheezmaze_608
+  - first:
+      213: 475910924715046490
+    second: Tanke_bubbla cheezmaze_609
+  - first:
+      213: -1696371150260759491
+    second: Tanke_bubbla cheezmaze_610
+  - first:
+      213: -2110469022501307739
+    second: Tanke_bubbla cheezmaze_611
+  - first:
+      213: -1736139082384043214
+    second: Tanke_bubbla cheezmaze_612
+  - first:
+      213: 6574113392105032003
+    second: Tanke_bubbla cheezmaze_613
+  - first:
+      213: -4657332544539248147
+    second: Tanke_bubbla cheezmaze_614
+  - first:
+      213: -5313892423242897809
+    second: Tanke_bubbla cheezmaze_615
+  - first:
+      213: -6905297087498553188
+    second: Tanke_bubbla cheezmaze_616
+  - first:
+      213: -786696942222681675
+    second: Tanke_bubbla cheezmaze_617
+  - first:
+      213: -4386504588006440103
+    second: Tanke_bubbla cheezmaze_618
+  - first:
+      213: -3504003591722889065
+    second: Tanke_bubbla cheezmaze_619
+  - first:
+      213: -7622287826521241405
+    second: Tanke_bubbla cheezmaze_620
+  - first:
+      213: 4287463858174539604
+    second: Tanke_bubbla cheezmaze_621
+  - first:
+      213: 1863880589754609238
+    second: Tanke_bubbla cheezmaze_622
+  - first:
+      213: -7417424839573240815
+    second: Tanke_bubbla cheezmaze_623
+  - first:
+      213: -6464928080192670374
+    second: Tanke_bubbla cheezmaze_624
+  - first:
+      213: -3687849143131972268
+    second: Tanke_bubbla cheezmaze_625
+  - first:
+      213: -2354347036915576625
+    second: Tanke_bubbla cheezmaze_626
+  - first:
+      213: 391923265087604721
+    second: Tanke_bubbla cheezmaze_627
+  - first:
+      213: -3592291560866993724
+    second: Tanke_bubbla cheezmaze_628
+  - first:
+      213: -7847493080434269930
+    second: Tanke_bubbla cheezmaze_629
+  - first:
+      213: 8411933176565845534
+    second: Tanke_bubbla cheezmaze_630
+  - first:
+      213: -232488713007403845
+    second: Tanke_bubbla cheezmaze_631
+  - first:
+      213: 8242849109460768728
+    second: Tanke_bubbla cheezmaze_632
+  - first:
+      213: 1865355915404396086
+    second: Tanke_bubbla cheezmaze_633
+  - first:
+      213: -3917174720837572912
+    second: Tanke_bubbla cheezmaze_634
+  - first:
+      213: -954092824246112032
+    second: Tanke_bubbla cheezmaze_635
+  - first:
+      213: -625401373719743291
+    second: Tanke_bubbla cheezmaze_636
+  - first:
+      213: 3090753029623369433
+    second: Tanke_bubbla cheezmaze_637
+  - first:
+      213: -8813171868930750689
+    second: Tanke_bubbla cheezmaze_638
+  - first:
+      213: -951175550987239182
+    second: Tanke_bubbla cheezmaze_639
+  - first:
+      213: -943265065468712959
+    second: Tanke_bubbla cheezmaze_640
+  - first:
+      213: -3403909420221706240
+    second: Tanke_bubbla cheezmaze_641
+  - first:
+      213: 7330206502304747194
+    second: Tanke_bubbla cheezmaze_642
+  - first:
+      213: 3226738395195627169
+    second: Tanke_bubbla cheezmaze_643
+  - first:
+      213: -5386429724719029580
+    second: Tanke_bubbla cheezmaze_644
+  - first:
+      213: -8456278553591995419
+    second: Tanke_bubbla cheezmaze_645
+  - first:
+      213: -7534931755154836625
+    second: Tanke_bubbla cheezmaze_646
+  - first:
+      213: -5954232153269406744
+    second: Tanke_bubbla cheezmaze_647
+  - first:
+      213: -3655455691936748882
+    second: Tanke_bubbla cheezmaze_648
+  - first:
+      213: -6839283062446880750
+    second: Tanke_bubbla cheezmaze_649
+  - first:
+      213: 2617842864187940309
+    second: Tanke_bubbla cheezmaze_650
+  - first:
+      213: 7758254457191722009
+    second: Tanke_bubbla cheezmaze_651
+  - first:
+      213: 1153090130031765841
+    second: Tanke_bubbla cheezmaze_652
+  - first:
+      213: 7388497632857669263
+    second: Tanke_bubbla cheezmaze_653
+  - first:
+      213: 2092027207402812667
+    second: Tanke_bubbla cheezmaze_654
+  - first:
+      213: 7718920550325562871
+    second: Tanke_bubbla cheezmaze_655
+  - first:
+      213: 1419329275756021376
+    second: Tanke_bubbla cheezmaze_656
+  - first:
+      213: -4143447431651188713
+    second: Tanke_bubbla cheezmaze_657
+  - first:
+      213: 8853549548280017245
+    second: Tanke_bubbla cheezmaze_658
+  - first:
+      213: -5217998544594108974
+    second: Tanke_bubbla cheezmaze_659
+  - first:
+      213: -1689647107764862658
+    second: Tanke_bubbla cheezmaze_660
+  - first:
+      213: 3652520291052684562
+    second: Tanke_bubbla cheezmaze_661
+  - first:
+      213: -5197530388532005512
+    second: Tanke_bubbla cheezmaze_662
+  - first:
+      213: -2966651825501925422
+    second: Tanke_bubbla cheezmaze_663
+  - first:
+      213: -836005477923422197
+    second: Tanke_bubbla cheezmaze_664
+  - first:
+      213: 2841660187917946215
+    second: Tanke_bubbla cheezmaze_665
+  - first:
+      213: 7036686978149280063
+    second: Tanke_bubbla cheezmaze_666
+  - first:
+      213: -2768996268997821520
+    second: Tanke_bubbla cheezmaze_667
+  - first:
+      213: -5955482419771278625
+    second: Tanke_bubbla cheezmaze_668
+  - first:
+      213: -458323776628596893
+    second: Tanke_bubbla cheezmaze_669
+  - first:
+      213: -3161324570634552913
+    second: Tanke_bubbla cheezmaze_670
+  - first:
+      213: -3917491223642406828
+    second: Tanke_bubbla cheezmaze_671
+  - first:
+      213: -6537278891833683647
+    second: Tanke_bubbla cheezmaze_672
+  - first:
+      213: 9219326601636904344
+    second: Tanke_bubbla cheezmaze_673
+  - first:
+      213: -83964033393404120
+    second: Tanke_bubbla cheezmaze_674
+  - first:
+      213: -7840925232948809651
+    second: Tanke_bubbla cheezmaze_675
+  - first:
+      213: -1272289416034874547
+    second: Tanke_bubbla cheezmaze_676
+  - first:
+      213: -7064572808070047684
+    second: Tanke_bubbla cheezmaze_677
+  - first:
+      213: 3191311373796951078
+    second: Tanke_bubbla cheezmaze_678
+  - first:
+      213: -4232189324055059248
+    second: Tanke_bubbla cheezmaze_679
+  - first:
+      213: 5076054814643276692
+    second: Tanke_bubbla cheezmaze_680
+  - first:
+      213: -5943132699667434784
+    second: Tanke_bubbla cheezmaze_681
+  - first:
+      213: 4737720605970413053
+    second: Tanke_bubbla cheezmaze_682
+  - first:
+      213: -2863825701133494557
+    second: Tanke_bubbla cheezmaze_683
+  - first:
+      213: -8963361133991981376
+    second: Tanke_bubbla cheezmaze_684
+  - first:
+      213: -7817442724925819593
+    second: Tanke_bubbla cheezmaze_685
+  - first:
+      213: -1710830963642553396
+    second: Tanke_bubbla cheezmaze_686
+  - first:
+      213: -6994238355673991621
+    second: Tanke_bubbla cheezmaze_687
+  - first:
+      213: -7926180010890449130
+    second: Tanke_bubbla cheezmaze_688
+  - first:
+      213: -3367949224989650339
+    second: Tanke_bubbla cheezmaze_689
+  - first:
+      213: -7924111509911986916
+    second: Tanke_bubbla cheezmaze_690
+  - first:
+      213: -9006842670855296538
+    second: Tanke_bubbla cheezmaze_691
+  - first:
+      213: -7498827746653315755
+    second: Tanke_bubbla cheezmaze_692
+  - first:
+      213: -8440467810882046759
+    second: Tanke_bubbla cheezmaze_693
+  - first:
+      213: 8414782419485102849
+    second: Tanke_bubbla cheezmaze_694
+  - first:
+      213: -2204699606751762769
+    second: Tanke_bubbla cheezmaze_695
+  - first:
+      213: -6968097658268041640
+    second: Tanke_bubbla cheezmaze_696
+  - first:
+      213: -2523142269412166041
+    second: Tanke_bubbla cheezmaze_697
+  - first:
+      213: 5157419209787243237
+    second: Tanke_bubbla cheezmaze_698
+  - first:
+      213: -1880447448044856608
+    second: Tanke_bubbla cheezmaze_699
+  - first:
+      213: 4921767700947869070
+    second: Tanke_bubbla cheezmaze_700
+  - first:
+      213: 7656858532961650105
+    second: Tanke_bubbla cheezmaze_701
+  - first:
+      213: 8898879707341937816
+    second: Tanke_bubbla cheezmaze_702
+  - first:
+      213: -5663389935335142889
+    second: Tanke_bubbla cheezmaze_703
+  - first:
+      213: -6664662619192357352
+    second: Tanke_bubbla cheezmaze_704
+  - first:
+      213: -2898690931876411032
+    second: Tanke_bubbla cheezmaze_705
+  - first:
+      213: -4627911728325923794
+    second: Tanke_bubbla cheezmaze_706
+  - first:
+      213: -5708750849769734531
+    second: Tanke_bubbla cheezmaze_707
+  - first:
+      213: -7253928980507873330
+    second: Tanke_bubbla cheezmaze_708
+  - first:
+      213: -1575814866724336699
+    second: Tanke_bubbla cheezmaze_709
+  - first:
+      213: -2818056825505283480
+    second: Tanke_bubbla cheezmaze_710
+  - first:
+      213: 4820573327661423631
+    second: Tanke_bubbla cheezmaze_711
+  - first:
+      213: -5988280459870687087
+    second: Tanke_bubbla cheezmaze_712
+  - first:
+      213: -854876554370417776
+    second: Tanke_bubbla cheezmaze_713
+  - first:
+      213: -6638268830057531296
+    second: Tanke_bubbla cheezmaze_714
+  - first:
+      213: 9201034958475890964
+    second: Tanke_bubbla cheezmaze_715
+  - first:
+      213: -332106519485120961
+    second: Tanke_bubbla cheezmaze_716
+  - first:
+      213: -6042736410666737395
+    second: Tanke_bubbla cheezmaze_717
+  - first:
+      213: 7906915983955930722
+    second: Tanke_bubbla cheezmaze_718
+  - first:
+      213: -2910112006192181321
+    second: Tanke_bubbla cheezmaze_719
+  - first:
+      213: -1751834643565046987
+    second: Tanke_bubbla cheezmaze_720
+  - first:
+      213: 4604487078168147685
+    second: Tanke_bubbla cheezmaze_721
+  - first:
+      213: 949142287988305448
+    second: Tanke_bubbla cheezmaze_722
+  - first:
+      213: 2245437808014819987
+    second: Tanke_bubbla cheezmaze_723
+  - first:
+      213: 8319003779710317455
+    second: Tanke_bubbla cheezmaze_724
+  - first:
+      213: -8301898343695417330
+    second: Tanke_bubbla cheezmaze_725
+  - first:
+      213: -5137937618961538694
+    second: Tanke_bubbla cheezmaze_726
+  - first:
+      213: -7142105693618345207
+    second: Tanke_bubbla cheezmaze_727
+  - first:
+      213: 4495462562770557196
+    second: Tanke_bubbla cheezmaze_728
+  - first:
+      213: -7226497810315037576
+    second: Tanke_bubbla cheezmaze_729
+  - first:
+      213: 8254074795375368356
+    second: Tanke_bubbla cheezmaze_730
+  - first:
+      213: -5785898105030989844
+    second: Tanke_bubbla cheezmaze_731
+  - first:
+      213: -4300289823322991535
+    second: Tanke_bubbla cheezmaze_732
+  - first:
+      213: -8266892971527875475
+    second: Tanke_bubbla cheezmaze_733
+  - first:
+      213: -5290810039918827740
+    second: Tanke_bubbla cheezmaze_734
+  - first:
+      213: 7064617539196057922
+    second: Tanke_bubbla cheezmaze_735
+  - first:
+      213: -7668459844910176861
+    second: Tanke_bubbla cheezmaze_736
+  - first:
+      213: 4223348641974917042
+    second: Tanke_bubbla cheezmaze_737
+  - first:
+      213: -5702146106282091819
+    second: Tanke_bubbla cheezmaze_738
+  - first:
+      213: -1893185429444378317
+    second: Tanke_bubbla cheezmaze_739
+  - first:
+      213: 1931642152904214025
+    second: Tanke_bubbla cheezmaze_740
+  - first:
+      213: 2266764724896055604
+    second: Tanke_bubbla cheezmaze_741
+  - first:
+      213: -3737844770781168706
+    second: Tanke_bubbla cheezmaze_742
+  - first:
+      213: 1732460868240404332
+    second: Tanke_bubbla cheezmaze_743
+  - first:
+      213: -5794614574987048193
+    second: Tanke_bubbla cheezmaze_744
+  - first:
+      213: -321323576528393027
+    second: Tanke_bubbla cheezmaze_745
+  - first:
+      213: 6766579076266383900
+    second: Tanke_bubbla cheezmaze_746
+  - first:
+      213: 3679280716480396344
+    second: Tanke_bubbla cheezmaze_747
+  - first:
+      213: -9042072311914368239
+    second: Tanke_bubbla cheezmaze_748
+  - first:
+      213: 5344241516870022147
+    second: Tanke_bubbla cheezmaze_749
+  - first:
+      213: 1761154418717851877
+    second: Tanke_bubbla cheezmaze_750
+  - first:
+      213: -1968964628759875760
+    second: Tanke_bubbla cheezmaze_751
+  - first:
+      213: -3312438593286850164
+    second: Tanke_bubbla cheezmaze_752
+  - first:
+      213: -6952751161846636829
+    second: Tanke_bubbla cheezmaze_753
+  - first:
+      213: -158028535717362225
+    second: Tanke_bubbla cheezmaze_754
+  - first:
+      213: -8766281674578733945
+    second: Tanke_bubbla cheezmaze_755
+  - first:
+      213: 3341578920646670805
+    second: Tanke_bubbla cheezmaze_756
+  - first:
+      213: 1384858137891411868
+    second: Tanke_bubbla cheezmaze_757
+  - first:
+      213: -9148886102479312181
+    second: Tanke_bubbla cheezmaze_758
+  - first:
+      213: -4384566287004779139
+    second: Tanke_bubbla cheezmaze_759
+  - first:
+      213: -2406436998955194889
+    second: Tanke_bubbla cheezmaze_760
+  - first:
+      213: -7579145478350996062
+    second: Tanke_bubbla cheezmaze_761
+  - first:
+      213: 2299888625799576643
+    second: Tanke_bubbla cheezmaze_762
+  - first:
+      213: -8404098302410426725
+    second: Tanke_bubbla cheezmaze_763
+  - first:
+      213: -5931107185565468145
+    second: Tanke_bubbla cheezmaze_764
+  - first:
+      213: 9035190210201952204
+    second: Tanke_bubbla cheezmaze_765
+  - first:
+      213: 7310185028081005718
+    second: Tanke_bubbla cheezmaze_766
+  - first:
+      213: -913699507468860630
+    second: Tanke_bubbla cheezmaze_767
+  - first:
+      213: 1220113898881880226
+    second: Tanke_bubbla cheezmaze_768
+  - first:
+      213: 1735189412099663530
+    second: Tanke_bubbla cheezmaze_769
+  - first:
+      213: 7982056705619069663
+    second: Tanke_bubbla cheezmaze_770
+  - first:
+      213: -4461411735095567246
+    second: Tanke_bubbla cheezmaze_771
+  - first:
+      213: 7116952603032722931
+    second: Tanke_bubbla cheezmaze_772
+  - first:
+      213: -6414684185338651331
+    second: Tanke_bubbla cheezmaze_773
+  - first:
+      213: -9136768744238366534
+    second: Tanke_bubbla cheezmaze_774
+  - first:
+      213: 529342763467441776
+    second: Tanke_bubbla cheezmaze_775
+  - first:
+      213: -7801688376517784116
+    second: Tanke_bubbla cheezmaze_776
+  - first:
+      213: 3360830884709590703
+    second: Tanke_bubbla cheezmaze_777
+  - first:
+      213: 7217510731623004304
+    second: Tanke_bubbla cheezmaze_778
+  - first:
+      213: 5780694758964718874
+    second: Tanke_bubbla cheezmaze_779
+  - first:
+      213: 4696322278321710311
+    second: Tanke_bubbla cheezmaze_780
+  - first:
+      213: 8426351732150524522
+    second: Tanke_bubbla cheezmaze_781
+  - first:
+      213: -6938771731052408593
+    second: Tanke_bubbla cheezmaze_782
+  - first:
+      213: -7582725734337563580
+    second: Tanke_bubbla cheezmaze_783
+  - first:
+      213: -5008106697861434224
+    second: Tanke_bubbla cheezmaze_784
+  - first:
+      213: -7253473984537913510
+    second: Tanke_bubbla cheezmaze_785
+  - first:
+      213: -3534538012645084699
+    second: Tanke_bubbla cheezmaze_786
+  - first:
+      213: 5749629595868314835
+    second: Tanke_bubbla cheezmaze_787
+  - first:
+      213: -1190803241400883390
+    second: Tanke_bubbla cheezmaze_788
+  - first:
+      213: 5821058915769675787
+    second: Tanke_bubbla cheezmaze_789
+  - first:
+      213: 6091774413202295729
+    second: Tanke_bubbla cheezmaze_790
+  - first:
+      213: 2894674773096494388
+    second: Tanke_bubbla cheezmaze_791
+  - first:
+      213: -74033255758027811
+    second: Tanke_bubbla cheezmaze_792
+  - first:
+      213: 5115630587125449055
+    second: Tanke_bubbla cheezmaze_793
+  - first:
+      213: 112763729203978259
+    second: Tanke_bubbla cheezmaze_794
+  - first:
+      213: -1503568277429445813
+    second: Tanke_bubbla cheezmaze_795
+  - first:
+      213: 8471634965127947357
+    second: Tanke_bubbla cheezmaze_796
+  - first:
+      213: 8779493305819687547
+    second: Tanke_bubbla cheezmaze_797
+  - first:
+      213: -1255080602147725315
+    second: Tanke_bubbla cheezmaze_798
+  - first:
+      213: 3595487234829286622
+    second: Tanke_bubbla cheezmaze_799
+  - first:
+      213: 2376350617613070895
+    second: Tanke_bubbla cheezmaze_800
+  - first:
+      213: -8796443443758717960
+    second: Tanke_bubbla cheezmaze_801
+  - first:
+      213: -6200568332791379834
+    second: Tanke_bubbla cheezmaze_802
+  - first:
+      213: -4286803913033045892
+    second: Tanke_bubbla cheezmaze_803
+  - first:
+      213: -2556843765157659531
+    second: Tanke_bubbla cheezmaze_804
+  - first:
+      213: 996783021194167033
+    second: Tanke_bubbla cheezmaze_805
+  - first:
+      213: 8078368259617608435
+    second: Tanke_bubbla cheezmaze_806
+  - first:
+      213: -1317581384862301485
+    second: Tanke_bubbla cheezmaze_807
+  - first:
+      213: 7835646553733257442
+    second: Tanke_bubbla cheezmaze_808
+  - first:
+      213: 5118384298857434573
+    second: Tanke_bubbla cheezmaze_809
+  - first:
+      213: 1234586649493904193
+    second: Tanke_bubbla cheezmaze_810
+  - first:
+      213: -3344652194411017662
+    second: Tanke_bubbla cheezmaze_811
+  - first:
+      213: 3148523351456944462
+    second: Tanke_bubbla cheezmaze_812
+  - first:
+      213: 4711485990579991851
+    second: Tanke_bubbla cheezmaze_813
+  - first:
+      213: 1817378886931777519
+    second: Tanke_bubbla cheezmaze_814
+  - first:
+      213: -4854381345299490682
+    second: Tanke_bubbla cheezmaze_815
+  - first:
+      213: 2641625200456512233
+    second: Tanke_bubbla cheezmaze_816
+  - first:
+      213: -7667694005098411731
+    second: Tanke_bubbla cheezmaze_817
+  - first:
+      213: -2240395055393201496
+    second: Tanke_bubbla cheezmaze_818
+  - first:
+      213: 8418521841221960986
+    second: Tanke_bubbla cheezmaze_819
+  - first:
+      213: 2049664704084804486
+    second: Tanke_bubbla cheezmaze_820
+  - first:
+      213: -712251711108459146
+    second: Tanke_bubbla cheezmaze_821
+  - first:
+      213: -7437436873609379245
+    second: Tanke_bubbla cheezmaze_822
+  - first:
+      213: 3674428670965492652
+    second: Tanke_bubbla cheezmaze_823
+  - first:
+      213: 4443950718251921686
+    second: Tanke_bubbla cheezmaze_824
+  - first:
+      213: -5521240349148578496
+    second: Tanke_bubbla cheezmaze_825
+  - first:
+      213: 6719418565014035615
+    second: Tanke_bubbla cheezmaze_826
+  - first:
+      213: 6234130093810820375
+    second: Tanke_bubbla cheezmaze_827
+  - first:
+      213: 2895032345456040423
+    second: Tanke_bubbla cheezmaze_828
+  - first:
+      213: -8932452379900699575
+    second: Tanke_bubbla cheezmaze_829
+  - first:
+      213: -6741727089694654210
+    second: Tanke_bubbla cheezmaze_830
+  - first:
+      213: -6452536268584688985
+    second: Tanke_bubbla cheezmaze_831
+  - first:
+      213: -1061439487009588812
+    second: Tanke_bubbla cheezmaze_832
+  - first:
+      213: -2504574180755993310
+    second: Tanke_bubbla cheezmaze_833
+  - first:
+      213: -5660791671102145907
+    second: Tanke_bubbla cheezmaze_834
+  - first:
+      213: 5995296156140575195
+    second: Tanke_bubbla cheezmaze_835
+  - first:
+      213: 596492770843777797
+    second: Tanke_bubbla cheezmaze_836
+  - first:
+      213: -6663530824663237529
+    second: Tanke_bubbla cheezmaze_837
+  - first:
+      213: 2018392721909033616
+    second: Tanke_bubbla cheezmaze_838
+  - first:
+      213: 8041313125202271254
+    second: Tanke_bubbla cheezmaze_839
+  - first:
+      213: 3744783399347887902
+    second: Tanke_bubbla cheezmaze_840
+  - first:
+      213: -7042522468321923658
+    second: Tanke_bubbla cheezmaze_841
+  - first:
+      213: 2552712800719116505
+    second: Tanke_bubbla cheezmaze_842
+  - first:
+      213: -3362802047671966070
+    second: Tanke_bubbla cheezmaze_843
+  - first:
+      213: 3218427398551467276
+    second: Tanke_bubbla cheezmaze_844
+  - first:
+      213: -7781210843642047148
+    second: Tanke_bubbla cheezmaze_845
+  - first:
+      213: -4162521737455423937
+    second: Tanke_bubbla cheezmaze_846
+  - first:
+      213: -27186328813180895
+    second: Tanke_bubbla cheezmaze_847
+  - first:
+      213: 8399089332663868685
+    second: Tanke_bubbla cheezmaze_848
+  - first:
+      213: -8814307331852794648
+    second: Tanke_bubbla cheezmaze_849
+  - first:
+      213: -6502440437096792819
+    second: Tanke_bubbla cheezmaze_850
+  - first:
+      213: -6160725308972733351
+    second: Tanke_bubbla cheezmaze_851
+  - first:
+      213: -5979677436011144467
+    second: Tanke_bubbla cheezmaze_852
+  - first:
+      213: -1764963610041945742
+    second: Tanke_bubbla cheezmaze_853
+  - first:
+      213: 7763162857425971505
+    second: Tanke_bubbla cheezmaze_854
+  - first:
+      213: 3966323641444512561
+    second: Tanke_bubbla cheezmaze_855
+  - first:
+      213: -3333780679554226482
+    second: Tanke_bubbla cheezmaze_856
+  - first:
+      213: -4373957354477134797
+    second: Tanke_bubbla cheezmaze_857
+  - first:
+      213: -782849302083546056
+    second: Tanke_bubbla cheezmaze_858
+  - first:
+      213: -8714430941389911066
+    second: Tanke_bubbla cheezmaze_859
+  - first:
+      213: 1673647060264349116
+    second: Tanke_bubbla cheezmaze_860
+  - first:
+      213: 5120949041002430356
+    second: Tanke_bubbla cheezmaze_861
+  - first:
+      213: 314444834009482681
+    second: Tanke_bubbla cheezmaze_862
+  - first:
+      213: 5441164319628213771
+    second: Tanke_bubbla cheezmaze_863
+  - first:
+      213: -6493484279919421742
+    second: Tanke_bubbla cheezmaze_864
+  - first:
+      213: -8299139576503861879
+    second: Tanke_bubbla cheezmaze_865
+  - first:
+      213: 5692532600208604201
+    second: Tanke_bubbla cheezmaze_866
+  - first:
+      213: -6638695287208464182
+    second: Tanke_bubbla cheezmaze_867
+  - first:
+      213: -4259347071672679266
+    second: Tanke_bubbla cheezmaze_868
+  - first:
+      213: -322057368428640749
+    second: Tanke_bubbla cheezmaze_869
+  - first:
+      213: 2062295248870718662
+    second: Tanke_bubbla cheezmaze_870
+  - first:
+      213: -6919734479663597409
+    second: Tanke_bubbla cheezmaze_871
+  - first:
+      213: -2674268113400089031
+    second: Tanke_bubbla cheezmaze_872
+  - first:
+      213: 7548390301028873656
+    second: Tanke_bubbla cheezmaze_873
+  - first:
+      213: -7003401255907632687
+    second: Tanke_bubbla cheezmaze_874
+  - first:
+      213: -5791938693152368427
+    second: Tanke_bubbla cheezmaze_875
+  - first:
+      213: 7077245090345687660
+    second: Tanke_bubbla cheezmaze_876
+  - first:
+      213: 317682248753546156
+    second: Tanke_bubbla cheezmaze_877
+  - first:
+      213: 5689409325099752447
+    second: Tanke_bubbla cheezmaze_878
+  - first:
+      213: 5928802220488105018
+    second: Tanke_bubbla cheezmaze_879
+  - first:
+      213: -3640014357442115278
+    second: Tanke_bubbla cheezmaze_880
+  - first:
+      213: 3556754257352950962
+    second: Tanke_bubbla cheezmaze_881
+  - first:
+      213: 8616397087786339560
+    second: Tanke_bubbla cheezmaze_882
+  - first:
+      213: 1315241808556273963
+    second: Tanke_bubbla cheezmaze_883
+  - first:
+      213: -3324225504521741347
+    second: Tanke_bubbla cheezmaze_884
+  - first:
+      213: -3232594017795610367
+    second: Tanke_bubbla cheezmaze_885
+  - first:
+      213: -8163071484193173961
+    second: Tanke_bubbla cheezmaze_886
+  - first:
+      213: 6800318462729472823
+    second: Tanke_bubbla cheezmaze_887
+  - first:
+      213: -4510485792114624554
+    second: Tanke_bubbla cheezmaze_888
+  - first:
+      213: 4187474541102607605
+    second: Tanke_bubbla cheezmaze_889
+  - first:
+      213: -8764804333105688295
+    second: Tanke_bubbla cheezmaze_890
+  - first:
+      213: -799587203897594149
+    second: Tanke_bubbla cheezmaze_891
+  - first:
+      213: -9151308321996409001
+    second: Tanke_bubbla cheezmaze_892
+  - first:
+      213: 1571371900320136776
+    second: Tanke_bubbla cheezmaze_893
+  - first:
+      213: 5111558524027416662
+    second: Tanke_bubbla cheezmaze_894
+  - first:
+      213: -8055001416318133712
+    second: Tanke_bubbla cheezmaze_895
+  - first:
+      213: -3448125319885349114
+    second: Tanke_bubbla cheezmaze_896
+  - first:
+      213: 8450949840822314160
+    second: Tanke_bubbla cheezmaze_897
+  - first:
+      213: -8937702028303235957
+    second: Tanke_bubbla cheezmaze_898
+  - first:
+      213: 5387721880307835565
+    second: Tanke_bubbla cheezmaze_899
+  - first:
+      213: 6704951449558799472
+    second: Tanke_bubbla cheezmaze_900
+  - first:
+      213: 9158389071405211660
+    second: Tanke_bubbla cheezmaze_901
+  - first:
+      213: 1043549114722646106
+    second: Tanke_bubbla cheezmaze_902
+  - first:
+      213: 3901174345761373066
+    second: Tanke_bubbla cheezmaze_903
+  - first:
+      213: 2186015356454414013
+    second: Tanke_bubbla cheezmaze_904
+  - first:
+      213: -8737944715903666171
+    second: Tanke_bubbla cheezmaze_905
+  - first:
+      213: 6115827103915759768
+    second: Tanke_bubbla cheezmaze_906
+  - first:
+      213: 4641959225990377977
+    second: Tanke_bubbla cheezmaze_907
+  - first:
+      213: -3625566421327807824
+    second: Tanke_bubbla cheezmaze_908
+  - first:
+      213: 3019560714820202514
+    second: Tanke_bubbla cheezmaze_909
+  - first:
+      213: 8250636122344341099
+    second: Tanke_bubbla cheezmaze_910
+  - first:
+      213: 6278200504825761105
+    second: Tanke_bubbla cheezmaze_911
+  - first:
+      213: 7234275754109545816
+    second: Tanke_bubbla cheezmaze_912
+  - first:
+      213: -4360050919400828060
+    second: Tanke_bubbla cheezmaze_913
+  - first:
+      213: 2958317007787206681
+    second: Tanke_bubbla cheezmaze_914
+  - first:
+      213: 5771208081008901376
+    second: Tanke_bubbla cheezmaze_915
+  - first:
+      213: 3670896590451687583
+    second: Tanke_bubbla cheezmaze_916
+  - first:
+      213: -4800397998626203250
+    second: Tanke_bubbla cheezmaze_917
+  - first:
+      213: 5432724857648575040
+    second: Tanke_bubbla cheezmaze_918
+  - first:
+      213: -3653118404016197309
+    second: Tanke_bubbla cheezmaze_919
+  - first:
+      213: 8376820839304499450
+    second: Tanke_bubbla cheezmaze_920
+  - first:
+      213: 4978766692278237757
+    second: Tanke_bubbla cheezmaze_921
+  - first:
+      213: -2951579831229493208
+    second: Tanke_bubbla cheezmaze_922
+  - first:
+      213: 2116776049762590576
+    second: Tanke_bubbla cheezmaze_923
+  - first:
+      213: 6781817160587249361
+    second: Tanke_bubbla cheezmaze_924
+  - first:
+      213: -3229120828797628225
+    second: Tanke_bubbla cheezmaze_925
+  - first:
+      213: -8937909547421363068
+    second: Tanke_bubbla cheezmaze_926
+  - first:
+      213: 5581835407948004126
+    second: Tanke_bubbla cheezmaze_927
+  - first:
+      213: -5867292861592959126
+    second: Tanke_bubbla cheezmaze_928
+  - first:
+      213: -4306309973275688012
+    second: Tanke_bubbla cheezmaze_929
+  - first:
+      213: 7683527555851067709
+    second: Tanke_bubbla cheezmaze_930
+  - first:
+      213: -586710684638790714
+    second: Tanke_bubbla cheezmaze_931
+  - first:
+      213: 999421711362397477
+    second: Tanke_bubbla cheezmaze_932
+  - first:
+      213: -5662936941312882054
+    second: Tanke_bubbla cheezmaze_933
+  - first:
+      213: -6646670775709442847
+    second: Tanke_bubbla cheezmaze_934
+  - first:
+      213: 1708200205850306166
+    second: Tanke_bubbla cheezmaze_935
+  - first:
+      213: -5637054728425260561
+    second: Tanke_bubbla cheezmaze_936
+  - first:
+      213: -7922474461358119911
+    second: Tanke_bubbla cheezmaze_937
+  - first:
+      213: -7742899889076768784
+    second: Tanke_bubbla cheezmaze_938
+  - first:
+      213: 524360674554803389
+    second: Tanke_bubbla cheezmaze_939
+  - first:
+      213: 4671994643347958707
+    second: Tanke_bubbla cheezmaze_940
+  - first:
+      213: 8103993507487086613
+    second: Tanke_bubbla cheezmaze_941
+  - first:
+      213: -8808661777217203985
+    second: Tanke_bubbla cheezmaze_942
+  - first:
+      213: -5292215435537581704
+    second: Tanke_bubbla cheezmaze_943
+  - first:
+      213: 4168579837562818303
+    second: Tanke_bubbla cheezmaze_944
+  - first:
+      213: -4304215889646610545
+    second: Tanke_bubbla cheezmaze_945
+  - first:
+      213: 4468875383942141141
+    second: Tanke_bubbla cheezmaze_946
+  - first:
+      213: -7080771272726308100
+    second: Tanke_bubbla cheezmaze_947
+  - first:
+      213: -2931880388271255746
+    second: Tanke_bubbla cheezmaze_948
+  - first:
+      213: -3445597856308377481
+    second: Tanke_bubbla cheezmaze_949
+  - first:
+      213: 1049436668593924552
+    second: Tanke_bubbla cheezmaze_950
+  - first:
+      213: -7161727521117116333
+    second: Tanke_bubbla cheezmaze_951
+  - first:
+      213: -7275419953694032969
+    second: Tanke_bubbla cheezmaze_952
+  - first:
+      213: -7284352092371081168
+    second: Tanke_bubbla cheezmaze_953
+  - first:
+      213: -3126379038710075169
+    second: Tanke_bubbla cheezmaze_954
+  - first:
+      213: 2366695128278216281
+    second: Tanke_bubbla cheezmaze_955
+  - first:
+      213: -5166350546824974784
+    second: Tanke_bubbla cheezmaze_956
+  - first:
+      213: 3625238171728554207
+    second: Tanke_bubbla cheezmaze_957
+  - first:
+      213: -7249995854476979782
+    second: Tanke_bubbla cheezmaze_958
+  - first:
+      213: -3332940652346654491
+    second: Tanke_bubbla cheezmaze_959
+  - first:
+      213: 4048460395680451397
+    second: Tanke_bubbla cheezmaze_960
+  - first:
+      213: 27156024347864806
+    second: Tanke_bubbla cheezmaze_961
+  - first:
+      213: 4043628787406439010
+    second: Tanke_bubbla cheezmaze_962
+  - first:
+      213: 1337172228583824437
+    second: Tanke_bubbla cheezmaze_963
+  - first:
+      213: -7246724723104974854
+    second: Tanke_bubbla cheezmaze_964
+  - first:
+      213: 3867931529868314093
+    second: Tanke_bubbla cheezmaze_965
+  - first:
+      213: -5990540782912787286
+    second: Tanke_bubbla cheezmaze_966
+  - first:
+      213: -3010429200679179309
+    second: Tanke_bubbla cheezmaze_967
+  - first:
+      213: -4699851891473115105
+    second: Tanke_bubbla cheezmaze_968
+  - first:
+      213: 1883516176582470794
+    second: Tanke_bubbla cheezmaze_969
+  - first:
+      213: 4251057540477724741
+    second: Tanke_bubbla cheezmaze_970
+  - first:
+      213: 5462668844851423276
+    second: Tanke_bubbla cheezmaze_971
+  - first:
+      213: 3357796383244000505
+    second: Tanke_bubbla cheezmaze_972
+  - first:
+      213: 9161439071271473812
+    second: Tanke_bubbla cheezmaze_973
+  - first:
+      213: 1353114988945398038
+    second: Tanke_bubbla cheezmaze_974
+  - first:
+      213: 8050387416024384577
+    second: Tanke_bubbla cheezmaze_975
+  - first:
+      213: -1525618968615572720
+    second: Tanke_bubbla cheezmaze_976
+  - first:
+      213: 7550109266166217047
+    second: Tanke_bubbla cheezmaze_977
+  - first:
+      213: 985298699387959660
+    second: Tanke_bubbla cheezmaze_978
+  - first:
+      213: -1840407975536520860
+    second: Tanke_bubbla cheezmaze_979
+  - first:
+      213: 6106355609927503500
+    second: Tanke_bubbla cheezmaze_980
+  - first:
+      213: -7945273457501905683
+    second: Tanke_bubbla cheezmaze_981
+  - first:
+      213: -281626812099891983
+    second: Tanke_bubbla cheezmaze_982
+  - first:
+      213: 4161225757860675805
+    second: Tanke_bubbla cheezmaze_983
+  - first:
+      213: 5390969071209162815
+    second: Tanke_bubbla cheezmaze_984
+  - first:
+      213: -3372774580673250639
+    second: Tanke_bubbla cheezmaze_985
+  - first:
+      213: 3623239591094030138
+    second: Tanke_bubbla cheezmaze_986
+  - first:
+      213: -6678923789512282076
+    second: Tanke_bubbla cheezmaze_987
+  - first:
+      213: -3629637317633838263
+    second: Tanke_bubbla cheezmaze_988
+  - first:
+      213: 6812976577512159740
+    second: Tanke_bubbla cheezmaze_989
+  - first:
+      213: 4154445633804200226
+    second: Tanke_bubbla cheezmaze_990
+  - first:
+      213: -3151927812842398301
+    second: Tanke_bubbla cheezmaze_991
+  - first:
+      213: 2946996218370008212
+    second: Tanke_bubbla cheezmaze_992
+  - first:
+      213: -8942495748174926911
+    second: Tanke_bubbla cheezmaze_993
+  - first:
+      213: -2650207098920984762
+    second: Tanke_bubbla cheezmaze_994
+  - first:
+      213: -760272606465368945
+    second: Tanke_bubbla cheezmaze_995
+  - first:
+      213: -4249961244302968658
+    second: Tanke_bubbla cheezmaze_996
+  - first:
+      213: -655093520080158959
+    second: Tanke_bubbla cheezmaze_997
+  - first:
+      213: -8215911238721239764
+    second: Tanke_bubbla cheezmaze_998
+  - first:
+      213: -3124822271212758318
+    second: Tanke_bubbla cheezmaze_999
+  - first:
+      213: 6178883085280373581
+    second: Tanke_bubbla cheezmaze_1000
+  - first:
+      213: -8559442092464797306
+    second: Tanke_bubbla cheezmaze_1001
+  - first:
+      213: 3738826571903901690
+    second: Tanke_bubbla cheezmaze_1002
+  - first:
+      213: -771515171096914051
+    second: Tanke_bubbla cheezmaze_1003
+  - first:
+      213: 3382952416758182408
+    second: Tanke_bubbla cheezmaze_1004
+  - first:
+      213: -8727215068264071431
+    second: Tanke_bubbla cheezmaze_1005
+  - first:
+      213: -3539129587870851647
+    second: Tanke_bubbla cheezmaze_1006
+  - first:
+      213: 448012100454308649
+    second: Tanke_bubbla cheezmaze_1007
+  - first:
+      213: -2698903721475900647
+    second: Tanke_bubbla cheezmaze_1008
+  - first:
+      213: 7870747748767290975
+    second: Tanke_bubbla cheezmaze_1009
+  - first:
+      213: 3943730920293678062
+    second: Tanke_bubbla cheezmaze_1010
+  - first:
+      213: 5722405142508402044
+    second: Tanke_bubbla cheezmaze_1011
+  - first:
+      213: 4187879596004805356
+    second: Tanke_bubbla cheezmaze_1012
+  - first:
+      213: -3863043034979530536
+    second: Tanke_bubbla cheezmaze_1013
+  - first:
+      213: -8321488692342359431
+    second: Tanke_bubbla cheezmaze_1014
+  - first:
+      213: -3802231146440379359
+    second: Tanke_bubbla cheezmaze_1015
+  - first:
+      213: 8405389509087422159
+    second: Tanke_bubbla cheezmaze_1016
+  - first:
+      213: -1238560387759349434
+    second: Tanke_bubbla cheezmaze_1017
+  - first:
+      213: 7423561036368027417
+    second: Tanke_bubbla cheezmaze_1018
+  - first:
+      213: -5386523639251953566
+    second: Tanke_bubbla cheezmaze_1019
+  - first:
+      213: -2518932979069015570
+    second: Tanke_bubbla cheezmaze_1020
+  - first:
+      213: -5147308782592760129
+    second: Tanke_bubbla cheezmaze_1021
+  - first:
+      213: 4374342921030694488
+    second: Tanke_bubbla cheezmaze_1022
+  - first:
+      213: 6429934766710224640
+    second: Tanke_bubbla cheezmaze_1023
+  - first:
+      213: -2455270373189948293
+    second: Tanke_bubbla cheezmaze_1024
+  - first:
+      213: 2560773149266796191
+    second: Tanke_bubbla cheezmaze_1025
+  - first:
+      213: 9121368010373248261
+    second: Tanke_bubbla cheezmaze_1026
+  - first:
+      213: 4468231019946959200
+    second: Tanke_bubbla cheezmaze_1027
+  - first:
+      213: 4374507210945028162
+    second: Tanke_bubbla cheezmaze_1028
+  - first:
+      213: -6212266476847191673
+    second: Tanke_bubbla cheezmaze_1029
+  - first:
+      213: 3837633622011200893
+    second: Tanke_bubbla cheezmaze_1030
+  - first:
+      213: -978853074798892191
+    second: Tanke_bubbla cheezmaze_1031
+  - first:
+      213: 8065785734036095228
+    second: Tanke_bubbla cheezmaze_1032
+  - first:
+      213: -1847596586502234460
+    second: Tanke_bubbla cheezmaze_1033
+  - first:
+      213: 5150259716187535910
+    second: Tanke_bubbla cheezmaze_1034
+  - first:
+      213: 779067435239972880
+    second: Tanke_bubbla cheezmaze_1035
+  - first:
+      213: -7773895598246712022
+    second: Tanke_bubbla cheezmaze_1036
+  - first:
+      213: -1285141373624641641
+    second: Tanke_bubbla cheezmaze_1037
+  - first:
+      213: 7837210130455962744
+    second: Tanke_bubbla cheezmaze_1038
+  - first:
+      213: 5561578572219487000
+    second: Tanke_bubbla cheezmaze_1039
+  - first:
+      213: 4684588635657251179
+    second: Tanke_bubbla cheezmaze_1040
+  - first:
+      213: 2116842016813140260
+    second: Tanke_bubbla cheezmaze_1041
+  - first:
+      213: 9075628706797397263
+    second: Tanke_bubbla cheezmaze_1042
+  - first:
+      213: -6479689901042874535
+    second: Tanke_bubbla cheezmaze_1043
+  - first:
+      213: -4267701909337295063
+    second: Tanke_bubbla cheezmaze_1044
+  - first:
+      213: -4854761228601371612
+    second: Tanke_bubbla cheezmaze_1045
+  - first:
+      213: -8497785343777994713
+    second: Tanke_bubbla cheezmaze_1046
+  - first:
+      213: 9121137900017310935
+    second: Tanke_bubbla cheezmaze_1047
+  - first:
+      213: 7472949866343558394
+    second: Tanke_bubbla cheezmaze_1048
+  - first:
+      213: 162605763500969523
+    second: Tanke_bubbla cheezmaze_1049
+  - first:
+      213: -6167328893803313869
+    second: Tanke_bubbla cheezmaze_1050
+  - first:
+      213: 6038672067614038391
+    second: Tanke_bubbla cheezmaze_1051
+  - first:
+      213: 4907159807970763138
+    second: Tanke_bubbla cheezmaze_1052
+  - first:
+      213: 9155020571301664216
+    second: Tanke_bubbla cheezmaze_1053
+  - first:
+      213: 224765482418329704
+    second: Tanke_bubbla cheezmaze_1054
+  - first:
+      213: 8049969504659717907
+    second: Tanke_bubbla cheezmaze_1055
+  - first:
+      213: 8202596093952133816
+    second: Tanke_bubbla cheezmaze_1056
+  - first:
+      213: -4485953708754261839
+    second: Tanke_bubbla cheezmaze_1057
+  - first:
+      213: 3636169172564787138
+    second: Tanke_bubbla cheezmaze_1058
+  - first:
+      213: 6188514174900529352
+    second: Tanke_bubbla cheezmaze_1059
+  - first:
+      213: -8607422356968901754
+    second: Tanke_bubbla cheezmaze_1060
+  - first:
+      213: -3949332125041817706
+    second: Tanke_bubbla cheezmaze_1061
+  - first:
+      213: 6462534946764606347
+    second: Tanke_bubbla cheezmaze_1062
+  - first:
+      213: -2806891778012183503
+    second: Tanke_bubbla cheezmaze_1063
+  - first:
+      213: -1182866567501177399
+    second: Tanke_bubbla cheezmaze_1064
+  - first:
+      213: 1430092394593242858
+    second: Tanke_bubbla cheezmaze_1065
+  - first:
+      213: -6081697838623270571
+    second: Tanke_bubbla cheezmaze_1066
+  - first:
+      213: -4683301519799501064
+    second: Tanke_bubbla cheezmaze_1067
+  - first:
+      213: 2513796052586319753
+    second: Tanke_bubbla cheezmaze_1068
+  - first:
+      213: -5895328471486946185
+    second: Tanke_bubbla cheezmaze_1069
+  - first:
+      213: 642853350528072732
+    second: Tanke_bubbla cheezmaze_1070
+  - first:
+      213: 8761734395478306297
+    second: Tanke_bubbla cheezmaze_1071
+  - first:
+      213: 1744235987040203507
+    second: Tanke_bubbla cheezmaze_1072
+  - first:
+      213: 4308305082550242429
+    second: Tanke_bubbla cheezmaze_1073
+  - first:
+      213: -203575264025147067
+    second: Tanke_bubbla cheezmaze_1074
+  - first:
+      213: -7241280343092287711
+    second: Tanke_bubbla cheezmaze_1075
+  - first:
+      213: 4001619425456918841
+    second: Tanke_bubbla cheezmaze_1076
+  - first:
+      213: -6774648862056067448
+    second: Tanke_bubbla cheezmaze_1077
+  - first:
+      213: 2353658541327727007
+    second: Tanke_bubbla cheezmaze_1078
+  - first:
+      213: 4623060336275204694
+    second: Tanke_bubbla cheezmaze_1079
+  - first:
+      213: -5138941020040204782
+    second: Tanke_bubbla cheezmaze_1080
+  - first:
+      213: 1053872035979371114
+    second: Tanke_bubbla cheezmaze_1081
+  - first:
+      213: -8768925471160220803
+    second: Tanke_bubbla cheezmaze_1082
+  - first:
+      213: 5101828173114420455
+    second: Tanke_bubbla cheezmaze_1083
+  - first:
+      213: 331852109649531190
+    second: Tanke_bubbla cheezmaze_1084
+  - first:
+      213: 7551495161724660854
+    second: Tanke_bubbla cheezmaze_1085
+  - first:
+      213: 2632737617306135936
+    second: Tanke_bubbla cheezmaze_1086
+  - first:
+      213: -5400263524134353337
+    second: Tanke_bubbla cheezmaze_1087
+  - first:
+      213: 2332158306513507631
+    second: Tanke_bubbla cheezmaze_1088
+  - first:
+      213: -1540295184624068171
+    second: Tanke_bubbla cheezmaze_1089
+  - first:
+      213: 8523751853488520676
+    second: Tanke_bubbla cheezmaze_1090
+  - first:
+      213: 6945525726815125885
+    second: Tanke_bubbla cheezmaze_1091
+  - first:
+      213: -6722441560365865197
+    second: Tanke_bubbla cheezmaze_1092
+  - first:
+      213: 5108990463829973717
+    second: Tanke_bubbla cheezmaze_1093
+  - first:
+      213: -1258924785579305846
+    second: Tanke_bubbla cheezmaze_1094
+  - first:
+      213: -5090208498361382174
+    second: Tanke_bubbla cheezmaze_1095
+  - first:
+      213: 6904413571699864363
+    second: Tanke_bubbla cheezmaze_1096
+  - first:
+      213: -6610695898248384143
+    second: Tanke_bubbla cheezmaze_1097
+  - first:
+      213: -473784702392571133
+    second: Tanke_bubbla cheezmaze_1098
+  - first:
+      213: 1843211024464649145
+    second: Tanke_bubbla cheezmaze_1099
+  - first:
+      213: 7256460161280529483
+    second: Tanke_bubbla cheezmaze_1100
+  - first:
+      213: 5664376695618756673
+    second: Tanke_bubbla cheezmaze_1101
+  - first:
+      213: 5395067304218106762
+    second: Tanke_bubbla cheezmaze_1102
+  - first:
+      213: 2720837334230151811
+    second: Tanke_bubbla cheezmaze_1103
+  - first:
+      213: -6452526425223991118
+    second: Tanke_bubbla cheezmaze_1104
+  - first:
+      213: 8986308594346241270
+    second: Tanke_bubbla cheezmaze_1105
+  - first:
+      213: 8862193214576196803
+    second: Tanke_bubbla cheezmaze_1106
+  - first:
+      213: 1520011676711439610
+    second: Tanke_bubbla cheezmaze_1107
+  - first:
+      213: -7589110974949241790
+    second: Tanke_bubbla cheezmaze_1108
+  - first:
+      213: -624884958583200965
+    second: Tanke_bubbla cheezmaze_1109
+  - first:
+      213: -3023398443009865097
+    second: Tanke_bubbla cheezmaze_1110
+  - first:
+      213: -7056397352060976631
+    second: Tanke_bubbla cheezmaze_1111
+  - first:
+      213: 5714097666903931321
+    second: Tanke_bubbla cheezmaze_1112
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tanke_bubbla cheezmaze_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d76f165e43aa9c0800000000000000
+      internalID: -3915258766249525900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanke_bubbla cheezmaze_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c584d7630bd837fd0800000000000000
+      internalID: -2345375192961955748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanke_bubbla cheezmaze_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead0e3d12464cf250800000000000000
+      internalID: 5979731655013567918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanke_bubbla cheezmaze_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7431f8c17496f2130800000000000000
+      internalID: 3544167185906602823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
