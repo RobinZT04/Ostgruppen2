@@ -42,7 +42,7 @@ public class Startdialog : MonoBehaviour
                 dialog.text = "now lets see what \n this mouse is doing"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
                 break;//Dialogen försvinner- Elanor 
             case 2: // Case 1 - Elanor
-                dialog.text = "What a nice sleep, \n whait where am I, \n hello is someone there?"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
+                dialog.text = "What a nice sleep, \n wait where am I, \n hello is someone there?"; //Säger till att min text ska skriva ut det jag har skrivt här - Elanor
                 break;//Dialogen försvinner- Elanor 
             case 1:
                 dialog.text = "seems like im all alone in \n this place, well lets explore \n I need to find a way out!";
