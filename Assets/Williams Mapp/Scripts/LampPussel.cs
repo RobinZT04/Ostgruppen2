@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class LampPussel : MonoBehaviour
+public class Lamppussel : MonoBehaviour
 {
     public GameObject[] lampor;
     int tändaLampor;
     public AudioSource tändaSläckaLjud;
-    public bool löst;
+    public static bool löst;
     public AudioSource lösaPusselLjud;
     public GameObject ost;
     public Tilemap tilemap;
