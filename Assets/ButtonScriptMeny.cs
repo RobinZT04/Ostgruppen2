@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class ButtonScriptMeny : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class ButtonScriptMeny : MonoBehaviour
     public Animator optiontab;
     public bool animating;
 
+    public AudioMixer Mastervolume;
+    //public AudioMixer SFXvolume;
+    //public AudioMixer Musicvolume;
     public void Start()
     {
         animating = false;
@@ -57,5 +61,27 @@ public class ButtonScriptMeny : MonoBehaviour
         yield return new WaitForSeconds(2);
         animating = false;
     }
+
+    public void SetFullscreen(bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
+    public void SetQuality(int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex);
+    }
+    public void SetVolume(float mastervolume)
+    {
+        Mastervolume.SetFloat("MasterSliderVolume", mastervolume);
+    }
+    /*public void SetVolumeSFX(float sfxvolume)
+    {
+        Musicvolume.SetFloat("SFX", sfxvolume);
+    }
+    public void SetVolumeMusic(float musicvolume)
+    {
+        SFXvolume.SetFloat("Music", musicvolume);
+    }*/
+
 
 }
