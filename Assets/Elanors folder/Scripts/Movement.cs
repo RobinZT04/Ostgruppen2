@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
     {
         if (!död) //Om musen inte är död?
         {
-
+            print(body.velocity.magnitude);
             if (body.velocity.magnitude > 0) //Om bodyns velcoitey är större än 0?- elanor 
             {
                 player.SetBool("Walking", true); //Ska min bool bli true- Elanor 
