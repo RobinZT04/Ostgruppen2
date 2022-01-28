@@ -7,7 +7,7 @@ public class Lampa : MonoBehaviour
     SpriteRenderer spriteRend;
     public Sprite tänt;
     public Sprite släckt;
-    public LampPussel lampPussel;
+    public Lamppussel lamppussel;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +16,12 @@ public class Lampa : MonoBehaviour
     private void OnMouseDown()
     {
         //Kollar ifall man redan löst pusslet eller ej -William
-        if (lampPussel.löst != true)
+        if (Lamppussel.löst != true)
         {
             TändaSläcka();
 
             //Spelar lampljudet -William
-            lampPussel.tändaSläckaLjud.Play();
+            lamppussel.tändaSläckaLjud.Play();
 
             //Racycasts som tänder/släcker lamporna bredvid -William
             RaycastHit2D hitUp = Physics2D.Raycast(transform.position, Vector2.up);
@@ -52,7 +52,7 @@ public class Lampa : MonoBehaviour
                 hitRightLampa.TändaSläcka();
             }
 
-            lampPussel.ÄrPussletLöst();
+            lamppussel.ÄrPussletLöst();
         }
         
     }
