@@ -10,6 +10,7 @@ TagManager:
   - Mirror
   - Refract
   - Box
+  - "L\xE5da"
   layers:
   - Default
   - TransparentFX
