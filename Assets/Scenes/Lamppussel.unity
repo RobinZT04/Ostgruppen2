@@ -455,7 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36054950}
   - component: {fileID: 36054949}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1530,7 +1530,7 @@ GameObject:
   - component: {fileID: 548878802}
   - component: {fileID: 548878801}
   - component: {fileID: 548878800}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: "Tilemap_OstV\xE4gg"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4845,6 +4845,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18bd3e776f14d324f8605b3c39a96b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lampor:
+  - {fileID: 1849076485}
+  - {fileID: 806615351}
+  - {fileID: 1053586620}
+  - {fileID: 1907903355}
+  - {fileID: 453442840}
+  - {fileID: 48921074}
+  - {fileID: 1442856280}
+  - {fileID: 469096824}
+  - {fileID: 2023109276}
+  "t\xE4ndaSl\xE4ckaLjud": {fileID: 1915472164}
+  "l\xF6saPusselLjud": {fileID: 1915472165}
+  tilemap: {fileID: 548878802}
+  tileA: {fileID: 11400000, guid: 63793aa9431f23348af44aa293771ebb, type: 2}
+  tileB: {fileID: 11400000, guid: 672c83bebb044aa4392aa7f90e422c49, type: 2}
 --- !u!82 &1915472164
 AudioSource:
   m_ObjectHideFlags: 0

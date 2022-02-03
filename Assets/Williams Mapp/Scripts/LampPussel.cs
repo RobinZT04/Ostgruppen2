@@ -10,7 +10,6 @@ public class Lamppussel : MonoBehaviour
     public AudioSource tändaSläckaLjud;
     public static bool löst;
     public AudioSource lösaPusselLjud;
-    public GameObject ost;
     public Tilemap tilemap;
     public TileBase tileA;
     public TileBase tileB;
