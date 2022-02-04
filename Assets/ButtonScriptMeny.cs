@@ -11,8 +11,6 @@ public class ButtonScriptMeny : MonoBehaviour
     public bool animating;
 
     public AudioMixer Mastervolume;
-    //public AudioMixer SFXvolume;
-    //public AudioMixer Musicvolume;
     public void Start()
     {
         animating = false;
@@ -74,14 +72,6 @@ public class ButtonScriptMeny : MonoBehaviour
     {
         Mastervolume.SetFloat("MasterSliderVolume", mastervolume);
     }
-    /*public void SetVolumeSFX(float sfxvolume)
-    {
-        Musicvolume.SetFloat("SFX", sfxvolume);
-    }
-    public void SetVolumeMusic(float musicvolume)
-    {
-        SFXvolume.SetFloat("Music", musicvolume);
-    }*/
 
 
 }

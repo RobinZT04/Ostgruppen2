@@ -399,7 +399,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.45858586, y: -2.1036234}
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &113461240
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &113461247
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4609,7 +4609,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &463107883
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5553,7 +5553,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!114 &504197346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5979,7 +5979,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.5818236, y: 0.30226794}
@@ -6068,7 +6068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &605444199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6126,7 +6126,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!114 &605444202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6469,7 +6469,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &605603988
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6952,7 +6952,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &664502720
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7092,7 +7092,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.5117204, y: 2.29662}
@@ -7181,7 +7181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &711743031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7327,7 +7327,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &711743038
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7582,7 +7582,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &723005911
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7757,7 +7757,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.551022, y: -0.19682497}
@@ -7846,7 +7846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &840684059
 GameObject:
   m_ObjectHideFlags: 0
@@ -8061,7 +8061,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.47017133, y: -0.26176155}
@@ -8150,7 +8150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &966460823
 GameObject:
   m_ObjectHideFlags: 0
@@ -8181,7 +8181,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0023430586, y: -0.7922497}
@@ -8270,7 +8270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &969774598
 GameObject:
   m_ObjectHideFlags: 0
@@ -8652,7 +8652,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &998975444
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9326,7 +9326,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!114 &1085039631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9669,7 +9669,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &1092766831
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10230,7 +10230,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.027860314, y: 1.0124016}
@@ -10319,7 +10319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &1146545599
 GameObject:
   m_ObjectHideFlags: 0
@@ -10561,7 +10561,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!114 &1211357027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11584,7 +11584,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &1301268189
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13764,7 +13764,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &1862585564
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14085,7 +14085,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 0}
+  m_BackGroundColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -14196,7 +14196,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.22593808, y: -1.4453881}
@@ -14285,7 +14285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ced0d1d68e7a8408e2344a8c39872b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 486715210}
 --- !u!1 &1987002321
 GameObject:
   m_ObjectHideFlags: 0
@@ -14597,7 +14597,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &2049103557
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15114,7 +15114,7 @@ MonoBehaviour:
   dooors3: {fileID: 390287991}
   bridge4: {fileID: 191038375}
   dooors4: {fileID: 1543036213}
-  testPlayerReset: {fileID: 0}
+  testPlayerReset: {fileID: 486715210}
 --- !u!82 &2094865715
 AudioSource:
   m_ObjectHideFlags: 0

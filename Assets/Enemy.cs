@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
+    //WILLIAM OCH ROBIN har gjort det här :)
     public Transform targetPlayer;
     public float speed;
-    public float walkingroute;
-    public Vector3 punkt1;
-    public Vector3 punkt2;
-    public Vector3 punkt3;
-    public Vector3 punkt4;
-    public Vector3 punkt5;
-    public Vector3 punkt6;
-    public Vector3 punkt7;
-    public Vector3 punkt8;
-    public Vector3 punkt9;
-    public Vector3 punkt10;
+    public int walkingroute;
+    public Vector3[] punkter;
+    public int punktplats;
 
     public Vector3 nextpunkt;
     public bool following;
@@ -24,6 +18,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         walkingroute = 9;
+        punktplats = 0;
     }
     private void Update()
     {
@@ -41,54 +36,55 @@ public class Enemy : MonoBehaviour
             if (transform.position == nextpunkt)
             {
                 walkingroute -= 1;
+                punktplats += 1;
             } 
             if(walkingroute == -1)
             {
                 walkingroute = 9;
+                punktplats = 0;
             }
-           
 
             switch (walkingroute)
             {
                 case 9:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt1, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt1;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 8:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt2, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt2;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 7:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt3, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt3;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 6:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt4, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt4;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 5:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt5, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt5;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 4:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt6, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt6;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 3:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt7, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt7;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 2:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt8, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt8;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 1:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt9, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt9;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
                 case 0:
-                    transform.position = Vector2.MoveTowards(transform.position, punkt10, speed * Time.deltaTime); //rör transform mot player positionen  - Robin
-                    nextpunkt = punkt10;
+                    transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //rör transform mot player positionen  - Robin
+                    nextpunkt = punkter[punktplats];
                     break;
             }
         }
