@@ -316,6 +316,7 @@ Transform:
   - {fileID: 1126734399}
   - {fileID: 120357834}
   - {fileID: 961624839}
+  - {fileID: 1344877857}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1723,9 +1724,10 @@ GameObject:
   - component: {fileID: 283604643}
   - component: {fileID: 283604642}
   - component: {fileID: 283604641}
+  - component: {fileID: 283604645}
   m_Layer: 0
   m_Name: Enemy 2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,7 +1742,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07851766, y: -0.02697708}
@@ -1770,7 +1772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlayer: {fileID: 40469588}
   speed: 3
-  walkingroute: 0
   punkter:
   - {x: 26.7, y: 5.4, z: 0}
   - {x: 26.27, y: 11.2, z: 0}
@@ -1783,8 +1784,11 @@ MonoBehaviour:
   - {x: 26.7, y: 5.4, z: 0}
   - {x: 26.7, y: 5.4, z: 0}
   punktplats: 0
+  maxroute: 9
   nextpunkt: {x: -3.5, y: -0.6, z: 0}
   following: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+  punched: 0
 --- !u!212 &283604643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1849,6 +1853,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &283604645
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283604640}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &306919051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,9 +5410,10 @@ GameObject:
   - component: {fileID: 1015266475}
   - component: {fileID: 1015266474}
   - component: {fileID: 1015266473}
+  - component: {fileID: 1015266477}
   m_Layer: 0
   m_Name: Enemy 3
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5402,7 +5428,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07851766, y: -0.02697708}
@@ -5432,21 +5458,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlayer: {fileID: 40469588}
   speed: 3
-  walkingroute: 0
   punkter:
-  - {x: 13.8, y: -12.2, z: 0}
-  - {x: 13.8, y: -0.6, z: 0}
-  - {x: 20, y: -0.6, z: 0}
-  - {x: 20, y: -6.5, z: 0}
-  - {x: 26.6, y: -6.5, z: 0}
-  - {x: 20, y: -6.5, z: 0}
-  - {x: 20, y: -0.6, z: 0}
-  - {x: 13.8, y: -0.6, z: 0}
-  - {x: 13.8, y: -12.2, z: 0}
-  - {x: 13.8, y: -12.2, z: 0}
+  - {x: 23.7, y: -12.4, z: 0}
+  - {x: 14.4, y: -12.4, z: 0}
+  - {x: 14.4, y: -0.1, z: 0}
+  - {x: 20.3, y: -0.1, z: 0}
+  - {x: 20.3, y: -6, z: 0}
+  - {x: 26, y: -6, z: 0}
+  - {x: 26, y: -2.5, z: 0}
+  - {x: 26, y: -6, z: 0}
+  - {x: 20.3, y: -6, z: 0}
+  - {x: 20.3, y: -0.1, z: 0}
+  - {x: 14.4, y: -0.1, z: 0}
+  - {x: 14.4, y: -12.4, z: 0}
+  - {x: 23.7, y: -12.4, z: 0}
   punktplats: 0
+  maxroute: 12
   nextpunkt: {x: -3.5, y: -0.6, z: 0}
   following: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+  punched: 0
 --- !u!212 &1015266475
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5505,12 +5536,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015266472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.1, y: -12.4, z: -0.3880853}
+  m_LocalPosition: {x: 26, y: -2.5, z: -0.3880853}
   m_LocalScale: {x: 3.9994, y: 3.9994, z: 3.9994}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1015266477
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015266472}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1021745115
 GameObject:
   m_ObjectHideFlags: 0
@@ -19769,6 +19821,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1344877856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344877857}
+  - component: {fileID: 1344877859}
+  - component: {fileID: 1344877858}
+  m_Layer: 0
+  m_Name: Hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344877857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344877856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40469588}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344877858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344877856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6270e038461e2114fa19a008d34ba6af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1344877859
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344877856}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019282565, y: 0.009636596}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.38295904, y: 0.53744936}
+  m_EdgeRadius: 0
 --- !u!1 &1361793825
 GameObject:
   m_ObjectHideFlags: 0
@@ -20492,9 +20614,10 @@ GameObject:
   - component: {fileID: 1593158606}
   - component: {fileID: 1593158605}
   - component: {fileID: 1593158604}
+  - component: {fileID: 1593158608}
   m_Layer: 0
   m_Name: Enemy 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20509,7 +20632,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07851766, y: -0.02697708}
@@ -20539,7 +20662,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlayer: {fileID: 40469588}
   speed: 4
-  walkingroute: 0
   punkter:
   - {x: -10, y: 0, z: 0}
   - {x: -22, y: 0, z: 0}
@@ -20552,8 +20674,11 @@ MonoBehaviour:
   - {x: -3.5, y: 5.8, z: 0}
   - {x: -10, y: 5.8, z: 0}
   punktplats: 0
+  maxroute: 9
   nextpunkt: {x: -3.5, y: -0.6, z: 0}
   following: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+  punched: 0
 --- !u!212 &1593158606
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20618,6 +20743,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1593158608
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593158603}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1693083686
 GameObject:
   m_ObjectHideFlags: 0
@@ -20630,9 +20776,10 @@ GameObject:
   - component: {fileID: 1693083689}
   - component: {fileID: 1693083688}
   - component: {fileID: 1693083687}
+  - component: {fileID: 1693083691}
   m_Layer: 0
   m_Name: Enemy 4
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20647,7 +20794,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07851766, y: -0.02697708}
@@ -20677,7 +20824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlayer: {fileID: 40469588}
   speed: 3
-  walkingroute: 0
   punkter:
   - {x: -19.1, y: 11.7, z: 0}
   - {x: -9.69, y: 11.7, z: 0}
@@ -20690,8 +20836,11 @@ MonoBehaviour:
   - {x: -19.1, y: 11.7, z: 0}
   - {x: -19.1, y: 11.7, z: 0}
   punktplats: 0
+  maxroute: 9
   nextpunkt: {x: -3.5, y: -0.6, z: 0}
   following: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+  punched: 0
 --- !u!212 &1693083689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20756,6 +20905,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1693083691
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693083686}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1854622152
 GameObject:
   m_ObjectHideFlags: 0

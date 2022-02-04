@@ -52,5 +52,4 @@ public class PHealthbar : MonoBehaviour
         health = 10; //health är 10-Elanor
         Movement.död = false; //så ska speed bli 0- Elanor
     }
-
 }

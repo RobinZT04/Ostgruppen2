@@ -11,6 +11,7 @@ TagManager:
   - Refract
   - Box
   - "L\xE5da"
+  - Enemy
   layers:
   - Default
   - TransparentFX
