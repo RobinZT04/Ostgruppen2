@@ -22,7 +22,7 @@ public class ReflectLaser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CastLaser(transform.position, transform.forward); // This is the function to draw the laser 
+        CastLaser(transform.position, transform.right); // This is the function to draw the laser 
 
 
 
@@ -38,12 +38,11 @@ public class ReflectLaser : MonoBehaviour
             Ray2D ray2D = new Ray2D(position, direction); // we creat a raycast that shoots an array in our position and in our direction. 
           RaycastHit2D hit = Physics2D.Raycast(ray2D.origin, ray2D.direction, 600, 1);
           if(hit.transform != null)
-
-           
             {
               position = hit.point; // the next position of the laser will be the hit point 
               direction = Vector2.Reflect(direction, hit.normal);// This will calculate the angle that the laser needs to be in the next hit 
-              lr.SetPosition(i + 1, hit.point); // we sett the position of the linerenderer in our hit 
+               
+                lr.SetPosition(i + 1, hit.point); // we sett the position of the linerenderer in our hit 
 
               if (!hit.transform.CompareTag("Mirror") && reflectOnlyMirror) // if the object is not named mirror and we have reflectOnlyMirror the laser will stop there 
                 { // Creat a loop 
@@ -51,7 +50,7 @@ public class ReflectLaser : MonoBehaviour
                     {
                       lr.SetPosition(j, hit.point);
                     }
-                    break; // exit
+                    break; // exit  
                 }
             }
         }
