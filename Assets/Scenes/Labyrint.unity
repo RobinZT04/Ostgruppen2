@@ -1796,6 +1796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpointknapp: {fileID: 1311733264}
+  "knappd\xF6rr": {fileID: 1373417039}
 --- !u!82 &650303745
 AudioSource:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Respawn : MonoBehaviour
 {
     public Transform spawnpointknapp;
-    
+    public GameObject knappdörr;
 
     // Start is called before the first frame update
     void Start()
@@ -15,15 +15,15 @@ public class Respawn : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
-        
-           // transform.position = spawnpointknapp.transform.position;
-        
+    {   
+         
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (knappdörr)
+        {
+            transform.position = spawnpointknapp.transform.position;
+        }
     }
 }
