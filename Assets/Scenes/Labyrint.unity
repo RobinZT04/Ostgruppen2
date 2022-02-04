@@ -20166,7 +20166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1834340739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20246,16 +20246,8 @@ MonoBehaviour:
   targetPlayer: {fileID: 650303753}
   speed: 4
   walkingroute: 0
-  punkt1: {x: -10, y: 0, z: 0}
-  punkt2: {x: -22, y: 0, z: 0}
-  punkt3: {x: -22, y: -6, z: 0}
-  punkt4: {x: -9.6, y: -6.2, z: 0}
-  punkt5: {x: -9.6, y: -12.4, z: 0}
-  punkt6: {x: 2.5, y: -12.4, z: 0}
-  punkt7: {x: 2.5, y: -0.6, z: 0}
-  punkt8: {x: -3.5, y: -0.6, z: 0}
-  punkt9: {x: -3.5, y: 5.8, z: 0}
-  punkt10: {x: -10, y: 5.8, z: 0}
+  punkter: []
+  punktplats: 0
   nextpunkt: {x: -3.5, y: -0.6, z: 0}
   following: 0
 --- !u!61 &1834340742
