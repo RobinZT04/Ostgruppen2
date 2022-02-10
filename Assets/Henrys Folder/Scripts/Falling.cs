@@ -32,7 +32,7 @@ public class Falling : MonoBehaviour
         playerAnim.SetTrigger("Fall");
         playerMovement.enabled = false;
         //Start fall animation.
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.33f);
         player.transform.position = new Vector2(-11.59f, -0.13218f);
         playerMovement.enabled = true;
     }
