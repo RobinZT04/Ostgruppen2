@@ -5,22 +5,22 @@ using UnityEngine.Tilemaps;
 
 public class OstbrickaScript : MonoBehaviour
 {
-    public GameObject ost;
-    public GameObject ost2;
-    public GameObject ost3;
-    public static float ostcounter;
+    public GameObject ost; //referens till ost1 - Robin
+    public GameObject ost2; //referens till ost2 - Robin
+    public GameObject ost3; //referens till ost3 - Robin
+    public static float ostcounter; //float till ostcountern
     public Tilemap portTilemap;
     public Tilemap markTilemap;
     public TileBase markTile;
     public TileBase sidoväggTile;
-    public GameObject spegelpusselDörr;
-    public GameObject knappusselDörr;
-    public GameObject lamppusselDörr;
+    public GameObject spegelpusselDörr; //referens till spegeldörren
+    public GameObject knappusselDörr; //referens till kanppusseldörren
+    public GameObject lamppusselDörr; //referen still lampusseldörr
     void Start()
     {
         //Ifall man tagit upp osten så fylls osthjulet upp med det, och täcker igen hålet
         //till pusslet -William
-        if (OstScript.KnappusselLöst)
+        if (OstScript.KnappusselLöst) 
         {
             ost3.SetActive(true);
             markTilemap.SetTile(new Vector3Int(-22, 11, 0), markTile);
