@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Camerafollow : MonoBehaviour
 {
@@ -11,7 +12,10 @@ public class Camerafollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (SceneManager.GetActiveScene().name == "Labyrint")
+        {
+            transform.position = Respawn.currentspawnpoint;
+        }
     }
 
     // Update is called once per frame
