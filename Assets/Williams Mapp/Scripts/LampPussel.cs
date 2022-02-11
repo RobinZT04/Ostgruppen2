@@ -23,7 +23,7 @@ public class Lamppussel : MonoBehaviour
                 tändaLampor++;
             }
         }
-        //Ifall alla lampor är tända så vinner man -William
+        //Ifall alla lampor är tända så vinner man och dörren till osten öppnas -William
         if (tändaLampor == lampor.Length)
         {
             lösaPusselLjud.Play();

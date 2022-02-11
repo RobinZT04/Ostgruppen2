@@ -660,9 +660,6 @@ MonoBehaviour:
   ost2: {fileID: 1218203782}
   ost3: {fileID: 14894481}
   portTilemap: {fileID: 1855523169}
-  markTilemap: {fileID: 1668883031}
-  markTile: {fileID: 11400000, guid: 672c83bebb044aa4392aa7f90e422c49, type: 2}
-  "sidov\xE4ggTile": {fileID: 11400000, guid: 603d9c00bf71a0645afbac39b42fe64a, type: 2}
   "spegelpusselD\xF6rr": {fileID: 1720143933}
   "knappusselD\xF6rr": {fileID: 1373417039}
   "lamppusselD\xF6rr": {fileID: 1734891570}
@@ -20719,6 +20716,7 @@ GameObject:
   - component: {fileID: 1855523171}
   - component: {fileID: 1855523169}
   - component: {fileID: 1855523170}
+  - component: {fileID: 1855523172}
   m_Layer: 0
   m_Name: Tilemap_Port
   m_TagString: Untagged
@@ -20903,6 +20901,22 @@ Transform:
   m_Father: {fileID: 1009562366}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!19719996 &1855523172
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855523168}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1884033217
 GameObject:
   m_ObjectHideFlags: 0
