@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 
 public class ButtonSound : MonoBehaviour
 {
+    //Referens för ljudkälla -Henry
     public AudioSource buttonPress;
 
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class ButtonSound : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // När något kolliderar med triggern spelas ljuseffekten -Henry
         buttonPress.Play();
-        //FindObjectOfType<AudioClip>();
     }
 }

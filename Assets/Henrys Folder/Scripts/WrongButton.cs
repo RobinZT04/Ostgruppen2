@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WrongButton : MonoBehaviour
 {
-    // Variabler för varje dörrs sprite renderer och box collider -Henry
+    // Referenser för varje dörrs (Osynliga väggar) sprite renderer och box collider -Henry
     [SerializeField]
     SpriteRenderer bridge;
     [SerializeField]
@@ -25,7 +25,7 @@ public class WrongButton : MonoBehaviour
     [SerializeField]
     BoxCollider2D dooors4;
 
-    // Variabel för testspelarens rigidbody -Henry
+    // Referens för testspelarens rigidbody -Henry
     public Rigidbody2D testPlayerReset;
 
     // Start is called before the first frame update
@@ -42,7 +42,7 @@ public class WrongButton : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // När man kolliderar med triggern för fel knapp försvinner alla "broar" och "dooors" (osynliga väggar) får sin box collider -Henry
+        // När något kolliderar med triggern för fel knapp försvinner alla "broar" och "dooors" (osynliga väggar) får sin box collider -Henry
         if (bridge.enabled == true)
         {
             bridge.enabled = false;
@@ -79,7 +79,7 @@ public class WrongButton : MonoBehaviour
             dooors4.enabled = true;
         }
 
-        // När man kolliderar med triggern flyttas playern tillbaks till början -Henry
+        // När något kolliderar med triggern flyttas playern tillbaks till början -Henry
         testPlayerReset.transform.position = new Vector3(-11.5f, 0, -0.01f);
     }
 }

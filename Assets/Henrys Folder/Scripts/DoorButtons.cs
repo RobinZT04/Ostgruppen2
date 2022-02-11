@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorButtons : MonoBehaviour
 {
-    // Variabel för en vald mesh renderer och box collider -Henry
+    // Referens för en vald mesh renderer och box collider -Henry
     [SerializeField]
     SpriteRenderer rendererer;
     [SerializeField]
@@ -24,7 +24,7 @@ public class DoorButtons : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // När man kolliderar med triggern sätts den valda spriterenderen på och box collidern av -Henry
+        // När något kolliderar med triggern sätts den valda spriterenderen på och box collidern av -Henry
         rendererer.enabled = true;
         doors.enabled = false;
     }
