@@ -14,6 +14,7 @@ public class Falling : MonoBehaviour
     {
         playerMovement = player.gameObject.GetComponent<Movement>();
         playerAnim = player.GetComponentInChildren<Animator>();
+
     }
 
     // Update is called once per frame
@@ -31,9 +32,12 @@ public class Falling : MonoBehaviour
     {
         playerAnim.SetTrigger("Fall");
         playerMovement.enabled = false;
+        player.velocity = Vector3.zero;
         //Start fall animation.
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.33f);
         player.transform.position = new Vector2(-11.59f, -0.13218f);
+        player.transform.rotation = Quaternion.Euler(Vector3.zero);
+        player.transform.GetChild(3).rotation = Quaternion.Euler(Vector3.zero);
         playerMovement.enabled = true;
     }
 }
