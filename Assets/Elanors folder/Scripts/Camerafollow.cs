@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//Kod skriven av Elanor 
 public class Camerafollow : MonoBehaviour
 {
     public float followspeed = 2f; //En referens till en float- Elanor
@@ -12,9 +12,9 @@ public class Camerafollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == "Labyrint")
+        if (SceneManager.GetActiveScene().name == "Labyrint") // är scenen labyrint? - Robin och William
         {
-            transform.position = Respawn.currentspawnpoint;
+            transform.position = Respawn.currentspawnpoint; // Flytta sperlaren till current spawnpoint - William och Robin
         }
     }
 
