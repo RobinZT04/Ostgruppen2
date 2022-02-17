@@ -5,7 +5,7 @@ using UnityEngine;
 public class hitboxplayer : MonoBehaviour
 {
     public bool cooldown;
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.transform.tag == "Enemy")
         {

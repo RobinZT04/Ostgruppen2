@@ -53,7 +53,7 @@ public class Boss : MonoBehaviour
             }
         }
         healthbar.value = Health; //value är health  - Robin
-        if (Health <= Health / 2) // om health är under 50  - Robin
+        if (Health <= 50) // om health är under 50  - Robin
         {
             LeftPaw.speed = 3.5f; //sätt speed till 3.5f  - Robin
             catangry.SetActive(true);
