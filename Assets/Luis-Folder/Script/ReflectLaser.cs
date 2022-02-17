@@ -48,9 +48,9 @@ public class ReflectLaser : MonoBehaviour
                 { // Creat a loop 
                     for (int j = (i + 1); j <= 5; j++)
                     {
-                      lr.SetPosition(j, hit.point);
+                        lr.SetPosition(j, hit.point);
                     }
-                    break; // exit  
+                    break; // exit   
                 }
             }
         }

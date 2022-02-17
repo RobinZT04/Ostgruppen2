@@ -5,7 +5,7 @@ using System;
 
 
  // Made by José Luis SU20A
-public class LaserBeam 
+public class LaserBeam : MonoBehaviour
 {
     Vector2 pos, dir;
 
