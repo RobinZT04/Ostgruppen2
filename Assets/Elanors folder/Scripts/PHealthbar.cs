@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+//Kod skriven av Elanor 
 public class PHealthbar : MonoBehaviour
 {
     public Slider healthbar; //En referens till min slider- Elanor
