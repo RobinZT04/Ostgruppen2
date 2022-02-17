@@ -9,6 +9,7 @@ public class ButtonScriptMeny : MonoBehaviour
     public bool active; //är den aktiv? - Robin
     public Animator optiontab; //refrens till animator optiontab - Robin
     public bool animating; //håller den på att animera? - Robin
+    public static bool hardmode;
 
     public AudioMixer Mastervolume; //refrens till audiomixer - Robin
     public void Start()
@@ -63,6 +64,10 @@ public class ButtonScriptMeny : MonoBehaviour
     public void SetFullscreen(bool isFullscreen) //sätter det till fullscreen - Robin
     {
         Screen.fullScreen = isFullscreen;
+    }
+    public void SetHardmode(bool isHardmode) //sätter det till Hardmode - Robin
+    {
+        Movement.HardMode = isHardmode; 
     }
     public void SetQuality(int qualityIndex) //Funktionen har en inbyggd int i sig som bestämmer vad kvaliteten är - Robin
     {

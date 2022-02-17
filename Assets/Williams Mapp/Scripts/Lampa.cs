@@ -7,7 +7,7 @@ public class Lampa : MonoBehaviour
     SpriteRenderer spriteRend;
     public Sprite tänt;
     public Sprite släckt;
-    public Lamppussel lamppussel;
+    public Lamppussel2 lamppussel;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class Lampa : MonoBehaviour
     private void OnMouseDown()
     {
         //Kollar ifall man redan löst pusslet eller ej -William
-        if (Lamppussel.löst != true)
+        if (Lamppussel2.löst != true)
         {
             TändaSläcka();
 

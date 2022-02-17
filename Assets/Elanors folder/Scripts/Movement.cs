@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     public AudioSource asfotsteg; // Refrens till min audiosorce- Elanor 
     public AudioClip acsteg; //Referens till players audioclip- Elanor
     public static bool död; //En bool som är static- Elanor
+    public static bool HardMode; //En bool som avgör hardmode;
 
     public Animator player; //En referens till min animator- Elanor 
 
