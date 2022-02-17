@@ -11,7 +11,7 @@ public class Låda : MonoBehaviour
     {
         spriteRend = GetComponent<SpriteRenderer>();
     }
-    //Ifall lådan blir attackerad så förstörs den -William
+    //Ifall lådan blir attackerad så förstörs den. -William
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Sword")

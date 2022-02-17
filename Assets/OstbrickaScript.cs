@@ -16,7 +16,7 @@ public class OstbrickaScript : MonoBehaviour
     void Start()
     {
         //Ifall man tagit upp osten så fylls osthjulet upp med det, och hålet till pusslet
-        //slutar fungera -William
+        //slutar fungera. -William
         if (OstScript.KnappusselLöst)
         {
             ost3.SetActive(true);
@@ -32,6 +32,7 @@ public class OstbrickaScript : MonoBehaviour
             ost.SetActive(true);
             lamppusselDörr.SetActive(false);
         }
+        //Om man  har fått alla tre ostbitar så öppnas porten till bossrummet. -William
         if (ostcounter >= 3)
         {
             portTilemap.GetComponent<TilemapRenderer>().enabled = false;

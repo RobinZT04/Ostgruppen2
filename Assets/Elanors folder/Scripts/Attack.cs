@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Kod skriven av Elanor 
 public class Attack : MonoBehaviour
 {
     public GameObject sword; //Ett gameobject som heter sword- Elanor 
