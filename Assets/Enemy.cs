@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //Rör sig mot nästa punkt i arrayen  - Robin och William
                 nextpunkt = punkter[punktplats];
-                //När man når sin destination så uppdateras ens nästa punkt -William och Robin
+                //När man når sin destination så uppdateras fiendens nästa punkt. -William och Robin
                 if (transform.position == nextpunkt)
                 {
                     punktplats += 1;
@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-    //Kastar fienden bakåt och stunnar den -William och Robin
+    //Kastar fienden bakåt och stunnar den. -William och Robin
     IEnumerator Stunned()
     {
         punched = true;
@@ -76,7 +76,7 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         punched = false;
     }
-    //Ifall man blir slagen av spelaren så kallas Stunned-funktionen -William och Robin
+    //Ifall fienden blir slagen av spelaren så kallas Stunned-funktionen. -William och Robin
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.transform.CompareTag("Sword"))

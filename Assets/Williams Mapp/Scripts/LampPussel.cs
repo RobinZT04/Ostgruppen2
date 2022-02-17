@@ -16,6 +16,7 @@ public class Lamppussel : MonoBehaviour
     //Kollar ifall alla lampor är tända -William
     public void ÄrPussletLöst()
     {
+        //Kollar mängden lampor som är tända. -William
         foreach (GameObject item in lampor)
         {
             if (item.GetComponent<SpriteRenderer>().sprite.name == "LightPuzzleOn")
