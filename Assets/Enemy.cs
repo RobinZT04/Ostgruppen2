@@ -26,6 +26,10 @@ public class Enemy : MonoBehaviour
         punktplats = 0;
         punched = false;
         maxroute = punkter.Length - 1;
+        if (Movement.HardMode)
+        {
+            speed += 1;
+        }
     }
     private void Update()
     {
@@ -35,7 +39,7 @@ public class Enemy : MonoBehaviour
             if (Vector2.Distance(transform.position, targetPlayer.position) <= 5) //om positionen är högre än tillåtna distansen  - Robin och William
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime); //rör transform mot player positionen  - Robin och William
-                if (transform.position.x >= targetPlayer.position.x)
+                if (transform.position.x >= targetPlayer.position.x) //roterar fienden mot spelaren om spelaren är inom dess radie - Robin och William
                 {
                     transform.eulerAngles = new Vector3(180, 0, 0);
                 }
