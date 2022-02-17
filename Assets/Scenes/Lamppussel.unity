@@ -4249,7 +4249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 1993387124}
-  restart: {fileID: 303639488}
   soundon: 0
   mousedead: {fileID: 1687124872}
   mousegone: {fileID: 8300000, guid: eaf17a4aeb544ad49a71de3322c0af40, type: 3}
@@ -4694,9 +4693,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1915472161}
   - component: {fileID: 1915472160}
+  - component: {fileID: 1915472163}
   - component: {fileID: 1915472159}
   - component: {fileID: 1915472162}
-  - component: {fileID: 1915472163}
   - component: {fileID: 1915472164}
   - component: {fileID: 1915472165}
   - component: {fileID: 1915472166}
@@ -4842,7 +4841,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1915472158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18bd3e776f14d324f8605b3c39a96b17, type: 3}
+  m_Script: {fileID: 11500000, guid: 773e6641823d1ae41a7b8fd33dcdc8ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lampor:

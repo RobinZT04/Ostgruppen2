@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class Lamppussel : MonoBehaviour
+public class Lamppussel2 : MonoBehaviour
 {
     public GameObject[] lampor;
     int tändaLampor;
