@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 //Skriven av Elanor
 public class cheezdialog : MonoBehaviour
 {
-    public static bool harsagt; //En bool med namnet harsat-Elanor
+    public static bool harsagt; //En bool med namnet harsagt-Elanor
     public Text cheeztext; //En text referens- Elanor
-    
+    public static bool ostharsagt; //En bool med namnet ostharsagt-Elanor
+   
 
 
     // Start is called before the first frame update
@@ -28,11 +29,29 @@ public class cheezdialog : MonoBehaviour
                 StartCoroutine(Textgone()); //Start på coroutin- Elanor
             }
         }
+
+        if (OstbrickaScript.ostcounter == 1)
+        {
+            if (!ostharsagt)//Om ostharsagt inte har hänt?- Elanor
+            {
+                cheeztext.text = "Wooow I got cheez! \n It's my favorite thing, maybe \n there is more to find"; //Skriv ut det som står - Elanor 
+                StartCoroutine(Cheestextgone()); //Start på coroutin- Elanor
+            }
+        
+
+        }
+
     }
     IEnumerator Textgone()
     {
         yield return new WaitForSeconds(3); //Vänta 3 sekunder innan den försvinner- Elanor
         cheeztext.text = ""; //Texten försvinner- Elanor
         harsagt = true; //Har sagt blir true- Elanor
+    }
+    IEnumerator Cheestextgone()
+    {
+        yield return new WaitForSeconds(5); //Vänta 3 sekunder innan den försvinner- Elanor
+        cheeztext.text = ""; //Texten försvinner- Elanor
+        ostharsagt = true; //Har sagt blir true- Elanor
     }
 }
