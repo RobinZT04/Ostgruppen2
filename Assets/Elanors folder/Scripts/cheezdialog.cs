@@ -34,7 +34,7 @@ public class cheezdialog : MonoBehaviour
         {
             if (!ostharsagt)//Om ostharsagt inte har hänt?- Elanor
             {
-                cheeztext.text = "Wooow I got cheez! \n It's my favorite thing, maybe \n there is more to find"; //Skriv ut det som står - Elanor 
+                cheeztext.text = "Wooow I got cheez! \n It's my favorite thing, maybe \n there is more to find?"; //Skriv ut det som står - Elanor 
                 StartCoroutine(Cheestextgone()); //Start på coroutin- Elanor
             }
         
