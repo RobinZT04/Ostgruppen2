@@ -2207,6 +2207,7 @@ MonoBehaviour:
   right: 0
   left: 0
   down: 0
+  cantakedamage: 0
   mouse: {fileID: 650303746}
   mousedamage: {fileID: 8300000, guid: b0d112561843c66458f03793c398fcb0, type: 3}
   swordsound: {fileID: 650303745}
@@ -2224,7 +2225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 650303748}
-  speed2: 450
+  speed2: 650
   asfotsteg: {fileID: 650303747}
   acsteg: {fileID: 8300000, guid: 31ab73cd05071714597ec0d878a59580, type: 3}
   player: {fileID: 943487405}
