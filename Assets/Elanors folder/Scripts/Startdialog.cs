@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//Skriven av Elanor 
 public class Startdialog : MonoBehaviour
 {
     public int intruduktion = 5; // En int som har värdet 4 - Elanor 
