@@ -25,6 +25,7 @@ public class ButtonScriptMeny : MonoBehaviour
         animating = false; //animating är false - Robin
         active = false; //active är false - Robin
         Volume.value = volume; //säter slidern till volume - Robin
+
         Graphics.value = graphicindex; //sätter graphics till graphicindex - Robin
         fullscreentoggle.isOn = fullscreenon; //sätter hardmode toggle till hardmode value (boolen) - Robin
         if (SceneManager.GetActiveScene().name == "Menu")
