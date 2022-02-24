@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// OBS! DET HÄR SCRIPTET ANVÄNDES BARA VID SKAPANDET AV PUSSLET OCH ANVÄNDS INTE LÄNGRE - Henry
+// OBS! DET HÄR SCRIPTET ANVÄNDES BARA VID SKAPANDET AV PUSSLET OCH ANVÄNDS INTE LÄNGRE -Henry
 public class TestPlayerMove : MonoBehaviour
 {
     Rigidbody2D testrb;

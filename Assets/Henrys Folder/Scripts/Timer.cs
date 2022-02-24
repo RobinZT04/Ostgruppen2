@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// OBS! DET HÄR SCRIPTET ANVÄNDS INTE -Henry
+
 public class Timer : MonoBehaviour
 {
     public GameObject textDisplay;
