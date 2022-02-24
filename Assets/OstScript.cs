@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class OstScript : MonoBehaviour
 {
     public static bool KnappusselLöst;
-    public static bool SpegelpusselLöst;
     public static bool LamppusselLöst;
+    public static bool LabyrintLöst;
     private void OnCollisionEnter2D(Collision2D other)
     {
         //Ifall osten rör spelaren tar spelaren upp osten, och mängden ostar man har går upp med ett. -William
@@ -20,9 +20,9 @@ public class OstScript : MonoBehaviour
             {
                 KnappusselLöst = true;
             }
-            else if (SceneManager.GetActiveScene().name == "Spegelpussel")
+            else if (SceneManager.GetActiveScene().name == "Labyrint")
             {
-                SpegelpusselLöst = true;
+                LabyrintLöst = true;
             }
             else if (SceneManager.GetActiveScene().name == "Lamppussel")
             {
