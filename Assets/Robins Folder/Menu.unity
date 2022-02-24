@@ -9593,6 +9593,10 @@ MonoBehaviour:
   active: 0
   optiontab: {fileID: 49850102}
   animating: 0
+  Volume: {fileID: 579878255}
+  Graphics: {fileID: 705496202}
+  hardmodetoggle: {fileID: 1408588545}
+  fullscreentoggle: {fileID: 34554921}
   Mastervolume: {fileID: 24100000, guid: 468b3984134fc5e419dde29d8c60d9af, type: 2}
 --- !u!4 &1956608763
 Transform:
