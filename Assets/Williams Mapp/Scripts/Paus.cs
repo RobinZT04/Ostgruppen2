@@ -34,6 +34,7 @@ public class Paus : MonoBehaviour
     //Ändrar scenen till menyscenen. -William
     public void Quit()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Menu");
     }
 }

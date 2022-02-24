@@ -22,7 +22,7 @@ public class OstbrickaScript : MonoBehaviour
             ost3.SetActive(true);
             knappusselDörr.SetActive(false);
         }
-        if (OstScript.SpegelpusselLöst)
+        if (OstScript.LabyrintLöst)
         {
             ost2.SetActive(true);
             spegelpusselDörr.SetActive(false);
