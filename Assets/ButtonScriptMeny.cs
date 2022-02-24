@@ -26,8 +26,11 @@ public class ButtonScriptMeny : MonoBehaviour
         active = false; //active är false - Robin
         Volume.value = volume; //säter slidern till volume - Robin
         Graphics.value = graphicindex; //sätter graphics till graphicindex - Robin
-        hardmodetoggle.isOn = Movement.HardMode; //sätter hardmode toggle till hardmode value (boolen) - Robin
         fullscreentoggle.isOn = fullscreenon; //sätter hardmode toggle till hardmode value (boolen) - Robin
+        if (SceneManager.GetActiveScene().name == "Menu")
+        {
+            hardmodetoggle.isOn = Movement.HardMode; //sätter hardmode toggle till hardmode value (boolen) - Robin
+        }
     }
     public void StartGame() //StartGame - Elanor och robin
     {
