@@ -1,13 +1,17 @@
-﻿//José Luis SU20A
+﻿
+
+//José Luis SU20A
 // This script is a Manager that controls all of the audio for the project. All audio
 // commands are issued through the static methods of this class. Additionally, this 
-// class creates AudioSource "channels" at runtime and manages them
-// I'm not really sure if our group will be using all the code i wrote but just in case i wont erase it
+// class creates AudioSource "channels" at runtime and manages them i thinkk.
+
 
 
 using UnityEngine;
 using UnityEngine.Audio;
 
+
+//Kommer inte att använda Audiomanager scripten eftersom de andra hadde gjort egna scripts för audio.
 public class AudioManager : MonoBehaviour
 {
 	//This class holds a static reference to itself to ensure that there will only be

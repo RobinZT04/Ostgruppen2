@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+//José Luis SU20A
+//Kommer inte att använda denna script.
 public class HUD : MonoBehaviour
 {
     [Header("Reference")]
@@ -24,7 +26,7 @@ public class HUD : MonoBehaviour
     {
         //Set all bar widths to 1, and also the smooth variables.
        
-        coins = (float)NewPlayer.Instance.coins;
+        //coins = (float)NewPlayer.Instance.coins;
         coinsEased = coins;
         blankUI = inventoryItemGraphic.GetComponent<Image>().sprite;
     }
@@ -33,7 +35,7 @@ public class HUD : MonoBehaviour
     {
         //Update coins text mesh to reflect how many coins the player has! However, we want them to count up.
         coinsMesh.text = Mathf.Round(coinsEased).ToString();
-        coinsEased += ((float)NewPlayer.Instance.coins - coinsEased) * Time.deltaTime * 5f;
+      //  coinsEased += ((float)NewPlayer.Instance.coins - coinsEased) * Time.deltaTime * 5f;
 
         if (coinsEased >= coins)
         {
@@ -45,15 +47,7 @@ public class HUD : MonoBehaviour
 
     }
 
-    public void HealthBarHurt()
-    {
-        animator.SetTrigger("hurt");
-    }
-
-    public void SetInventoryImage(Sprite image)
-    {
-        inventoryItemGraphic.sprite = image;
-    }
+  
 
     
 }

@@ -1,5 +1,5 @@
-﻿// This script is a Manager that controls the UI HUD (deaths, time, and orbs) for the 
-// project. All HUD UI commands are issued through the static methods of this class
+﻿// This script is a Manager that controls the UI HUD (deaths, time, and orbs/Cheese) for the 
+// project. All HUD UI commands are issued through the static methods of this class or does it henry ?
 
 using UnityEngine;
 using TMPro;
@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 	//scripts access this one through its public static methods
 	static UIManager current;
 
+	//Orb = coin
 	public TextMeshProUGUI orbText;         //Text element showing number of orbs
 	public TextMeshProUGUI timeText;        //Text element showing amount of time
 	public TextMeshProUGUI deathText;       //Text element showing number or deaths
@@ -25,6 +26,7 @@ public class UIManager : MonoBehaviour
 			//...destroy this and exit. There can be only one UIManager
 			Destroy(gameObject);
 			return;
+			
 		}
 
 		//This is the current UIManager and it should persist between scene loads

@@ -1,5 +1,6 @@
 ﻿// This manages the animations of the Scene Fader UI element. 
-
+//JOSÉ LUIS SU20A
+//Kommer inte att använda denna.
 using UnityEngine;
 
 public class SceneFader : MonoBehaviour

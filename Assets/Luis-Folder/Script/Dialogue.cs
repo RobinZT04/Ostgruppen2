@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*This script stores every dialogue conversation in a public Dictionary.*/
-
+//Kommer inte att använda denna kod.
 public class Dialogue : MonoBehaviour
 {
-
+   
     public Dictionary<string, string[]> dialogue = new Dictionary<string, string[]>();
 
     void Start()
@@ -25,13 +25,12 @@ public class Dialogue : MonoBehaviour
         //NPC
         dialogue.Add("CharacterA", new string[] {
             "Hi there!",
-            "I'm an NPC! This conversation is called 'npcA'...",
-            "If you go and find me 80 coins, my dialogue will move on to 'npcB'!",
-            "Feel free to edit my dialogue in the 'Dialogue.cs' file!",
-            "To keep it simple, you can also ask me one, and only one, question...",
-            "...Like you just did! And I'll just move on to the next sentence.",
-            "I'll answer that question, but it won't change much about the game!",
-            "You can always tweak the 'DialogueBox.cs' script to add more functionality!"
+            "I'm an NPC called Henry! This conversation is called 'npcA'..",
+            "If you go and find me 5 coins, my dialogue will move on to 'npcB'!",
+            "Feel free to edit my dialogue in the 'Dialogue.cs' file! Henry",
+            
+            
+            
         });
 
         dialogue.Add("CharacterAChoice1", new string[] {
@@ -47,10 +46,10 @@ public class Dialogue : MonoBehaviour
         });
 
         dialogue.Add("CharacterB", new string[] {
-            "Hey! You found 80 coins! That means 'npcB' is now being used inside 'Dialogue.cs'!",
-            "After my dialogue completes, I'll take 80 coins, or however many you specify in the inspector...",
-            "And I'll also give you a new ability!",
-            "In this case, how about a generic DOWNWARD SMASH? Simply attack while pressing down in mid-air!"
+            "Hey! You found 5 coins! That means 'npcB' is now being used inside 'Dialogue.cs'!",
+            "After my dialogue completes, I'll take 5 coins, or however many you specify in the inspector...",
+            "And I'll open the door for you",
+            
         });
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+//Kommer inte att använda denna kod
 public class Laser2D
 {
     Vector2 pos, dir;
@@ -13,8 +14,7 @@ public class Laser2D
 
     Dictionary<string, float> refractiveMaterials = new Dictionary<string, float>()
 {
-      {"Air", 1.0f}, 
-      {"Glass", 1.5f } 
+     
     };
     public Laser2D(Vector3 pos, Vector3 dir, Material material)
     {

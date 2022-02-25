@@ -52,20 +52,20 @@ public class GameManager : MonoBehaviour
 
         if (image != null)
         {
-            hud.SetInventoryImage(inventory[name]);
+            //hud.SetInventoryImage(inventory[name]);
         }
     }
 
     public void RemoveInventoryItem(string name)
     {
         inventory.Remove(name);
-        hud.SetInventoryImage(hud.blankUI);
+     //   hud.SetInventoryImage(hud.blankUI);
     }
 
     public void ClearInventory()
     {
         inventory.Clear();
-        hud.SetInventoryImage(hud.blankUI);
+       // hud.SetInventoryImage(hud.blankUI);
     }
 
 

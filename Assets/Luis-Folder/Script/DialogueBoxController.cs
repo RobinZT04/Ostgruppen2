@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*Controls the dialogue box and it's communication with Dialogue.cs, which contains the character dialogue*/
+//Kommer inte att använda denna eftersom va hadde ingen tid kvar att fixa detta.
 
 public class DialogueBoxController : MonoBehaviour
 {
@@ -13,8 +14,8 @@ public class DialogueBoxController : MonoBehaviour
     public AudioSource audioSource;
     public AudioSource dialogueAudioSource;
     [SerializeField] Dialogue dialogue;
-    private DialogueTrigger currentDialogueTrigger;
-    private GameObject finishTalkingActivateGameObject;
+   // private DialogueTrigger currentDialogueTrigger;
+    private GameObject finishTalkingActivateGameObject; 
 
     [Header("Sounds")]
     private AudioClip[] audioLines;
@@ -36,7 +37,7 @@ public class DialogueBoxController : MonoBehaviour
     private int cPos = 0;
     private string[] characterDiologue;
     private string[] choiceDiologue;
-    private DialogueTrigger dialogueTrigger;
+    //private DialogueTrigger dialogueTrigger;
     [System.NonSerialized] public bool extendConvo;
     private string finishTalkingAnimatorBool;
     private string finishTalkingActivateGameObjectString;
@@ -116,13 +117,13 @@ public class DialogueBoxController : MonoBehaviour
         }
     }
 
-    public void Appear(string fName, string characterName, DialogueTrigger dTrigger, bool useItemAfterClose, AudioClip[] audioL, AudioClip[] audioC, string finishTalkingAnimBool, GameObject finishTalkingActivateGObject, string finishTalkingActivateGOString, bool r)
+    public void Appear(string fName, string characterName, bool useItemAfterClose, AudioClip[] audioL, AudioClip[] audioC, string finishTalkingAnimBool, GameObject finishTalkingActivateGObject, string finishTalkingActivateGOString, bool r)
     {
         repeat = r;
         finishTalkingAnimatorBool = finishTalkingAnimBool;
         finishTalkingActivateGameObject = finishTalkingActivateGObject;
         finishTalkingActivateGameObjectString = finishTalkingActivateGOString;
-        dialogueTrigger = dTrigger;
+        //dialogueTrigger = dTrigger;
         choice1Mesh.text = "";
         choice2Mesh.text = "";
         fileName = fName;
@@ -131,7 +132,7 @@ public class DialogueBoxController : MonoBehaviour
 
         if (useItemAfterClose)
         {
-            currentDialogueTrigger = dialogueTrigger;
+       //     currentDialogueTrigger = dialogueTrigger;
         }
 
         nameMesh.text = characterName;
@@ -170,9 +171,9 @@ public class DialogueBoxController : MonoBehaviour
         }
 
         //The dialogueTrigger will pass itself into this function only if you have the right items to close the dialogue and complete the quest
-        if (currentDialogueTrigger != null)
+       // if (currentDialogueTrigger != null)
         {
-            currentDialogueTrigger.UseItem();
+        //    currentDialogueTrigger.UseItem();
         }
 
         activated = false;
@@ -187,7 +188,7 @@ public class DialogueBoxController : MonoBehaviour
 
         if (finishTalkingAnimatorBool != "")
         {
-            dialogueTrigger.GetComponent<DialogueTrigger>().useItemAnimator.SetBool(finishTalkingAnimatorBool, true);
+          //  dialogueTrigger.GetComponent<DialogueTrigger>().useItemAnimator.SetBool(finishTalkingAnimatorBool, true);
         }
 
         if (finishTalkingActivateGameObject != null)
@@ -201,10 +202,10 @@ public class DialogueBoxController : MonoBehaviour
 
         if (!repeat)
         {
-            dialogueTrigger.completed = true;
+          //  dialogueTrigger.completed = true;
         }
 
-        dialogueTrigger = null;
+        //dialogueTrigger = null;
         finishTalkingAnimatorBool = "";
         finishTalkingActivateGameObject = null;
         finishTalkingActivateGameObjectString = "";
