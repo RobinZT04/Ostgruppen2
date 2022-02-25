@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
-
+//Kod skriven av Elanor 
 
 public class Movement : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     public AudioSource asfotsteg; // Refrens till min audiosorce- Elanor 
     public AudioClip acsteg; //Referens till players audioclip- Elanor
     public static bool död; //En bool som är static- Elanor
+    public static bool HardMode; //En bool som avgör hardmode;
 
     public Animator player; //En referens till min animator- Elanor 
 
@@ -27,7 +28,7 @@ public class Movement : MonoBehaviour
     {
         if (!död) //Om musen inte är död?
         {
-            print(body.velocity.magnitude);
+            //print(body.velocity.magnitude);
             if (body.velocity.magnitude > 0) //Om bodyns velcoitey är större än 0?- elanor 
             {
                 player.SetBool("Walking", true); //Ska min bool bli true- Elanor 

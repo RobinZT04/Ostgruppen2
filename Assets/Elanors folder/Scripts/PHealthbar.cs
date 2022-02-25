@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+//Kod skriven av Elanor 
 public class PHealthbar : MonoBehaviour
 {
     public Slider healthbar; //En referens till min slider- Elanor
     public static float health; //Ean float som heter health- Elanor
-    public GameObject restart; //referens till gamgeobject restart- Elanor 
     public bool soundon; //En bool - Elanor
     
 
@@ -21,7 +20,6 @@ public class PHealthbar : MonoBehaviour
     {
         health = 10; //player har 10 health när spelets startas- Elanor
         healthbar.maxValue = 10; //Max health är 10 hp- Elanor 
-        restart.SetActive(false); //restart objectet är inaktiv när spelet börjar- Elanor 
         soundon = false; //Soundon är false- Elanor 
     }
 

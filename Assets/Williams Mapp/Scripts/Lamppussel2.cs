@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class Lamppussel : MonoBehaviour
+public class Lamppussel2 : MonoBehaviour
 {
     public GameObject[] lampor;
     int tändaLampor;
@@ -16,6 +16,7 @@ public class Lamppussel : MonoBehaviour
     //Kollar ifall alla lampor är tända -William
     public void ÄrPussletLöst()
     {
+        //Kollar mängden lampor som är tända. -William
         foreach (GameObject item in lampor)
         {
             if (item.GetComponent<SpriteRenderer>().sprite.name == "LightPuzzleOn")

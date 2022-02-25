@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Kod skriven av Elanor 
 public class Attack : MonoBehaviour
 {
     public GameObject sword; //Ett gameobject som heter sword- Elanor 
@@ -12,6 +13,7 @@ public class Attack : MonoBehaviour
     public bool right; //En bool som heter right- Elanor
     public bool left; //En bool som heter left- Elanor
     public bool down; //En bool som heter down- Elanor
+    public bool cantakedamage;
 
     public AudioSource mouse; // Refrens till min audiosorce- Elanor 
     public AudioClip mousedamage; //referens till aduilip- Elanor
@@ -26,6 +28,7 @@ public class Attack : MonoBehaviour
         sword.SetActive(false); //Sword ska inte vara aktiv när spelet startas (det syns alltså inte)- Elanor
         swordup.SetActive(false); //Swordup ska inte vara aktiv när spelet startas (det syns alltså inte)- Elanor
         sworddown.SetActive(false); //Sworddown ska inte vara aktiv när spelet startas (det syns alltså inte)- Elanor
+        cantakedamage = true; //kan ta damage - Robin
     }
 
     // Update is called once per frame
@@ -91,7 +94,11 @@ public class Attack : MonoBehaviour
     {
         if(collision.transform.tag == "Paw") //Om player colliderar med något som har tagen Paw?- Elanor
         {
-            PHealthbar.health -= 2; //Så kommer players healths sänkas med 2- Elanor
+            if (cantakedamage)
+            {
+                PHealthbar.health -= 2; //Så kommer players healths sänkas med 2- Elanor
+                StartCoroutine(CooldownPaw());
+            }
 
             if (!mouse.isPlaying) //Om mouse inte spelar?
             {
@@ -99,6 +106,13 @@ public class Attack : MonoBehaviour
             }
         }
     } 
+    IEnumerator CooldownPaw() //Cooldown på damage - Robin
+    {
+        cantakedamage = false;
+        yield return new WaitForSeconds(0.5f);
+        cantakedamage = true;
+    }
+
     IEnumerator Cooldown() //Min coroutin Cooldown- Elanor 
     {
         yield return new WaitForSeconds(0.5f); //Vänta 1 sekund- Elanor

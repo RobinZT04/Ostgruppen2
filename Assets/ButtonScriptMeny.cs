@@ -3,18 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class ButtonScriptMeny : MonoBehaviour
 {
     public bool active; //är den aktiv? - Robin
     public Animator optiontab; //refrens till animator optiontab - Robin
     public bool animating; //håller den på att animera? - Robin
+    public static bool hardmode;
+    public static bool fullscreenon;
+    public static float volume;
+    public static int graphicindex;
+    public Slider Volume;
+    public Dropdown Graphics;
+    public Toggle hardmodetoggle;
+    public Toggle fullscreentoggle;
 
     public AudioMixer Mastervolume; //refrens till audiomixer - Robin
     public void Start()
     {
         animating = false; //animating är false - Robin
         active = false; //active är false - Robin
+        Volume.value = volume; //säter slidern till volume - Robin
+
+        Graphics.value = graphicindex; //sätter graphics till graphicindex - Robin
+        fullscreentoggle.isOn = fullscreenon; //sätter hardmode toggle till hardmode value (boolen) - Robin
+        if (SceneManager.GetActiveScene().name == "Menu")
+        {
+            hardmodetoggle.isOn = Movement.HardMode; //sätter hardmode toggle till hardmode value (boolen) - Robin
+        }
     }
     public void StartGame() //StartGame - Elanor och robin
     {
@@ -24,11 +41,6 @@ public class ButtonScriptMeny : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit");
-    }
-    public void Fullscreenmode() //Fullscreen - Robin
-    {
-        Screen.fullScreen = Screen.fullScreen; //sätter spelet till fullscreen - Robin
-        Debug.Log("Fullscreen");
     }
 
     public void Options() //option funktion
@@ -63,14 +75,21 @@ public class ButtonScriptMeny : MonoBehaviour
     public void SetFullscreen(bool isFullscreen) //sätter det till fullscreen - Robin
     {
         Screen.fullScreen = isFullscreen;
+        fullscreenon = isFullscreen;
+    }
+    public void SetHardmode(bool isHardmode) //sätter det till Hardmode - Robin
+    {
+        Movement.HardMode = isHardmode; 
     }
     public void SetQuality(int qualityIndex) //Funktionen har en inbyggd int i sig som bestämmer vad kvaliteten är - Robin
     {
         QualitySettings.SetQualityLevel(qualityIndex); //sätter kvaliteten till qualityIndex nummret - Robin
+        graphicindex = qualityIndex; //sätter quality til qualityindex (så dropdown är likadan i andra scenen) - Robin 
     }
     public void SetVolume(float mastervolume) //funktionen har en inbyggd float i sig som bestämmer vad volymen är - Robin
     {
         Mastervolume.SetFloat("MasterSliderVolume", mastervolume); //ställer om volymen i audiomixern - Robin
+        volume = mastervolume; //sätter volume til master volume (så slidern är likadan i andra scenen) - Robin 
     }
 
 

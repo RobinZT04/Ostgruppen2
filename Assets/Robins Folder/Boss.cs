@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 { 
     public static float Health; //float health  - Robin
+    public float health2;
     public Slider healthbar; //referens till healthbar  - Robin
     public bool up; //bool up  - Robin
     public bool playedonce;
@@ -24,8 +26,15 @@ public class Boss : MonoBehaviour
     void Start()
     {
         playedonce = false;
-        Health = 100; //health är 100  - Robin
-        healthbar.maxValue = 100; //maxvalue är 100  - Robin 
+        if (!Movement.HardMode) //om det är hardmode ändras health - Robin
+        {
+            Health = 100;
+        }
+        else if(Movement.HardMode)
+        {
+            Health = 200;
+        }
+        healthbar.maxValue = Health; //maxvalue är 100  - Robin 
     }
 
     // Update is called once per frame
@@ -37,7 +46,7 @@ public class Boss : MonoBehaviour
             paw2.SetActive(false); //stäng av paw 2  - Robin
             cat.SetBool("Die", true); //playar animationen  - Robin
             victory.SetActive(true);
-            if (!playedonce)
+            if (!playedonce) //spelar döds ljudet 1 gång - Robin
             {
                 catsleepsource.PlayOneShot(catsleep, 1);
                 playedonce = true;

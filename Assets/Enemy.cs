@@ -26,6 +26,10 @@ public class Enemy : MonoBehaviour
         punktplats = 0;
         punched = false;
         maxroute = punkter.Length - 1;
+        if (Movement.HardMode)
+        {
+            speed += 1;
+        }
     }
     private void Update()
     {
@@ -35,7 +39,7 @@ public class Enemy : MonoBehaviour
             if (Vector2.Distance(transform.position, targetPlayer.position) <= 5) //om positionen är högre än tillåtna distansen  - Robin och William
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime); //rör transform mot player positionen  - Robin och William
-                if (transform.position.x >= targetPlayer.position.x)
+                if (transform.position.x >= targetPlayer.position.x) //roterar fienden mot spelaren om spelaren är inom dess radie - Robin och William
                 {
                     transform.eulerAngles = new Vector3(180, 0, 0);
                 }
@@ -53,7 +57,7 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(transform.position, punkter[punktplats], speed * Time.deltaTime); //Rör sig mot nästa punkt i arrayen  - Robin och William
                 nextpunkt = punkter[punktplats];
-                //När man når sin destination så uppdateras ens nästa punkt -William och Robin
+                //När man når sin destination så uppdateras fiendens nästa punkt. -William och Robin
                 if (transform.position == nextpunkt)
                 {
                     punktplats += 1;
@@ -65,7 +69,7 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-    //Kastar fienden bakåt och stunnar den -William och Robin
+    //Kastar fienden bakåt och stunnar den. -William och Robin
     IEnumerator Stunned()
     {
         punched = true;
@@ -76,7 +80,7 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         punched = false;
     }
-    //Ifall man blir slagen av spelaren så kallas Stunned-funktionen -William och Robin
+    //Ifall fienden blir slagen av spelaren så kallas Stunned-funktionen. -William och Robin
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.transform.CompareTag("Sword"))

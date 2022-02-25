@@ -28,14 +28,14 @@ public class PawHealth : MonoBehaviour
             Boss.Health -= 10; //förlorar bossen 10 health  - Robin
         }
     }
-    IEnumerator Resetears()
+    IEnumerator Resetears() //stänger av och på animationer när bossen tar skada - Robin
     {
         yield return new WaitForSeconds(1);
         tardamageansikte.SetBool("Hurt", false);
         tardamage.SetBool("TarDamage", false);
     }
 
-    IEnumerator Tips()
+    IEnumerator Tips() //sätter på tips efter visst antal sekunder - Robin
     {
         yield return new WaitForSeconds(Random.Range(7, 12));
         tips.SetActive(true);
